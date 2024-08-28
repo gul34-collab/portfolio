@@ -1,0 +1,1135 @@
+body {
+    margin: 0% !important;
+    padding: 0% !important;
+}
+.section-1 {
+    background-image: url(/img/backgri.jpg);
+    height: 600px;
+    background-size: cover;
+}
+.content {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 790px;
+    padding: 0 80px;
+}
+.NAVBAR-1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 20px;
+    margin: 10px;
+
+}
+.Logo {
+    text-align: center;
+
+}
+.navbar {
+    align-content:center;
+}
+.NAVBAR-2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    align-content: center;
+}
+.about {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(42, 196, 244);
+    font-size: large;
+    letter-spacing: 1px;
+}
+.Help {
+    text-decoration: none;
+    padding: 10px 20px;
+    background: rgb(255,255,255,.4);
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+    font-size: large;
+    transition: 0.4s;
+}
+.Help:hover {
+    background-color: rgb(100,100,100,.4)
+}
+.section-2 {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 20px;
+    align-content: center;
+    text-align: center;
+    height:500px;
+    gap: 50px;
+}
+.placeholder{ 
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    align-items: center;  
+    justify-content: center;  
+}
+.placeholder input[ type="text"] {
+    padding: 10px;
+    font-size: 12px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    width: 300px;
+    height: 25px;
+}
+.placeholder button {
+    padding: 10px;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: rgb(136, 167, 207);
+    height: 55px;
+    width: 100px;
+    transition: 0.4s;
+    
+}
+.placeholder button:hover {
+    background-color: rgb(255,255,255,.4)
+}
+.Book {
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 3px;
+}
+.description1 {
+    color: aliceblue;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Home {
+    padding: 10px 20px;
+    background-color: rgb(225,225,225,.3);
+    transition: 0.5s;
+    text-decoration: none;
+    color: red;
+    font-size: large;
+    border-radius: 2px;
+}
+.Home:hover {
+    color: blue;;
+    cursor: pointer;
+    background-color: rgb(255,255,255,.9);
+}
+.section-3 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+}
+
+.citilink {
+    display: grid;
+    grid-template-rows: 60px 30px 30px 30px 60px;
+    width: 310px;
+    background-color: rgb(177, 233, 177);
+    height: 300px;
+    border-radius: 10px;
+    margin: 30px;
+    gap: 5px;
+    align-content: center;
+    justify-content: center;
+}
+.Turkish {
+    display: grid;
+    grid-template-rows: 60px 30px 30px 30px 60px;
+    width: 310px;
+    background-color: rgb(255, 0, 0,.6);
+    height: 300px;
+    border-radius: 10px;
+    margin: 30px;
+    gap: 5px;
+    align-content: center;
+    justify-content: center;
+
+}
+.logo2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    font-size: small;
+    justify-content: left;
+    color: white;
+}
+.Turkish .Dollar2 {
+    color: red;
+}
+.Turkish .Logo123 {
+    color: white;
+    border: 3px solid red;
+    border-style: dashed;
+}
+.Turkish .icon-arrow {
+    color: white;
+}
+.Turkish .Flat {
+    color: white;
+}
+.Turkish .Domestic {
+    color: white;
+}
+.dubai-airlines {
+    display: grid;
+    grid-template-rows: 60px 30px 30px 30px 60px;
+    width: 310px;
+    background-color: goldenrod;
+    height: 300px;
+    border-radius: 10px;
+    margin: 30px;
+    gap: 5px;
+    align-content: center;
+    justify-content: center;
+
+}
+.dubai-airlines .Flat {
+    color: white;
+}
+.dubai-airlines .Dollar2 {
+    color: gold;
+}
+.dubai-airlines .Logo123 {
+    color: white;
+    border: 3px solid gold;
+    border-style: dashed;
+}
+.dubai-airlines .icon-arrow {
+    color: white;
+}
+.Pia {
+    display: grid;
+    grid-template-rows: 60px 30px 30px 30px 60px;
+    width: 310px;
+    background-color: rgb(26, 36, 26);
+    height: 300px;
+    border-radius: 10px;
+    margin: 30px;
+    gap: 5px;
+    align-content: center;
+    justify-content: center;
+}
+.Pia .Flat {
+    color: rgb(164, 141, 41);
+}
+.Pia .Domestic {
+    color: rgb(164, 141, 41);
+}
+.Pia .logo123 {
+    color: rgb(164, 141, 41);
+}
+.Flat {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Dollar2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    font-weight: 700;
+    color: green;
+}
+.Domestic {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Log125 {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    gap: 80px;
+}
+.Logo123 {
+    font-size: x-small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: green;
+    width: 170px;
+    background-color: none;
+    border: 3px green solid;
+    border-style: dashed;
+    border-radius: 8px;
+    text-align: center;
+
+}
+.icon-arrow {
+    text-align: center;
+    align-content: center;
+    color: green;
+}
+.dubai-airlines .Domestic {
+    color: white;
+}
+.citilink:hover {
+    background-color: #F2E500;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.Pia:hover {
+    transition: 0.4s;
+    cursor: pointer;
+    background-color: white;
+}
+.dubai-airlines:hover {
+    transition: 0.4s;
+    background-color: black;
+    cursor: pointer;
+}
+.Turkish:hover {
+    cursor: pointer;
+    transition: 0.4s;
+    background-color: green;
+}
+
+
+.Header {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+.section-4 {
+    display: grid;
+    grid-template-rows: auto;
+    margin: 30px;
+    gap: 20px;
+
+}
+.content2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    padding: 0 40px;
+
+}
+.Home1 {
+    padding: 5px 10px;
+    background: rgb(0, 128, 0,.3);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: green;
+    transition: 0.4s;
+}
+.Appply {
+    align-content: center;
+}
+.Apply {
+    text-decoration: none;
+    font-size: x-large;
+    color: red;
+    border-radius: 40px;
+    padding: 10px 20px;
+    background: rgb(225,225,225,.3);
+    transition: 0.4s;
+}
+.Apply:hover {
+    cursor: pointer;
+    color: blue;
+    background-color: rgb(42, 196, 244);
+}
+.Head1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: red;
+}
+.Home1:hover {
+    cursor: pointer;
+    background-color: rgb(100,100,100,.4);
+
+
+}
+.heading {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-small;
+} 
+.Dollar1 {
+    padding: 10px 20px;
+    background: red;
+    width: 80px;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    color: white;
+}
+.description2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.House {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+}
+.Options {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: left;  
+    gap: 20px;
+}
+.Baths {
+    padding: 5px 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    border: 0.1px solid rgb(20, 20, 20);
+    border-style: dotted;
+}
+.small-footer {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    gap: 260px;
+}
+.Off {
+    width: 80px;
+    height: 29px;
+    background-color: rgb(255, 0, 0,.2);
+    text-align: center;
+    align-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Icon {
+    color: goldenrod;
+    align-content: center;
+}
+.small-footer1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    gap: 190px;
+}
+.From {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-content: end;
+}
+.US1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-size: x-large;
+    align-content: center;
+}
+.Num {
+    font-weight: 900;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Views {
+    align-content: center;
+}
+.Usa {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    gap: 5px;
+}
+.review {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: right;
+}
+.section-5 {
+    margin: 30px;
+    display: grid;
+    grid-template-rows: auto;
+    gap: 30px;
+    padding: 0 40px;
+}
+.heading2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: rgb(225,0,0,.8);
+}
+
+.World {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+}
+.img1 {
+    background-image: url(/img/dubai.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    align-content: end;
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+}
+.img2 {
+    background-image: url(/img/itanly.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    align-content: end;
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+}
+.img3
+    {background-image: url(/img/los\ angles.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    align-content: end;
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+}
+.img4 {
+    background-image: url(/img/london.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    align-content: end;
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+}
+.section-6{
+    
+    display: grid;
+    grid-template-rows: auto;
+    gap: 20px;
+    background-color: rgb(241, 245, 248);
+}
+.heading3 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.description3 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    color: black;
+}
+.World2 {
+    gap: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    grid-template-rows: auto;
+    row-gap: 10px;
+    
+}
+.heading4 {
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    display: grid;
+    grid-template-rows: 70px;
+    color: white;
+    margin: 20px;
+    
+}
+.imag1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: url(/img/new.webp);
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 400px;
+    background-size: cover;
+    align-content: end;
+}
+.imag2 {
+    align-content: end;
+    background-image: url(/img/china.jpg);
+    height: 300px;
+    width: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-content: end;
+}
+.imag3 {
+    background-image: url(/img/mosscow.webp);
+    height: 300px;
+    background-repeat: no-repeat;
+    width: 400px;
+    background-size: cover;
+    align-content: end;
+}
+.imag4 {
+    background-image: url(/img/japna.jpg);
+    height: 300px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: end;
+}
+.imag5 {
+    background-image: url(/img/turkey.webp);
+    height: 300px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: end;
+}
+.imag6 {
+    background-image: url(/img/denmark.webp);
+    height: 300px;
+    width: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-content: end;
+}
+.imag7 {
+    background-image: url(/img/uk.jpg);
+    height: 300px;
+    width: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-content: end;
+}
+.imag8 {
+    background-image: url(/img/kashmir.jfif);
+    height: 300px;
+    width: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-content: end;
+}
+.section-7 {
+    display: grid;
+    grid-template-rows: auto;
+    text-align: center;
+    margin: 50px;
+
+}
+.heading5 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    letter-spacing: 2px;
+}
+.description4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+.Cars {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+    margin: 50px;
+}
+.cars-section {
+    display: grid;
+    grid-auto-rows: auto;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.imgcar {
+    background-image: url(/img/audi.jpg);
+    height: 200px;
+    width: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: large;
+}
+.head2 {
+    text-align: left;
+    display: grid;
+    grid-template-rows: auto;
+    gap: 15px;
+}
+.href2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.Apply1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    font-size: large;
+    color: blue;
+    transition: 0.3s;
+}
+.Apply1:hover {
+    cursor: pointer;
+    color: red;
+}
+.description5 {
+    width: 250px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-size: x-small;
+    color: rgb(45, 87, 45);
+    text-align: center;
+    align-content: center;
+    height: 30px;
+    background-color: rgb(133, 231, 133)
+}
+.Elements {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    justify-content: left;
+
+}
+.Manual {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    width: auto;
+    text-align: center;
+    align-content: center;
+    border: 1px solid;
+    height: 30px;
+    
+}
+.Property {
+    display: grid;
+    grid-template-columns: 210px auto auto ;
+    justify-items: start;
+    text-align: end;
+}
+.Properties2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    gap: 10px;
+}
+.Off1 {
+    width: 80px;
+    text-align: center;
+    height: 30px;
+    align-content: center;
+    background: rgb(255, 0, 0,.4);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    color: white;
+} 
+.dollar1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    gap: 10px;
+}
+.dollars {
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+.dollars2 {
+    font-size: medium;
+    font-weight: 200;
+    text-decoration: line-through;
+    text-align: center;
+    align-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Exp {
+    display: grid;
+    grid-template-rows: 20px 10px ;
+    justify-content: center;
+    align-content: center;
+}
+.red {
+    align-content: center;
+}
+.Red {
+    width: 40px;
+    background-color: red;
+    height: 40px;
+    text-align: center;
+    align-content: center;
+    color: white;
+}
+.card {
+    align-content: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 6px;
+}
+.Head3 {
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+}
+.Para {
+    margin: 10px;
+    border-radius: 5px;
+    color: antiquewhite;
+    text-align: left;
+    width: 155px;
+    height: 25px;
+    background: red;
+    text-align: center;
+    align-content: center;
+
+}
+.imgcar1 {
+    background-image: url(/img/honda.jpg);
+    height: 200px;
+    width: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: large;
+
+}
+.imgcar2 {
+    background-image: url(/img/bmw.jpg);
+    height: 200px;
+    width: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: large;
+}
+.imgcar3 {
+    background-image: url(/img/marcdes.avif);
+    height: 200px;
+    width: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: large;
+}
+.imgcar4 {
+    background-image: url(/img/ford.jpg);
+    height: 200px;
+    width: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: large;
+}
+.imgcar5 {
+    background-image: url(/img/szuki.jpg);
+    height: 200px;
+    width: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: large;
+}
+.imgcar6 {
+    background-image: url(/img/ford.jpg);
+    height: 200px;
+    width: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: large;
+}
+.imgcar7 {
+    background-image: url(/img/toyota.avif);
+    height: 200px;
+    width: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: large;
+}
+.imgcar8 {
+    background-image: url(/img/honda.jpg);
+    height: 200px;
+    width: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: large;
+}
+
+.BookNow {
+    align-content: center;
+}
+.Books {
+    align-content: center;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 30px;
+    background-color: rgb(255,0,0,.5);
+    color: white;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+.Books:hover {
+    cursor: pointer;
+    background-color: rgb(255,255,255,.4);
+    color: red;
+}
+.Video {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.section-8 {
+    background-color: rgb(241, 245, 248);
+    display: grid;
+    grid-template-rows: auto;
+    gap: 20px;
+    text-align: center;
+    margin: 30px;
+}
+.heading6 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+}
+.description6 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.REVIEW {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 10px;
+}
+.Review {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 15px;
+}
+.Review1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 10px;
+}
+.section-9 {
+    display: grid;
+    grid-template-rows: auto;
+    text-align: left;
+    margin: 30px;
+}
+.heading7 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.description8{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.John {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 445px;
+    height: 190px;
+}
+.image {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    gap: 8px;
+}
+.icon1 {
+    color: yellow;
+    text-align: left;
+}
+.Us {
+    display: grid;
+    grid-template-rows: 55px auto auto;
+}
+.description7 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    text-align: left;
+    margin: 20px;
+}
+.Places {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+}
+.Mountain {
+    display: grid;
+    width: 500px;
+    height: 550px;
+    grid-template-rows: auto;
+    background-color: white;
+   
+}
+.Terms {
+    display: grid;
+    gap: 20px;
+
+    grid-template-rows: 30px 40px 55px 30px;
+}
+.head4 {
+    background-color: rgb(0, 128, 0,.5);
+    width: 100px;
+    text-align: center;
+    align-content: center;
+    color: green;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.description9 {
+    color: black;
+    letter-spacing: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-weight: 900;
+    letter-spacing: 2px;
+
+}
+.description10 {
+    font-weight: 100;
+    color: rgb(0, 0, 0,.7);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Read {
+    color: red;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+ 
+}
+.Subscribe {
+    background-image: url(/img/qww.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: cover;
+    align-content: center;
+    text-align: center;
+    display: grid;
+    gap: 20px;
+    grid-template-rows: auto;
+}
+.Subscribe1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+    color: red;
+}
+.description11 {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+.placeholder1 input[ type="text"] {
+    padding: 10px;
+    font-size: 12px;
+    border: none;
+    outline: none;
+    width: 600px;
+    height: 25px;
+}
+.placeholder1 button {
+    padding: 10px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    background-color: red;
+    height: 45px;
+    width: 100px;
+    transition: 0.4s;
+}
+.placeholder1 button:hover {
+    color: white;
+    background-color: rgb(0,255,255,.2);
+
+}
+.section-10 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto ;
+    background: rgb(1, 38, 56);
+}
+.GoTrip1 {
+    margin: 30px;
+    display: grid;
+    grid-template-rows: auto;
+    gap: 30px;
+    margin: 30px;
+}
+.heading8 {
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+    color: white;
+}
+.description12 {
+    color: rgb(221, 182, 182);
+    font-size: large;
+    font-family: 'x-Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    font-size: large;
+}
+.icons2 {
+    font-size: x-large;
+    color: rgb(0, 255, 255,.4);
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: left;
+    gap: 20px;
+}
+.Soical {
+    display: grid;
+    grid-template-rows: auto;
+    margin: 30px;
+}
+.Soical1 {
+    display: grid;
+    grid-template-rows: auto;
+    margin: 30px;
+}
+.Nagivation {
+    margin: 30px;
+    display: grid;
+    
+    text-align: justify;
+}
+.href3 {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 30px;
+    text-align: justify;
+}
+.head3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    
+}
+.Home2 {
+    text-decoration: none;
+    color: rgb(221, 182, 182);
+
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+}
+.card1 {
+    align-content: center;
+}
+.card1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+}
+.Airlines-company {
+    display: grid;
+    grid-template-rows: auto;
+}
+.Head5 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    text-align: center;
+}
+.MyDesign {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    padding: 0 80px;
+    background-color: rgb(1, 38, 56);
+}
+.heads2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.head5 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 255, 255,.4);
+}
+.heads2 {
+    color: rgb(0, 255, 255,.4);
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+

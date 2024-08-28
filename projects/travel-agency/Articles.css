@@ -1,0 +1,419 @@
+body {
+    margin: 0%;
+    padding: 0;
+}
+.section-1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    background-color: rgb(229, 229, 229,.8);
+    gap: 550px;
+    position: fixed;
+    padding: 0 40px;
+
+    
+}
+.nav1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    gap: 40px;
+
+}
+.logo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    color: red;
+    letter-spacing: 2px;
+    
+}
+.header {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    align-content: center;
+    gap: 50px;
+}
+.Home {
+    padding: 10px 20px ;
+    text-decoration: none;
+    background-color: none;
+    border-radius: 10px;
+    color: black;
+    transition: 0.5s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Home:hover {
+    cursor: pointer;
+    color: white;
+    background-color: red;
+}
+.nav2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 20px;
+    align-content: center;
+
+}
+.Pak {
+    height: 45px;
+    width: 55px;
+    background-color: rgb(0,0,0,.1);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    align-content: center;
+}
+.flag {
+    height: 45px;
+    width: 55px;
+    background-color: rgb(0,0,0,.1);
+    text-align: center;
+    align-content: center;
+}
+.href {
+    text-align: center;
+    align-content: center;
+    background-color: red;
+    height: 45px;
+    width: 160px;
+    transition: 0.4s;
+}
+.Sign {
+    text-decoration: none;
+    margin: 5px;
+    color: white;
+    font-size: medium;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.href:hover {
+    cursor: pointer;
+    background-color: rgb(0,0,0,.1);
+}
+.Sign:hover {
+    color: red;
+}
+.section-2 {
+    background-image: url(/img/travel-navigation-illustration-powerpoint-background_ae41e7c533__960_540.avif);    
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-rows: 50px 150px;
+    align-content: space-between; 
+}
+.content1 {
+    display: grid;
+    grid-template-rows: 53px 64px 53px 104px;
+    width: 1500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+} 
+.section-3 {
+    padding: 0 94px;
+}
+.heading {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0 30px;
+
+}
+.head {
+    align-content: center;
+}
+.head {
+    margin: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 155px;
+    color: green;
+    height: 30px;
+    background-color: rgb(0, 128, 0,.2);
+    align-content: center;
+    text-align: center;
+    padding: 0 30px;
+}
+
+.description1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    color: rgb(0, 0, 0,.5);
+    padding: 0 30px;
+}
+.admin1 {
+    padding: 0 30px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    align-content: start;
+}
+.Person {
+    display: grid;
+    grid-template-rows: 20px 10px;
+    align-content: center;
+}
+.Name {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+}
+.dates {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    
+}
+
+.admin {
+    align-content: center;
+    width: 63px;
+    height: 61px;
+    border-radius: 50%;
+    object-fit: fill;
+    margin: 10px;
+    
+}
+
+.Article1 {
+    display: grid;
+    grid-template-rows: 176px 79px 69px 79px 143px 57px;
+    padding: 0 130px;
+}
+.Point {
+    
+    text-align: center;
+    background-color: rgb(255, 0, 0,.4);
+    display: grid;
+    font-weight: bolder;
+    grid-template-rows: 45px 25px;
+    border-radius: 5px;
+}
+.description6 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    align-content: center;
+    
+}
+.home {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    text-decoration: none;
+    align-content: center;
+}
+.section-4 {
+    padding: 0 130px;
+}
+.content2 {
+display: grid;
+    grid-template-rows: 93px 46px 39px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.head1 {
+    text-align: center;
+    align-content: center;
+    height: 60px;
+    width: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+    background-color: rgb(255, 0, 0,.4);
+}
+.icons-head {
+    display: grid;
+    grid-template-rows: auto;
+    row-gap: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-small;
+}
+
+.icons {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: left;
+    gap: 20px;
+    padding: 0 30px;
+    align-content: center;
+}
+.Button {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 1107px
+}
+.Contact {
+    width: 120px;
+    height: 40px;
+    background-color: red;
+    border-radius: 5px;
+    text-align: center;
+    align-content: center;
+    transition: 0.4s;
+}
+.home2 {
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+.home2:hover {
+    color: red;
+    cursor: pointer;
+}
+.Contact:hover {
+    background: white;
+}
+.Help {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(0,0,0,.1);
+    padding: 0 130px;
+}
+.button {
+    text-align: end;
+}
+.Pra {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.head5 {
+    margin: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+}
+.Media {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+.Shair {
+    font-weight: 800;
+}
+.papular {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+}
+.Tags {
+    padding: 0 30px;
+    display: grid;
+    grid-template-rows: auto;
+    row-gap: 10px;
+} 
+.Dio {
+    padding: 5px 30px;
+    background-color: rgb(0,0,0,.1);
+    text-decoration: none;
+    color: black;
+}
+.section-10 {
+    margin: 0% !important;
+    padding: 0% !important;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto ;
+    background: rgb(1, 38, 56);
+}
+.GoTrip1 {
+    margin: 30px;
+    display: grid;
+    grid-template-rows: auto;
+    gap: 30px;
+    margin: 30px;
+}
+.heading8 {
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+    color: white;
+}
+.description12 {
+    color: rgb(221, 182, 182);
+    font-size: large;
+    font-family: 'x-Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    font-size: large;
+}
+.icons2 {
+    font-size: x-large;
+    color: rgb(0, 255, 255,.4);
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: left;
+    gap: 20px;
+}
+.Soical {
+    display: grid;
+    grid-template-rows: auto;
+    margin: 30px;
+}
+.Soical1 {
+    display: grid;
+    grid-template-rows: auto;
+    margin: 30px;
+}
+.Nagivation {
+    margin: 30px;
+    display: grid;
+    
+    text-align: justify;
+}
+.href3 {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 30px;
+    text-align: justify;
+}
+.head3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    
+}
+.Home2 {
+    text-decoration: none;
+    color: rgb(221, 182, 182);
+
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+}
+.section-5 {
+    padding: 0 190px;
+}
+.card1 {
+    align-content: center;
+}
+.card1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+}
+.Airlines-company {
+    display: grid;
+    grid-template-rows: auto;
+}
+.Head5 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    text-align: center;
+}
+.MyDesign {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    padding: 0 80px;
+    background-color: rgb(1, 38, 56);
+}
+.heads2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.heads1 {
+    color: rgb(0, 255, 255,.4);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.head5 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 255, 255,.4);
+}
+.heads2 {
+    color: rgb(0, 255, 255,.4);
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
