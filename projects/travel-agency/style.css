@@ -3,7 +3,7 @@ body {
     padding: 0% !important;
 }
 .section-1 {
-    background-image: url(/img/backgri.jpg);
+    background-image: url(./img/backgri.jpg);
     height: 600px;
     background-size: cover;
 }
@@ -450,7 +450,7 @@ body {
     gap: 30px;
 }
 .img1 {
-    background-image: url(/img/dubai.jfif);
+    background-image: url(./img/dubai.jfif);
     background-repeat: no-repeat;
     background-size: cover;
     height: 350px;
@@ -462,7 +462,7 @@ body {
     letter-spacing: 2px;
 }
 .img2 {
-    background-image: url(/img/itanly.webp);
+    background-image: url(./img/itanly.webp);
     background-repeat: no-repeat;
     background-size: cover;
     height: 350px;
@@ -474,7 +474,7 @@ body {
     letter-spacing: 2px;
 }
 .img3
-    {background-image: url(/img/los\ angles.jpg);
+    {background-image: url(./img/los\ angles.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 350px;
@@ -486,7 +486,7 @@ body {
     letter-spacing: 2px;
 }
 .img4 {
-    background-image: url(/img/london.webp);
+    background-image: url(./img/london.webp);
     background-repeat: no-repeat;
     background-size: cover;
     height: 350px;
@@ -535,7 +535,7 @@ body {
 }
 .imag1 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-image: url(/img/new.webp);
+    background-image: url(./img/new.webp);
     background-repeat: no-repeat;
     height: 300px;
     width: 400px;
@@ -544,7 +544,7 @@ body {
 }
 .imag2 {
     align-content: end;
-    background-image: url(/img/china.jpg);
+    background-image: url(./img/china.jpg);
     height: 300px;
     width: 400px;
     background-size: cover;
@@ -552,7 +552,7 @@ body {
     align-content: end;
 }
 .imag3 {
-    background-image: url(/img/mosscow.webp);
+    background-image: url(./img/mosscow.webp);
     height: 300px;
     background-repeat: no-repeat;
     width: 400px;
@@ -560,7 +560,7 @@ body {
     align-content: end;
 }
 .imag4 {
-    background-image: url(/img/japna.jpg);
+    background-image: url(./img/japna.jpg);
     height: 300px;
     width: 400px;
     background-repeat: no-repeat;
@@ -568,7 +568,7 @@ body {
     align-content: end;
 }
 .imag5 {
-    background-image: url(/img/turkey.webp);
+    background-image: url(./img/turkey.webp);
     height: 300px;
     width: 400px;
     background-repeat: no-repeat;
@@ -576,7 +576,7 @@ body {
     align-content: end;
 }
 .imag6 {
-    background-image: url(/img/denmark.webp);
+    background-image: url(./img/denmark.webp);
     height: 300px;
     width: 400px;
     background-size: cover;
@@ -584,7 +584,7 @@ body {
     align-content: end;
 }
 .imag7 {
-    background-image: url(/img/uk.jpg);
+    background-image: url(./img/uk.jpg);
     height: 300px;
     width: 400px;
     background-size: cover;
@@ -592,7 +592,7 @@ body {
     align-content: end;
 }
 .imag8 {
-    background-image: url(/img/kashmir.jfif);
+    background-image: url(./img/kashmir.jfif);
     height: 300px;
     width: 400px;
     background-size: cover;
@@ -627,7 +627,7 @@ body {
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .imgcar {
-    background-image: url(/img/audi.jpg);
+    background-image: url(./img/audi.jpg);
     height: 200px;
     width: 350px;
     background-size: cover;
@@ -767,7 +767,7 @@ body {
 
 }
 .imgcar1 {
-    background-image: url(/img/honda.jpg);
+    background-image: url(./img/honda.jpg);
     height: 200px;
     width: 350px;
     background-size: cover;
@@ -776,7 +776,7 @@ body {
 
 }
 .imgcar2 {
-    background-image: url(/img/bmw.jpg);
+    background-image: url(./img/bmw.jpg);
     height: 200px;
     width: 350px;
     background-size: cover;
@@ -784,7 +784,7 @@ body {
     font-size: large;
 }
 .imgcar3 {
-    background-image: url(/img/marcdes.avif);
+    background-image: url(./img/marcdes.avif);
     height: 200px;
     width: 350px;
     background-size: cover;
@@ -792,7 +792,7 @@ body {
     font-size: large;
 }
 .imgcar4 {
-    background-image: url(/img/ford.jpg);
+    background-image: url(./img/ford.jpg);
     height: 200px;
     width: 350px;
     background-size: cover;
@@ -800,7 +800,7 @@ body {
     font-size: large;
 }
 .imgcar5 {
-    background-image: url(/img/szuki.jpg);
+    background-image: url(./img/szuki.jpg);
     height: 200px;
     width: 350px;
     background-size: cover;
@@ -808,7 +808,7 @@ body {
     font-size: large;
 }
 .imgcar6 {
-    background-image: url(/img/ford.jpg);
+    background-image: url(./img/ford.jpg);
     height: 200px;
     width: 350px;
     background-size: cover;
@@ -816,7 +816,7 @@ body {
     font-size: large;
 }
 .imgcar7 {
-    background-image: url(/img/toyota.avif);
+    background-image: url(./img/toyota.avif);
     height: 200px;
     width: 350px;
     background-size: cover;
@@ -824,7 +824,7 @@ body {
     font-size: large;
 }
 .imgcar8 {
-    background-image: url(/img/honda.jpg);
+    background-image: url(./img/honda.jpg);
     height: 200px;
     width: 350px;
     background-size: cover;
@@ -978,7 +978,7 @@ body {
  
 }
 .Subscribe {
-    background-image: url(/img/qww.jpg);
+    background-image: url(./img/qww.jpg);
     background-repeat: no-repeat;
     height: 400px;
     background-size: cover;
