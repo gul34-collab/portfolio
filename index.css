@@ -460,6 +460,7 @@ h1 {
     padding: 0 115px;
     margin: 70px;
 }
+
 .Working {
     display: grid;
     grid-template-rows: auto;
@@ -534,12 +535,18 @@ h1 {
     text-align: center;
     gap: 20px;
 }
+.work {
+    text-decoration: none;
+    color: black;
+}
 .Working1 {
    display: grid;
    grid-template-columns: auto auto;
    font-size: small;
    justify-content: center;
    gap: 180px;
+   text-decoration: none;
+
 
 }
 .Fram {
