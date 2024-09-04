@@ -1,0 +1,341 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.Navbar {
+    display: grid;
+    padding: 0 100px;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    gap: 20px;
+}
+.content {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto;
+}
+.Queue {
+    font-size: x-large;
+    margin: 10px;
+    font-weight: 600;
+}
+.nav-lists {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    gap: 18px;
+    align-content: center;
+}
+.icons-lists {
+    color: blue;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    margin: 10px;
+    align-content: center;
+}
+.home {
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(0,0,0,.8);
+    position: relative;
+    transition: color 0.3s ease;
+    padding: 5px 10px;
+}
+/* Hover Animation */
+.home::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: blue;
+    visibility: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+.home:hover::before {
+    visibility: visible;
+    width: 100%;
+}
+
+.home:hover {
+    color: blue;
+}    
+.Hero-section {
+    display: grid;
+    grid-template-columns: 1000px auto;
+    height: 900px;
+    align-content: center;
+}
+.Queue-Downey {
+    display: grid;
+    grid-template-rows: 28px 100px 70px 52px;
+    padding: 0 100px;
+}
+.small-foot {
+    display: grid;
+    justify-content: left;
+    gap: 10px;
+    grid-template-columns: auto auto;
+}
+.Hot {
+    width: 40px;
+    text-align: center;
+    height: 30px;
+    background-color: blue;
+    border-radius: 20px;
+    color: white;
+    font-weight: 500;
+    align-content: center;
+}
+.Head {
+    font-size: xxx-large;
+    align-content: center;
+}
+.description {
+    color: rgb(0,0,0,.8);
+}
+.Submit-lists {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    gap: 10px;
+}
+.hire {
+    width: 120px;
+    color: white;
+    height: 35px;
+    text-align: center;
+    align-content: center;
+    text-decoration: none;
+    border-radius: 8px;
+    background-color: blue;
+    transition: 0.4s;
+}
+.hire:hover {
+    color: blue;
+    background-color: white;
+}
+.Download {
+    width: 160px;
+    color: blue;
+    height: 35px;
+    text-align: center;
+    align-content: center;
+    text-decoration: none;
+    border-radius: 8px;
+    background-color: white;
+    border: 1px solid blue;
+    transition: 0.4s;
+}
+.Download:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+
+}
+.Victor-Picture {
+    justify-self: left;
+}
+.About-section {
+    display: grid;
+    grid-template-columns: 340px auto;
+    border: 1px solid rgb(0,0,0,.1);
+    position: relative;
+    top: -180px;
+    
+}
+.About-box {
+    display: grid;
+    margin: 10px;
+    box-shadow: 0 19px 16px 0 rgba(0, 0, 0, 0.2), 0 34px 20px 0 rgba(0, 0, 0, -36.81);
+    grid-template-rows: auto;
+    border-radius: 10px;
+    gap: 4px;
+    background-color: rgb(0,0,0,.1);
+}
+.About {
+    padding: 0 140px;
+}
+.About-box2 {
+    display: grid;
+    grid-template-rows: auto;
+    margin: 20px;
+}
+.Photograph {
+    justify-content: left;
+    gap: 5px;
+    display: grid;
+    grid-template-columns: auto auto;
+    font-weight: 600;
+    margin: 10px;
+
+}
+.Graph {
+    color: blue;
+}
+.description1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    gap: 10px;
+    font-size: small;
+}
+.Personal {
+    font-weight: 600;
+    align-content: center;
+}
+.Mail {
+    font-weight: 600;
+}
+.card-section {
+    display: grid;
+    grid-template-rows: auto;
+    text-align: center;
+    row-gap: 40px;
+    background-color: rgb(225,255,255,.1);
+    height: 810px;
+    align-content: center;
+}
+.Card-Properties {
+    background-color: white;
+    display: grid;
+    grid-template-rows: auto;
+    gap: 20px;
+    text-align: justify;
+    box-shadow: 0 -1px 16px 0 rgba(0, 0, 0, 0.2), 0 50px 40px 0 rgba(0, 0, 0, -43.81);
+    width: 470px;
+    height: 250px;
+    align-content: center;
+}
+.Service {
+    font-size: xx-large;
+    font-weight: 500;
+}
+.description2 {
+    padding: 0 390px;
+    color: rgb(0,0,0,.8);
+}
+.description3 {
+    padding: 0 50px;
+    color: rgb(0,0,0,.8);
+
+}
+.card-lists {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    padding: 0 115px;
+}
+.icon {
+    font-size: x-large;
+    color: blue;
+    padding: 0 50px;
+}
+.card-head {
+    font-size: x-large;
+    padding: 0 50px;
+    font-weight: 500;
+}
+.read {
+    color: blue;
+    text-decoration: none;
+    transition: 0.4s;
+    padding: 0 50px;
+}
+.read:hover {
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: blue;
+
+}
+.About-work-participate {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-content: center;
+    padding: 0 50px;
+}
+.Heading-work {
+    display: grid;
+    align-content: center;
+    padding: 0 100px;
+    grid-template-rows: 46px 60px 68px;
+    gap: 20px;
+
+}
+.head1 {
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.description-work {
+    padding: 0 ;
+}
+.Read-more {
+    width: 300px;
+}
+.see {
+    align-content: center;
+    text-decoration: none;
+    border-radius: 7px;
+    padding: 10px 40px;
+    background-color: blue;
+    color: white;
+}
+.Important-list {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 100px;
+}
+.About-lists {
+    height: 175px;
+    align-content: center;
+    padding: 0 30px;
+    border: 1px solid rgb(0,0,0,.1);
+    clip-path: polygon(0 0, 100% 0, 86% 100%, 0% 100%);
+    border-radius: 100px;
+    height: 200px;
+    transition: 0.5s;
+}
+.About-lists:hover {
+    cursor: pointer;
+    background-color: lightblue;
+}
+.Ux {
+    display: grid;
+    grid-template-rows: 55px 23px 24px;
+    gap: 20px;
+}
+.Ux-Head {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-content: center;
+}
+.UX {
+    font-weight: 600;
+    font-size: larger;
+}
+.date {
+    width: 130px;
+    text-align: center;
+    align-content: center;
+    color: blue;
+    height: 25px;
+    font-weight: 500;
+    background-color: rgb(173, 216, 230,.3);
+}
+.icons {
+    width: 60px;
+    height: 60px;
+    color: blue;
+    background-color: rgb(225,255,255,.8);
+    text-align: center;
+    align-content: center;
+    border-radius: 100px;
+    
+} 
