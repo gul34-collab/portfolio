@@ -258,6 +258,7 @@ body {
     grid-template-columns: auto auto;
     align-content: center;
     padding: 0 50px;
+    height: 800px;
 }
 .Heading-work {
     display: grid;
@@ -289,7 +290,7 @@ body {
 .Important-list {
     display: grid;
     grid-template-rows: auto;
-    gap: 100px;
+    gap: 70px;
 }
 .About-lists {
     height: 175px;
@@ -339,3 +340,106 @@ body {
     border-radius: 100px;
     
 } 
+.background-section {
+    background-image: url(/img/doot.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+    padding: 0 120px;
+}
+.Review-lists {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 30px;
+    height: 170px;
+    gap: 30px;
+}
+.BOX1 {
+    box-shadow: 0 3px 16px 0 rgba(0, 0, 0, 0.2), 0 34px 20px 0 rgba(0, 0, 0, -36.81);
+    display: grid;
+    grid-template-rows: auto;
+    text-align: center;
+    align-content: center;
+    background-color: white;
+}
+.NUM {
+    font-size: xx-large;
+    font-weight: 500;
+}
+.Happy {
+    font-size: large;
+    font-weight: 500;
+}
+.Work-expertise-section {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-content: center;
+    padding: 0 150px;
+    align-items: center;
+}
+.Expertise {
+    display: grid;
+    grid-template-rows: auto;
+    text-align: center;
+    align-content: center;
+    margin: 150px;
+}
+.work {
+    font-size: xx-large;
+    font-weight: 500;
+}
+.Elements {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    gap: 15px;
+}
+.skill {
+    background: white;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    box-shadow: 0 2px 5px rgb(0,0,0,.1);
+    position: relative;
+    transition: 0.4s;
+}
+.skill img {
+    width: 50px;
+    height: 50px;
+}
+.percentages {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: darkcyan;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-size: 12px;
+    transition: 0.4s;
+}
+.skill:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+.percentages:hover {
+    background: black;
+    cursor: pointer;
+}
+.My-Portflio {
+    display: grid;
+    grid-template-rows: auto;
+    padding: 0 120px;
+    text-align: center;
+}
+
+.img-section {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-area: 20px;
+}
