@@ -688,3 +688,165 @@ body {
     border: 1px solid rgb(0,0,0,.7);
     border-radius: 100px;
   }
+  @media only screen and (max-width: 320px) {
+    .Navbar {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: flex-start;
+    }   
+    
+    .content {
+        display: grid;
+        grid-template-columns: auto auto;
+        align-items: baseline;
+    }
+    .nav-lists {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto AUTO auto;
+        grid-gap: 10px;
+    }
+    .Hero-section{
+        display: grid;
+        grid-template-columns: auto;
+        font-size: small;
+    }
+    .Submit-lists {
+        justify-self: center;
+    }
+    .small-foot {
+        justify-self: center;
+    }
+    .Head {
+        font-size: x-large;
+        text-align: center;
+    }
+    .description {
+        text-align: center;
+        width: 600px;
+    }
+    .Victor-Picture {
+        height: 300px;
+        justify-self: center;
+    }
+    .About-section {
+        display: grid;
+        grid-template-columns: auto;
+        position: relative;
+        top: 50px;
+        margin: 50px;
+        padding: 0 10px;
+        align-content: center;
+    }
+    .About-box {
+        width: 369px;
+        padding: 0 10px;
+    }
+    .description4 {
+        width: 369px;
+    }
+    .card-section {
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center;
+        align-content: baseline;
+        height: 1600px;
+    }
+    .card-lists {
+        display: grid;
+        grid-template-columns: auto ;
+        justify-self: center;
+    }
+    .description2 {
+        width: 200px;
+        font-size: small;
+        text-align: justify;
+    }
+    .Card-Properties {
+        width:320px;
+        height: 200px;
+    }
+    .icon {
+        font-size: medium;
+    }
+    .card-head {
+        font-size: small;
+    }
+    .description3 {
+        font-size: xx-small;
+    }
+    .read {
+        font-size: xx-small;
+    }
+    .About-work-participate {
+        display: grid;
+        grid-template-columns: auto;
+        align-content: baseline;
+        height: 1090px;
+        padding: 0 100px;
+    }
+    .Heading-work {
+        text-align: end;
+        justify-items: flex-end;
+    }
+    .see {
+        padding: 5px 15px;
+    }
+    .Read-more  {
+        justify-self: center;
+    }
+    .description-work {
+        width: 200px;
+        font-size: xx-small;
+    }
+    .About-lists {
+        width: 170%;
+        padding: 0 0px;
+    }
+    .Review-lists {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .BOX1 {
+        width: 155px;
+        height: 128px;
+    }
+    .Work-expertise-section {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .img {
+        align-content: baseline;
+    }
+    .Elements {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .My-Portflio {
+        height: 1400px;
+        padding: 0 180px;
+    }
+    .img-section {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .People-view {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .Blogs-section {
+        height: 1500px;
+    }
+    .Clinet {
+        height: 1500px;
+        padding: 0 45px;
+    }
+    .description11 {
+        width: 200px;
+    }
+    .imp-tag {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+
+}
