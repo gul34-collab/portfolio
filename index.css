@@ -771,6 +771,8 @@ body {
     .About-work-participate {
         display: grid;
         grid-template-columns: auto;
+        height: 1200px;
+        align-content: baseline;
         padding: 0px;
     }
     .Heading-work {
@@ -797,6 +799,106 @@ body {
         width: 300px;
         font-size: xx-small;
     }
+    .background-section {
+        padding: 0px;
+    }
+    .BOX1 {
+        height: 140px;
+        width: 150px;
+        gap: 6px;
+    }
+    .BOX1 .NUM {
+        font-size: x-large;
+        font-weight: 500;
+    }
+    .Work-expertise-section {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 0px;
+        height: 1330px;
+        gap: 30px;
+    }
+    .img1 {
+        place-self: center;
+    }
+    .img1 img {
+        height: 300px;
+    }
+    .Expertise {
+        margin: 0px;
+    }
+    .skill {
+        width: 80px;
+        height: 80px;
+    }
+    .percentages {
+        right: -20px;
+        background-color: rgb(0, 0, 255,.2);
+        padding: 2px 3px;
+    }
+    .description-expertise {
+        color: rgb(0,0,0,.8);
+        padding: 0 35px;
+        text-align: center;
+    }
+    .My-Portflio {
+        padding: 0px;
+        align-content: center;
+        display: grid;
+        grid-template-rows: auto;
+        gap: 30px;
+        height: 1500px;
+    }
+    .img-section img {
+        width: 350px;
+    }
+    .Clinet {
+        padding: 0%;
+        height: 1200px;
+    }
+    .description11 {
+        padding: 0%;
+    }
+    .img12 {
+        width: auto;
+    }
+    .Review-section {
+        padding: 0 10px;
+    }
+    .People-view {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .tag1 img {
+        width: 385px;
+    }
+    .tag1 {
+        width: auto;
+    }
+    .imp-tag {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .Blogs-section {
+        height: 1550px;
+        background-color: white;
+    }
+    .content-section {
+        padding: 0%;
+        height: 1100px;
+    }
+    .information {
+        grid-template-columns: auto;
+    }
+    .contact-form {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10px;
+    }
+    .description {
+        padding: 0 20px;
+    }
+
 
 
 
@@ -857,11 +959,6 @@ body {
         display: grid;
         grid-template-columns: auto auto;
     }
-   
-    .Work-expertise-section {
-        display: grid;
-        grid-template-columns: auto;
-    }
     .img {
         align-content: baseline;
     }
@@ -869,32 +966,11 @@ body {
         display: grid;
         grid-template-columns: auto auto;
     }
-    .My-Portflio {
-        height: 1400px;
-        padding: 0 180px;
-    }
     .img-section {
         display: grid;
         grid-template-columns: auto;
     }
-    .People-view {
-        display: grid;
-        grid-template-columns: auto;
-    }
-    .Blogs-section {
-        height: 1500px;
-    }
-    .Clinet {
-        height: 1500px;
-        padding: 0 45px;
-    }
-    .description11 {
-        width: 200px;
-    }
-    .imp-tag {
-        display: grid;
-        grid-template-columns: auto;
-    }
+   
 
 
 }
