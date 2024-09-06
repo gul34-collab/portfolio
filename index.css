@@ -137,8 +137,9 @@ body {
     cursor: pointer;
 
 }
-.Victor-Picture {
+.Victor-Picture img{
     justify-self: left;
+    height: 550px;
 }
 .About-section {
     display: grid;
@@ -688,13 +689,118 @@ body {
     border: 1px solid rgb(0,0,0,.7);
     border-radius: 100px;
   }
-  @media only screen and (max-width: 320px) {
+  .mobile-menu-icon{
+    display: none;
+  }
+  @media only screen and (max-width: 400px) {
+    /* navbar start here */
     .Navbar {
+        padding: 0px;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 20px;
+    }
+    .Navbar .content{
+        display: none;
+    }   
+    .Navbar .mobile-menu-icon{
+        display: block;
+    }
+    
+    /* navbar end here */
+
+    /* hero start here */
+    .Hero-section{
+        grid-template-columns: auto;
+    }
+    .Queue-Downey{
+        padding: 0px;
+    }
+    .description {
+        text-align: center;
+    }
+    .Victor-Picture{
+        place-self: center;
+    }
+ 
+    .Victor-Picture img {
+        height: 300px;
+        justify-self: center;
+    }
+
+    /* hero end here */
+
+    /* About-section start here */
+    .About-section {
         display: grid;
         grid-template-columns: auto;
-        justify-content: flex-start;
-    }   
-    
+        margin: 0px;
+        top: 0px;
+        padding: 0px;
+        position: none;
+    }
+    .About {
+        padding: 0px;
+    }
+    .About-box {
+        width: 350px;
+        height: 150px;
+    }
+    /* About-section end here */
+    /* card-section start here */
+    .card-section {
+        background-color: rg;
+        display: grid;
+        grid-template-rows: auto;
+        height: 1700px;
+    }
+    .description2 {
+        color: rgb(0,0,0,.8);
+        padding: 0px;
+    }
+    .card-lists {
+        padding: 0px;
+        display: grid;
+        grid-template-columns: auto;
+        padding: 0 30px;
+    }
+    /* card-section start here */
+    /* About-work-participate start here */
+    .About-work-participate {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 0px;
+    }
+    .Heading-work {
+        padding: 0px;
+        gap: 10px;
+    }
+    .Read-more {
+        width: auto;
+    }
+    .About-lists {
+        width: auto;
+        clip-path: none;
+    }
+    .Ux {
+        display: grid;
+        grid-template-rows: auto;
+        gap: 15px;
+    }
+    .Important-list {
+        padding: 0 10px;
+        height: 490px;
+    }
+    .description-work {
+        width: 300px;
+        font-size: xx-small;
+    }
+
+
+
+
     .content {
         display: grid;
         grid-template-columns: auto auto;
@@ -720,47 +826,13 @@ body {
         font-size: x-large;
         text-align: center;
     }
-    .description {
-        text-align: center;
-        width: 600px;
-    }
-    .Victor-Picture {
-        height: 300px;
-        justify-self: center;
-    }
-    .About-section {
-        display: grid;
-        grid-template-columns: auto;
-        position: relative;
-        top: 50px;
-        margin: 50px;
-        padding: 0 10px;
-        align-content: center;
-    }
-    .About-box {
-        width: 369px;
-        padding: 0 10px;
-    }
+  
+   
     .description4 {
         width: 369px;
     }
-    .card-section {
-        display: grid;
-        grid-template-columns: auto;
-        text-align: center;
-        align-content: baseline;
-        height: 1600px;
-    }
-    .card-lists {
-        display: grid;
-        grid-template-columns: auto ;
-        justify-self: center;
-    }
-    .description2 {
-        width: 200px;
-        font-size: small;
-        text-align: justify;
-    }
+    
+   
     .Card-Properties {
         width:320px;
         height: 200px;
@@ -777,39 +849,15 @@ body {
     .read {
         font-size: xx-small;
     }
-    .About-work-participate {
-        display: grid;
-        grid-template-columns: auto;
-        align-content: baseline;
-        height: 1090px;
-        padding: 0 100px;
-    }
-    .Heading-work {
-        text-align: end;
-        justify-items: flex-end;
-    }
+    
     .see {
         padding: 5px 15px;
-    }
-    .Read-more  {
-        justify-self: center;
-    }
-    .description-work {
-        width: 200px;
-        font-size: xx-small;
-    }
-    .About-lists {
-        width: 170%;
-        padding: 0 0px;
-    }
+    }    
     .Review-lists {
         display: grid;
         grid-template-columns: auto auto;
     }
-    .BOX1 {
-        width: 155px;
-        height: 128px;
-    }
+   
     .Work-expertise-section {
         display: grid;
         grid-template-columns: auto;
