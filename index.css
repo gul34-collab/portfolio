@@ -842,7 +842,103 @@ body {
        padding: 0 20px;
    }  
 }
-  @media only screen and (max-width: 400px) {
+@media only screen and (max-width: 420px) {
+    .Navbar {
+        padding: 0px;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 20px;
+    } 
+    .Hero-section {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: auto;
+    }
+    .Victor-Picture{
+        place-self: center;
+    }
+    .Victor-Picture img {
+        height: 300px;
+        justify-self: center;
+    }
+    .Head {
+        font-size: x-large;
+    }
+    .description {
+        color: rgb(0,0,0,.5);
+        font-size: small;
+    }
+    .Queue-Downey {
+        display: grid;
+        grid-template-rows: auto;
+        gap: 20px;
+    }
+    .About-section {
+        display: grid;
+        grid-template-columns: auto;
+        top: -20px;
+    }
+    .card-section {
+        height: 1900px;
+    }
+    .card-lists {
+        padding: 0%;
+        justify-self: center;
+    }
+    .Card-Properties {
+        width: 390px;
+    }
+    .About-work-participate {
+        height: 1200px;
+    }
+    .Ux {
+        display: grid;
+        grid-template-rows: auto;
+    }
+    .background-section {
+        height: auto;
+    }
+    .People-view {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .My-Portflio {
+        padding: 0%;
+    }
+    .img12 img {
+        height: 40px;
+    }
+    .nam {
+        font-size: large;
+    }
+    .info {
+        background-color: #888;
+    } 
+    .Blogs-section {
+        height: 1500px;
+    }
+    .imp-tag {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .content-section {
+        height: 1200px;
+    }
+    .information {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .contact-form {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 20px;
+    }
+
+
+}
+  @media only screen and (max-width: 410px) {
     /* navbar start here */
     .Navbar {
         padding: 0px;
@@ -1116,3 +1212,12 @@ body {
         grid-template-columns: auto;
     }
 }
+@media only screen (max-width: 420px) {
+    .Navbar {
+        display: grid;
+        grid-
+    }
+        
+     
+}
+    
