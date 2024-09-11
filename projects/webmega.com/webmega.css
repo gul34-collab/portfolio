@@ -1,0 +1,494 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.First-Web-Line {
+    display: grid;
+    grid-template-rows: auto;
+    padding: 0 80px;
+    background: white;
+    gap: 30px;
+    height: 200px;
+    align-content: baseline;
+}
+.Web-first {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+.World {
+    display: grid;
+    gap: 30px;
+    font-size: small;
+    grid-template-columns: auto auto;
+}
+.logo-section {
+    display: grid;
+    grid-template-rows: 60px;
+}
+.Read {
+    color: red;
+}
+.icon-list {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+    font-size: small;
+}
+.Account {
+    font-size: small;
+}
+.Second-line {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+    font-size: large;
+    align-items: baseline;
+}
+.Accounts {
+    color: rgb(0,0,0,.8);
+    text-decoration: none;
+} 
+.Webmega {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 10px;
+    align-items: baseline;
+}
+.Heading {
+    font-size: large;
+}
+.icon {
+    font-size: xx-large;
+    color: red;
+}
+.Mega {
+    font-size: x-large;
+}
+.ALL-section {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    gap: 20px;
+}
+.tags {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 20px;
+    font-style: italic;
+}
+.navbar {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+}
+.Menu {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: auto auto auto auto auto auto auto;
+}
+.ico-lists {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 20px;
+}
+.Home  {
+  color: rgb(0,0,0,.8);
+  text-decoration: none;
+  font-size: small;
+  font-weight: 600;
+  padding: 5px;
+  transition: color 0.3s ease;
+}
+.Home:hover {
+    color: #00bcd4;
+  }
+.Home::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #00bcd4;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease;
+}
+.Home:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+.Hero-section {
+    display: grid;
+    grid-template-columns: 540px 540px;
+    padding: 0 80px;
+}
+.icon-2 {
+    width: 30px;
+    height: 30px;
+    background: red;
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
+    margin: 8px;
+    color: white;
+}
+.Img-hero {
+    background-image: url(/projects/webmega.com/img/car.avif);
+    background-size: cover;
+    text-align: -webkit-right;
+}
+.Hero-content {
+    padding: 0 30px;
+    margin: 30px;
+}
+.Hero {
+    margin: 10px;
+    height: 400px;
+    align-content: center;
+}
+.Hero-Description {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+}
+.content {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 30px;
+    margin: 30px;
+}
+.World-1 {
+    width: 60px;
+    height: 20px;
+    background: red;
+    align-content: center;
+    text-align: center;
+    color: white;
+}
+.Head-Hero {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.Dates-Hero {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: left;
+    gap: 15px;
+    font-size: small;
+}
+.icon-1 {
+    font-weight: 100;
+    color: rgb(0,0,0,.8);
+} 
+.description {
+    font-weight: 200;
+}
+.Profile {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    gap: 10px;
+} 
+.peo-img img {
+    height: 30px;
+    border-radius: 50%;
+    width: 32px;
+}
+.Robert {
+    font-size: medium;
+    font-weight: bolder;
+}
+.Kent {
+    font-size: small;
+    color: rgb(0,0,0,.8);
+}
+.card {
+    background: #00bcd4;
+    width: 255px;
+    height: 270px;
+    align-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Editor {
+    margin: 20px;
+    display: grid;
+    grid-template-rows: auto;
+    gap: 20px;
+    background-color: #00bcd4;
+    width: 230px;
+}
+.Head-Edit {
+    font-size: x-large;
+    font-weight: 700;
+}
+.Read-more {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    gap: 80px;
+}
+.description-1 {
+    width: 140px;
+}
+.more:hover {
+    background: white;
+    color: red;
+    cursor: pointer;
+}
+.more {
+    padding: 2px 5px;
+    align-content: center;
+    border: 1px solid rgb(0,0,0,.8);
+    transition: 0.4s;
+    text-decoration: none;
+}
+.Card-section {
+    height: 300px;
+    align-content: center;
+}
+.Card-list {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin: 80px;
+    align-items: center;
+    background: white;
+}
+.card-img1  {
+    background-image: url(/projects/webmega.com/img/beauty.webp);
+    background-size: cover;
+    width: 210px;
+    height: 190px;
+    text-align: -webkit-right;
+
+}
+.card-img2  {
+    background-image: url(/projects/webmega.com/img/magic.jpg);
+    background-size: cover;
+    width: 210px;
+    height: 190px;
+    text-align: -webkit-right;
+}
+.card1 {
+    width: 205px;
+}
+.card2 {
+    width: 205px;
+}
+.cam {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    align-content: center;
+    text-align: center;
+    color: white;
+    background-color: #00bcd4;
+}
+.card-img img {
+    height: 190px;
+    width: 210px;
+}
+.Head-Edit1 {
+    width: 170px;
+    font-weight: bolder;
+    font-size: medium;
+}
+.Content2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    font-size: small;
+}
+.Likes {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    gap: 10px;
+    font-size: x-small;
+    color: rgba(0, 0, 0, 0.8);
+}
+.Header {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: baseline;
+    justify-content: left;
+    gap: 190px;
+}
+.write-content {
+    display: grid;
+    width: 370px;
+    grid-template-rows: auto;
+}
+.Weekly-popular {
+    height: 710px;
+    display: grid;
+    grid-template-columns: auto 500px auto;
+    align-content: center;
+    justify-content: left;
+    gap: 10px;
+    padding: 0 55px;
+}
+.All {
+    text-decoration: none;
+    color: rgb(0,0,0,.8);
+    transition: 0.5s;
+}
+.All:hover {
+    border-radius: 10px;
+    background: black;
+    cursor: pointer;
+    color: white;
+    padding: 2px 5px;
+}
+.Weekly-Popular {
+    margin-top: 50px;
+    color: #00bcd4;
+    font-size: 32px;
+    font-weight: bold;
+    position: relative;
+}
+.Weekly-Popular span {
+    position: absolute;
+    left: 50px;
+    color: #dcccdc;
+    font-size: 80px;
+    z-index: -1;
+    top: -37px;
+}
+.publish-img {
+    background-image: url(/projects/webmega.com/img/panda.avif);
+    height: 200px;
+    background-size: cover;
+    width: 400px;
+    text-align: -webkit-right;
+    position: absolute;
+}
+.icon3 {
+    width: 30px;
+    height: 30px;
+    background: red;
+    color: white;
+    border-radius: 50%;
+    align-content: center;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    right: 20px;
+}
+.icon4 {
+    width: 100px;
+    background-color: red;
+    top: 172px;
+    right: -8px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    position: relative;
+}
+.Head-Week {
+    position: relative;
+    top: 170px;
+    font-weight: 
+}
+.Dates {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: left;
+    gap: 15px;
+    font-size: small;
+    position: relative;
+    top: 160px;
+}
+.description3 {
+    position: relative;
+    top: 160px;
+    color: rgba(0, 0, 0, 0.8);
+} 
+.small-card {
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    margin: 60px;
+}
+.BUTTON {
+    justify-content: center;
+    gap: 20px;
+    text-decoration: none;
+    display: grid;
+    position: relative;
+    top: -13px;
+    right: 125px;
+    grid-template-columns: auto auto auto auto auto;
+}
+.img-card img {
+    height: 150px;
+}
+.Cards-section {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.img-card {
+    width: 250px;
+}
+.img-card1 img {
+    height: 150px;
+    width: 230px;
+}
+.small-head {
+    font-weight: bolder;
+}
+.Follow-part {
+    display: grid;
+    grid-template-rows: auto;
+    position: relative;
+    top: -145px;
+    align-content: center;
+}
+.Social-Media {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+.Facebook {
+    width: 150px;
+    height: 30px;
+    align-content: center;
+    text-align: center;
+    color: white;
+    background: rgb(24, 119, 242);
+}
+.Twitter {
+    width: 150px;
+    height: 30px;
+    align-content: center;
+    text-align: center;
+    color: white;
+    background: black;
+}
+.Insta {
+    width: 150px;
+    height: 30px;
+    align-content: center;
+    text-align: center;
+    color: white;
+    background: rgb(252 175 69);
+}
+.pinset {
+    width: 150px;
+    height: 30px;
+    align-content: center;
+    text-align: center;
+    color: white;
+    background: red;
+    
+}
+.Head-follow {
+    font-size: large;
+    font-weight: 800;
+}
