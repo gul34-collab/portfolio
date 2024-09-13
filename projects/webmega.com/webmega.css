@@ -967,3 +967,168 @@ body {
 .instagram1 img {
     border-radius: 10px;
 }
+@media only screen and (max-width:770px) {
+    .First-Web-Line {
+        padding: 0 25px;
+        grid-template-rows: 0px;
+        height: 95px;
+    }
+    .tags {
+        display: none;
+    }
+    .logo-section {
+        grid-template-rows: 0px;
+    }
+    .Menu {
+        display: none;
+    }
+    .navbar {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .Hero {
+        margin: 10px;
+        height: 800px;
+    }
+    .Hero-section {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 0 25px;
+    }
+    .Img-hero {
+        height: 400px;
+    }
+    .card {
+        display: none;
+    }
+    .card3 {
+        display: none;
+    }
+    .Card-list {
+        margin: 10px;
+        padding: 0 45px;
+        height: 300px;
+    }
+    .Weekly-popular {
+        padding: 0px;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 45px;
+        padding: 0 40px;
+        height: 780px;
+        align-content: center;
+    }
+    .BUTTON {
+        top: -8px;
+        right: 45px;
+    }
+    .description3 {
+        display: none;
+    }
+    .Header {
+        display: grid;
+        grid: none;
+    }
+    .publish-img {
+        width: 280px;
+    }
+    .write-content {
+        width: 260px;
+    }
+    .Follow-part {
+        top: 100px;
+        right: 35px;
+    }
+    .Facebook {
+        width: 180px;
+    }
+    .Insta {
+        width: 180px;
+    }
+    .pinset {
+        width: 180px;
+    }
+    .Twitter {
+        width: 180px;
+    }
+    .Social-Media {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .small-card {
+        margin: 0px;
+    }
+    .img-card {
+        width: 195px;
+    }
+    .img-card1 {
+        width: 195px;
+    }
+    .img-card img {
+        height: 108px;
+    }
+    .img-card1 img {
+        width: 165px;
+        height: 108px;
+    }
+    .Comments-section {
+        padding: 0px 45px;
+        height: 470px;
+    }
+    .Comment-cards3 {
+        display: none;
+    }
+    .icon-comment {
+        right: -155px;
+    }
+    .Comment-cards {
+        width: 200px;
+    }
+    .Comment-cards2 {
+        width: 200px;
+    }
+    .Comment-cards4 {
+        width: 200px;
+    }
+    .Mons {
+        height: 450px;
+        width: 320px;
+    }
+    .icon-mons {
+        left: 280px;
+    }
+    .Video-section {
+        padding: 0px 35px;
+    }
+    .videos-section {
+        gap: 0px;
+        grid-template-columns: 260px auto;
+    }
+    .small-videos {
+        grid-template-columns: auto auto;
+    }
+    .img1 {
+        display: none;
+    }
+    .img {
+        width: 180px;
+    }
+    .Header-video {
+        padding: 0px;
+    }
+    .Recent-post {
+        grid-template-columns: auto;
+    }
+    .Head-follow {
+        right: -26px;
+    }
+    .Recent {
+        display: grid;
+        grid-template-rows: auto;
+        gap: 20px;
+    }
+    .Header-Footor {
+        grid-template-columns: auto auto;
+        height: 500px;
+    }
+}
