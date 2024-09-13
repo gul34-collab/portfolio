@@ -1132,3 +1132,123 @@ body {
         height: 500px;
     }
 }
+@media only screen and (max-width:420px) {
+    .First-Web-Line {
+        display: grid;
+        padding: 0 20px;
+        height: 65px;
+    }
+    .Web-first {
+        display: none;
+    }
+    .section {
+        display: none;
+    }
+    .Hero-section {
+        padding: 0px;
+    }
+    .Card-list {
+        display: grid;
+        grid: none;
+        margin: 0px;
+        padding: 0px 100px;
+    }
+    .card2 {
+        display: none;
+    }
+    .Weekly-popular {
+        grid-template-columns: auto;
+        height: 1880px;
+        padding: 0px 16px;
+        align-content: baseline;
+        display: grid;
+        grid-template-rows: auto;
+        gap: 170px;
+    }
+    .publish-img {
+        width: 380px;
+    }
+    .Head-Week {
+        width: 380px;
+    }
+    .BUTTON {
+        display: none;
+    }
+    .Cards-section {
+        grid-template-columns: auto;
+    }
+    .small-card {
+        height: 800px;
+        align-content: baseline;
+    }
+    .Dates {
+        display: none;
+    }
+    .img-card img {
+        height: 200px;
+        width: 330px;
+    }
+    .img-card1 img {
+        height: 200px;
+        width: 330px;
+    }
+    .Comments-section {
+        display: none;
+    }
+    .Video-section {
+        height: 1350px;
+        padding: 0px 6px;
+    }
+    .videos-section {
+        grid-template-columns: auto;
+        justify-items: left;
+        display: grid;
+        grid-template-rows: auto;
+        gap: 20px;
+    }
+    .small-videos {
+        grid-template-columns: auto;
+    }
+    .img img {
+        width: 400px;
+        height: 200px;
+    } 
+    .Mons {
+        display: none;
+    }
+    .Recent {
+        padding: 0px;
+    }
+    .Content-Recent {
+        grid-template-columns: auto;
+    }
+    .write-content-Recent {
+        width: 300px;
+    }
+    .Head-follow {
+        display: none;
+    }
+    .left-recent {
+        margin: 0px;
+    }
+    .WORLD-heading {
+        color: black;
+    }
+    .Recent-post {
+        justify-content: center;
+    }
+    .World2 {
+        color: white;
+    }
+    .Header-Footor {
+        grid-template-columns: auto;
+        height: 900px;
+    }
+    .WORLD-heading1 {
+        color: white;
+    }
+    .April1 {
+        color: white;
+    }
+
+}
