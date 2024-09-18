@@ -141,7 +141,7 @@ body {
     color: white;
 }
 .Img-hero {
-    background-image: url(/projects/webmega.com/img/car.avif);
+    background-image:url(./img/car.avif);
     background-size: cover;
     text-align: -webkit-right;
 }
@@ -261,7 +261,7 @@ body {
     background: white;
 }
 .card-img1  {
-    background-image: url(/projects/webmega.com/img/beauty.webp);
+    background-image:url(./img/beauty.webp);
     background-size: cover;
     width: 210px;
     height: 190px;
@@ -269,7 +269,7 @@ body {
 
 }
 .card-img2  {
-    background-image: url(/projects/webmega.com/img/magic.jpg);
+    background-image:url(./img/magic.jpg);
     background-size: cover;
     width: 210px;
     height: 190px;
@@ -364,7 +364,7 @@ body {
     top: -37px;
 }
 .publish-img {
-    background-image: url(/projects/webmega.com/img/panda.avif);
+    background-image:url(./img/panda.avif);
     height: 200px;
     background-size: cover;
     width: 400px;
@@ -530,27 +530,27 @@ body {
     grid-template-columns: auto auto auto auto;
 }
 .Comment-cards {
-    background-image: url(/projects/webmega.com/img/color.webp);
+    background-image:url(./img/color.webp);
     background-size: cover;
     height: 283px;
     width: 300px;
     background-repeat: no-repeat;
 }
 .Comment-cards2 {
-    background-image: url(/projects/webmega.com/img/african.webp);
+    background-image:url(./img/african.webp);
     height: 283px;
     width: 300px;
     background-repeat: no-repeat;
 }
 .Comment-cards3 {
-    background-image: url(/projects/webmega.com/img/flowers.webp);
+    background-image:url(./img/flowers.webp);
     height: 283px;
     width: 300px;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .Comment-cards4 {
-    background-image: url(/projects/webmega.com/img/gaming.avif);
+    background-image:url(./img/gaming.avif);
     background-size: cover;
     height: 283px;
     width: 300px;
@@ -677,7 +677,7 @@ body {
     top: -20px;
 }
 .Mons {
-    background-image: url(/projects/webmega.com/img/monster.webp);
+    background-image:url(./img/monster.webp);
     height: 500px;
     background-size: cover;
     width: 450px;
