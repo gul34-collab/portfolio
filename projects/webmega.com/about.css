@@ -347,3 +347,26 @@ body {
         color: rgb(255, 255, 255,.3);
     }
 }
+@media only screen and (max-width:770px) { 
+    .First-line {
+        display: none;
+    }
+    .ADS-section {
+        display: none;
+    }
+    .Navbar2 {
+        padding: 0px;
+        justify-content: center;
+    }
+    .Article-section {
+        display: grid;
+        grid-template-columns: auto;
+        height: 700px;
+        padding: 0px;
+    }
+    .Header-Footor {
+        display: grid;
+        grid-template-columns: auto;
+        height: 1100px;
+    }
+}
