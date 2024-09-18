@@ -1,0 +1,349 @@
+body {
+    margin: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.First-line {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    padding: 0 90px;
+    background: purple;
+    height: 30px;
+    align-content: center;
+
+}
+.First-Box {
+    color: white;
+    font-size: small;
+}
+.Second-Box {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto;
+    color: white;
+    font-size: small;
+}
+.Webmega {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 10px;
+    align-items: baseline;
+}
+.Heading {
+    font-size: large;
+}
+.icon {
+    font-size: xx-large;
+    color: red;
+}
+.Mega {
+    font-size: x-large;
+}
+.ALL-section {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    gap: 20px;
+}
+.Hero-section {
+    align-content: center;
+}
+.logo-section {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+.ADS-section {
+    margin: 10px;
+}
+.Navbar2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+.navbar {
+    font-size: small;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+}
+.Home {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 5px 0;
+    transition: color 0.3s ease;
+    font-size: small;
+    text-decoration: none;
+    color: black;
+}
+.Home:hover {
+    color: #ff4757;
+  }
+  
+  /* Underline Slide Animation */
+  .Home::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #ff4757;
+    transition: width 0.4s ease;
+  }
+  
+  .Home:hover::after {
+    width: 100%;
+  }
+.Contant {
+    margin: 30px;
+} 
+.Navbar {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto ;
+    gap: 20px;
+}
+.Article-section {
+    height: 250px;
+    align-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0 25px;
+}
+.description2 {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 10px;
+}
+.Head-contact {
+    font-size: x-large;
+    font-weight: bolder;
+}
+.form-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .input-group {
+    position: relative;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: #ff4757;
+  }
+  
+  input::placeholder {
+    color: #999;
+    font-style: italic;
+  }
+  
+  /* Submit Button Styling */
+  button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #ff4757;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ff6b81;
+  }
+.Contact-section {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 0 40px;
+    justify-content: space-between;
+}
+.img-section {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    gap: 10px;
+}
+.Header-Footor {
+    display: grid;
+    grid-template-columns: 315px 315px 334px 200px;
+    background-color: rgb(12, 18, 37);
+    height: 300px;
+    align-content: center;
+    padding: 0 45px;
+}
+.Hot-section {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 9px;
+}
+.hot {
+    text-decoration: none;
+    color: white;
+}
+.HOT-Topics {
+    display: grid;
+    grid-template-columns: auto;
+}
+.HOT-Topics2 {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.input-container {
+    position: relative;
+    width: 300px;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+.input-container input::placeholder {
+    color: transparent; /* Hide the default placeholder */
+}
+
+.placeholder-text {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #aaa;
+    transition: all 0.3s ease;
+    animation: fadeInOut 3s infinite ease-in-out;
+}
+
+.input-container input:focus + .placeholder-text,
+.input-container input:not(:placeholder-shown) + .placeholder-text {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-150%);
+}
+.instagram1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 10px;
+}
+.instagram1 img {
+    border-radius: 10px;
+}
+.World1 {
+    color: white;
+    font-size: x-large;
+}
+.World-section {
+    width: 300px;
+    display: grid;
+    grid-template-rows: auto;
+    gap: 15px;
+}
+.Must-section {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 15px;
+}
+.WORLD-heading1 {
+    color: white;
+}
+.img-section {
+    width: 300px;
+}
+.img-section img {
+    border-radius: 10px;
+}
+.small-footer {
+    display: grid;
+    grid-template-columns: auto auto;
+    color: white;
+    font-size: xx-small;
+}
+.description4 {
+    color: white;
+    font-size: x-small;
+}
+.News {
+    justify-self: baseline;
+}
+@media only screen and (max-width:770px) {
+    .First-line {
+        padding: 0px 30px;
+    }
+    .ADS-section {
+        display: none;
+    }
+    .Hero-section {
+        align-content: center;
+    }
+    .logo-section {
+        display: grid;
+        grid-template-columns: none;
+        place-content: normal;
+    }
+    .Navbar {
+        display: none;
+    }
+    .navbar {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+    .Contact-section {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 0px;
+        justify-content: center;
+    }
+    .Img-vector {
+        place-self: center;
+    }
+    .Header-Footor {
+        display: grid;
+        grid-template-columns: auto auto;
+        height: 780px;
+        align-content: baseline;
+        padding: 0 30px;
+    }
+    .News {
+        margin: 30px;
+    }
+    .Must-section {
+        margin: 30px;
+    }
+    .World-section {
+        margin: 30px;
+    }
+    .Hot-section {
+        margin: 30px;
+    }
+    .hot {
+        color: rgb(255, 255, 255,.3);
+    }
+}
