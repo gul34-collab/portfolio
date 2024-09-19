@@ -1,0 +1,270 @@
+body {
+    margin: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.First-line {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    padding: 0 90px;
+    background: purple;
+    height: 30px;
+    align-content: center;
+
+}
+.First-Box {
+    color: white;
+    font-size: small;
+}
+.Second-Box {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto;
+    color: white;
+    font-size: small;
+}
+.Webmega {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 10px;
+    align-items: baseline;
+}
+.Heading {
+    font-size: large;
+}
+.icon {
+    font-size: xx-large;
+    color: red;
+}
+.Mega {
+    font-size: x-large;
+}
+.ALL-section {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    gap: 20px;
+}
+.Webmega {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 10px;
+    align-items: baseline;
+}
+.logo-section {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    padding: 0 30px;
+    margin: 10px;
+}
+.Hero-section {
+    align-content: center;
+}
+.logo-section {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+.ADS-section {
+    margin: 10px;
+}
+.Navbar2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+.navbar {
+    font-size: small;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+}
+.Home {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 5px 0;
+    transition: color 0.3s ease;
+    font-size: small;
+    text-decoration: none;
+    color: black;
+}
+.Home:hover {
+    color: #ff4757;
+  }
+  
+  /* Underline Slide Animation */
+  .Home::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #ff4757;
+    transition: width 0.4s ease;
+  }
+  
+  .Home:hover::after {
+    width: 100%;
+  }
+.Contant {
+    margin: 30px;
+} 
+.Navbar {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto ;
+    gap: 20px;
+}
+.small-Articles {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: left;
+    gap: 15px;
+    font-size: small;
+}
+.icon-1 {
+font-weight: 100;
+    color: rgb(0, 0, 0, .8);
+}
+.Social-Media {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 10px;
+}
+.FOLLOW-PARTS {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    align-items: center;
+}
+.Follow {
+    width: 30px;
+    height: 30px;
+    background: rgb(24, 119, 242);
+    border-radius: 50%;
+    color: white;
+    align-content: center;
+    text-align: center;
+}
+.Follow2 {
+    width: 30px;
+    height: 30px;
+    background: rgb(29 161 242);
+    border-radius: 50%;
+    color: white;
+    align-content: center;
+    text-align: center;
+}
+.Follow3 {
+    width: 30px;
+    height: 30px;
+    background: red;
+    border-radius: 50%;
+    color: white;
+    align-content: center;
+    text-align: center;
+}
+.Blue {
+    width: 100px;
+    height: 20px;
+    background-color: blue;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+.Article-Heading {
+    font-size: x-large;
+    font-weight: bolder;
+}
+.description-Article {
+    margin: 20px;
+    background-color: rgb(0, 0, 0, .2);
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Head {
+    font-weight: bolder;
+    font-size: larger;
+}
+.Buy {
+    padding: 2px 5px;
+    background: blue;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    right: 40px
+}
+.ad-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    padding: 10px;
+    max-width: 900px;
+    margin: 20px auto;
+}
+.description-head {
+    font-weight: bolder;
+}
+.ad-text p {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.buy-now-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+    right: -100px;
+}
+
+.buy-now-button:hover {
+    background-color: #0056b3;
+}
+
+.ad-image img {
+    width: 120px;
+    height: auto;
+    
+}
+.Profile {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    gap: 10px;
+}
+.peo-img img {
+    height: 30px;
+    width: 32px;
+    border-radius: 50%;
+}
+.Viewofpost {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.view {
+    width: 120px;
+    text-align: center;
+    border: 1px solid rgb(0,0,0,.4);
+    border-radius: 10px;
+    font-size: small;
+}
+.Kent {
+    font-size: small;
+}
+.Name {
+    font-weight: bolder;
+}
