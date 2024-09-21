@@ -850,3 +850,83 @@ li:last-child {
         height: 250px;
     }
 }
+@media only screen and (max-width:420px) {
+    .Hero-Articles {
+        padding: 0px;
+    }
+    .Article-section-1 {
+        width: 300px;
+    }
+    .FOLLOW-PARTS {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10px;
+    }
+    .Social-Media1 {
+        justify-content: left;
+        gap: 10px;
+    }
+    .description {
+        width: auto;
+    }
+    .description-Article {
+        width: auto;
+    }
+    .img-section1 img {
+        height: 100px;
+        width: 100px;
+    }
+    .ad-container {
+        width: 120px;
+    }
+    .description-head {
+        font-size: xx-small;
+    }
+    .ad-container .Heading {
+        font-size: x-small;
+    } 
+    .ad-container .icon {
+        font-size: x-small;
+    }
+    .ad-container .Mega {
+        font-size: x-small;
+    }
+    .ad-image img {
+        width: 55px;
+    }
+    .Profile {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .Content-Recent {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .Content-Recent img {
+        width: 300px;
+        height: 200px;
+    }
+    .write-content-Recent {
+        width: 325px;
+    }
+    .input-group {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .RECENT-POSTS {
+        padding: 0 30px;
+    }
+    .img-Articles {
+        padding: 0 30px;
+    }
+    .Logo-Head {
+        padding: 0 30px;
+    }
+    .Article-section-1 {
+        padding: 0 30px;
+    }
+    .Article-section-2 {
+        padding: 0 30px;
+    }
+
+}
