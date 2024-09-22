@@ -19,9 +19,13 @@ body {
 .Second-Box {
     display: grid;
     gap: 20px;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
     color: white;
     font-size: small;
+}
+.Accounts {
+    color: white;
+    text-decoration: none;
 }
 .Webmega {
     display: grid;
