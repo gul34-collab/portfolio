@@ -667,7 +667,8 @@ body {
 .description-comment {
     font-weight: bolder;
     color: white;
-    width: 256px;
+    width: 206px;
+    font-size: small;
 }
 .Dates-comment {
     color: rgb(255, 255, 255,.6);
@@ -988,6 +989,15 @@ body {
     font-size: x-small;
     justify-content: left;
     gap: 20px;
+    color: black;
+}
+.small-footer2 {
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto;
+    font-size: x-small;
+    justify-content: left;
+    gap: 20px;
     color: rgb(255,255,255,.7);
 }
 .Must-section {
@@ -1081,9 +1091,12 @@ body {
 }
 @media only screen and (max-width:770px) {
     .First-Web-Line {
-        padding: 0 25px;
+        padding: 0 50px;
         grid-template-rows: 0px;
         height: 95px;
+    }
+    .Hero-Description{
+        width: 670px;
     }
     .tags {
         display: none;
@@ -1105,10 +1118,15 @@ body {
     .Hero-section {
         display: grid;
         grid-template-columns: auto;
-        padding: 0 25px;
+        padding: 0 38px;
+    }
+    .All {
+        width: 50px;
     }
     .Img-hero {
         height: 400px;
+        width: 670px;
+        border-radius: 10px;
     }
     .card {
         display: none;
@@ -1133,42 +1151,61 @@ body {
     .BUTTON {
         top: -8px;
         right: 45px;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        justify-content: center;
+        position: relative;
+        top: 35px;
     }
     .description3 {
         display: none;
     }
     .Header {
         display: grid;
+        position: relative;
+        top: -12px;
         grid: none;
     }
     .publish-img {
         width: 280px;
+        position: relative;
+        top: 23px;
     }
     .write-content {
         width: 260px;
+        top: -176px;
+    }
+    .icon4 {
+        top: -10px;
     }
     .Follow-part {
         top: 100px;
         right: 35px;
     }
     .Facebook {
-        width: 180px;
+        width: 270px;
     }
     .Insta {
-        width: 180px;
+        width: 270px;
     }
     .pinset {
-        width: 180px;
+        width: 270px;
     }
     .Twitter {
-        width: 180px;
+        width: 270px;
+    }
+    .Content-Recent {
+        align-content: center;
     }
     .Social-Media {
         display: grid;
         grid-template-columns: auto;
+        top: -21px;
+        right: -36px;
     }
     .small-card {
         margin: 0px;
+        right: -15px;
     }
     .img-card {
         width: 195px;
@@ -1203,14 +1240,41 @@ body {
         width: 200px;
     }
     .Mons {
-        height: 450px;
-        width: 320px;
+        height: 378px;
+        width: 290px;
+        border-radius: 10px;
+        position: relative;
+        right: -25px;
+    }
+    .Heading-href3 {
+        top: 221px;
+    }
+    .description-mons {
+        font-size: large;
+        width: 289px;
+    }
+    .img img {
+        height: 130px;
+        border-radius: 10px;
+    }
+    .Technology {
+        font-size: x-small;
+        width: 112px;
     }
     .icon-mons {
-        left: 280px;
+        left: 248px;
+    }
+    .mons-play {
+        top: 144px;
+        left: 130px;
+    }
+    .icon-4 {
+        top: -72px;
+        left: 56px;
     }
     .Video-section {
-        padding: 0px 35px;
+        padding: 0px 45px;
+        height: 520px;
     }
     .videos-section {
         gap: 0px;
@@ -1223,25 +1287,48 @@ body {
         display: none;
     }
     .img {
-        width: 180px;
+        width: 150px;
     }
     .Header-video {
         padding: 0px;
     }
     .Recent-post {
         grid-template-columns: auto;
+        height: 1670px;
+    }
+    .left-recent {
+        height: 580px;
+    }
+    .small-footer2 {
+        color: black;
+    }
+    .WORLD-heading {
+        width: 276px;
+    }
+    .RECENT_POSTS {
+        gap: 40px;
     }
     .Head-follow {
-        right: -26px;
+        right: -44px;
+        top: -142px;
+    }
+    .RECENT-POSTS {
+        gap: 40px;
     }
     .Recent {
         display: grid;
         grid-template-rows: auto;
         gap: 20px;
+        padding: 0 62px;
+        height: 1800px;
+    }
+    .Content-Recent img {
+        height: 210px;
+        border-radius: 10px;
     }
     .Header-Footor {
         grid-template-columns: auto auto;
-        height: 500px;
+        height: 610px;
     }
 }
 @media only screen and (max-width:420px) {
@@ -1256,8 +1343,26 @@ body {
     .section {
         display: none;
     }
+    .Hero-Description {
+        width: 390px;
+        border-radius: 10px;
+    }
+    .Img-hero {
+        width: 390px;
+    }
+    .card1 {
+        width: 120px;
+        border-radius: 10px;
+    }
+    .All {
+        font-size: x-small;
+        width: 27px;
+    }
     .Hero-section {
         padding: 0px;
+    }
+    .Header {
+        justify-content: center;
     }
     .Card-list {
         display: grid;
@@ -1270,12 +1375,15 @@ body {
     }
     .Weekly-popular {
         grid-template-columns: auto;
-        height: 1880px;
+        height: 2300px;
         padding: 0px 16px;
         align-content: baseline;
         display: grid;
         grid-template-rows: auto;
-        gap: 170px;
+    }
+    .img-card {
+        height: 380px;
+        width: 330px;
     }
     .publish-img {
         width: 380px;
@@ -1284,7 +1392,8 @@ body {
         width: 380px;
     }
     .BUTTON {
-        display: none;
+        top: -490px;
+        right: 21px;
     }
     .Cards-section {
         grid-template-columns: auto;
@@ -1293,23 +1402,70 @@ body {
         height: 800px;
         align-content: baseline;
     }
-    .Dates {
-        display: none;
-    }
+    
     .img-card img {
-        height: 200px;
-        width: 330px;
+        height: 310px;
+        width: 380px;
     }
     .img-card1 img {
-        height: 200px;
-        width: 330px;
+        height: 300px;
+        width: 380px;
+    }
+    .Follow-part {
+        top: 730px;
     }
     .Comments-section {
+        padding: 0px;
+    }
+    .Comment-card {
+        grid-template-columns: auto;
+    }
+    .Comment-Header {
+        justify-content: center;
+        gap: 25px;
+        align-items: end;
+    }
+    .Comment-cards {
+        width: 300px;
+    }
+    .Comment-cards2 {
+        display: none;
+    }
+    .Comment-cards3 {
+        display: none;
+    }
+    .Comment-cards4 {
         display: none;
     }
     .Video-section {
-        height: 1350px;
-        padding: 0px 6px;
+        height: 2000px;
+        padding: 0 32px;
+    }
+    .Heading-href3 {
+        top: 130px;
+    }
+    .description-mons {
+        width: 196px;
+        font-size: x-large;
+    }
+    .icon-mons {
+        left: 300px;
+    }
+    .icon-4 {
+        top: -163px;
+        left: 154px;
+    }
+    .Technology {
+        font-size: large;
+        width: 280px;
+    }
+    .Mons {
+        position: static;
+        height: 315px;
+        width: 347px;
+    }
+    .mons-play {
+        display: none;
     }
     .videos-section {
         grid-template-columns: auto;
@@ -1322,14 +1478,13 @@ body {
         grid-template-columns: auto;
     }
     .img img {
-        width: 400px;
-        height: 200px;
+        width: 347px;
+        height: 315px;
     } 
-    .Mons {
-        display: none;
-    }
+    
     .Recent {
         padding: 0px;
+        align-content: center;
     }
     .Content-Recent {
         grid-template-columns: auto;
@@ -1349,18 +1504,21 @@ body {
     .Recent-post {
         justify-content: center;
     }
-    .World2 {
-        color: white;
+    .Content-Recent img {
+        height: 240px;
+        width: 380px;
+    }
+    .Content-Recent {
+        gap: 20px;
+    }
+    .Head-Recent {
+        justify-self: center;
+    }
+    .Social-Media-Recent {
+        display: none;
     }
     .Header-Footor {
-        grid-template-columns: auto;
-        height: 900px;
-    }
-    .WORLD-heading1 {
-        color: white;
-    }
-    .April1 {
-        color: white;
+        display: none;
     }
 
 }
