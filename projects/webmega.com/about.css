@@ -57,7 +57,7 @@ body {
     display: grid;
     grid-template-columns: auto auto;
     justify-content: space-between;
-    padding: 0 60px;
+    padding: 0 90px;
 }
 .ADS-section {
     margin: 10px;
@@ -66,13 +66,20 @@ body {
     display: grid;
     grid-template-columns: auto auto;
     justify-content: space-between;
-    padding: 0 60px;
+    padding: 0 90px;
 }
 .navbar {
     font-size: small;
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    gap: 20px;
+    grid-template-columns: auto auto;
+    gap: 450px;
+    position: relative;
+    top: -45px;
+}
+.Article-section {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: auto;
 }
 .Home {
     text-decoration: none;
@@ -114,7 +121,7 @@ body {
     align-content: center;
     display: grid;
     grid-template-columns: auto auto auto;
-    padding: 0 25px;
+    padding: 0 55px;
 }
 .description2 {
     display: grid;
@@ -130,7 +137,7 @@ body {
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 400px;
+    max-width: 600px;
     width: 100%;
   }
   
@@ -145,7 +152,7 @@ body {
   }
   
   input {
-    width: 100%;
+
     padding: 10px 15px;
     font-size: 1rem;
     border: 2px solid #ddd;
@@ -162,10 +169,17 @@ body {
     color: #999;
     font-style: italic;
   }
-  
+  .Placeholder {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .input-group2 input {
+    height: 300px;
+    width: 400px;
+  }
   /* Submit Button Styling */
   button {
-    padding: 10px 15px;
+    padding: 10px 55px;
     font-size: 1rem;
     color: #fff;
     background-color: #ff4757;
@@ -181,7 +195,8 @@ body {
 .Contact-section {
     display: grid;
     grid-template-columns: auto auto;
-    padding: 0 40px;
+    padding: 50px 50px;
+    align-items: center;
     justify-content: space-between;
 }
 .img-section {
@@ -192,16 +207,15 @@ body {
 }
 .Header-Footor {
     display: grid;
-    grid-template-columns: 315px 315px 334px 200px;
+    grid-template-columns: auto auto auto auto ;
     background-color: rgb(12, 18, 37);
-    height: 300px;
+    height: 370px;
     align-content: center;
-    padding: 0 45px;
+    padding: 0 80px;
 }
 .Hot-section {
     display: grid;
     grid-template-columns: auto auto;
-    gap: 9px;
 }
 .hot {
     text-decoration: none;
@@ -220,7 +234,63 @@ body {
     position: relative;
     width: 300px;
 }
-
+.World1 {
+    color: white;
+    font-size: x-large;
+}
+.small-footer1 {
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto;
+    font-size: x-small;
+    justify-content: left;
+    gap: 20px;
+    color: black;
+}
+.small-footer2 {
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto;
+    font-size: x-small;
+    justify-content: left;
+    gap: 20px;
+    color: rgb(255,255,255,.7);
+}
+.Must-section {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 20px;
+}
+.World-section {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 20px;
+} 
+.World-sectiond img {
+    border-radius: 5px;
+}
+.img-section img {
+    border-radius: 5px;
+}
+.HOT-Topics {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 10px;
+}
+.HOT-Topics2 {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 10px;
+    position: relative;
+    top: 40px;
+}
+.description4 {
+    color: white;
+}
+.hot {
+    color: rgb(255,255,255,.8);
+    font-size: medium;
+}
 .input-container input {
     width: 100%;
     padding: 10px;
@@ -251,109 +321,54 @@ body {
     visibility: hidden;
     transform: translateY(-150%);
 }
+.WORLD-heading1 {
+    width: 150px;
+}
+@keyframes fadeInOut {
+    0%, 100% { opacity: 0; }
+    50% { opacity: 1; }
+}
 .instagram1 {
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: center;
     gap: 10px;
-}
-.instagram1 img {
-    border-radius: 10px;
-}
-.World1 {
-    color: white;
-    font-size: x-large;
-}
-.World-section {
-    width: 300px;
-    display: grid;
-    grid-template-rows: auto;
-    gap: 15px;
-}
-.Must-section {
-    display: grid;
-    grid-template-rows: auto;
-    gap: 15px;
-}
-.WORLD-heading1 {
-    color: white;
-}
-.img-section {
-    width: 300px;
-}
-.img-section img {
-    border-radius: 10px;
-}
-.small-footer {
-    display: grid;
-    grid-template-columns: auto auto;
-    color: white;
-    font-size: xx-small;
-}
-.description4 {
-    color: white;
-    font-size: x-small;
+    position: relative;
+    right: 38px;
 }
 .News {
-    justify-self: baseline;
+    display: grid;
+    grid-template-rows: auto;
+    gap: 10px;
 }
-@media only screen and (max-width:770px) {
-    .First-line {
-        padding: 0px 30px;
-    }
-    .ADS-section {
-        display: none;
-    }
-    .Hero-section {
-        align-content: center;
-    }
-    .logo-section {
-        display: grid;
-        grid-template-columns: none;
-        place-content: normal;
-    }
-    .Navbar {
-        display: none;
-    }
-    .navbar {
-        display: grid;
-        grid-template-columns: auto auto auto auto;
-    }
-    .Contact-section {
-        display: grid;
-        grid-template-columns: auto;
-        padding: 0px;
-        justify-content: center;
-    }
-    .Img-vector {
-        place-self: center;
-    }
-    .Header-Footor {
-        display: grid;
-        grid-template-columns: auto auto;
-        height: 780px;
-        align-content: baseline;
-        padding: 0 30px;
-    }
-    .News {
-        margin: 30px;
-    }
-    .Must-section {
-        margin: 30px;
-    }
-    .World-section {
-        margin: 30px;
-    }
-    .Hot-section {
-        margin: 30px;
-    }
-    .hot {
-        color: rgb(255, 255, 255,.3);
-    }
+.instagram1 img {
+    border-radius: 5px;
+    height: 52px;
 }
+.small-world {
+    display: grid;
+    grid-template-rows: auto auto;
+    align-content: center;
+    color: white;
+    width: 178px;
+}
+.WORLD-heading1 {
+    width: 150px;
+}
+.small-footer2 {
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto;
+    font-size: x-small;
+    justify-content: left;
+    gap: 20px;
+    color: rgb(255,255,255,.7);
+}
+
 @media only screen and (max-width:770px) { 
     .First-line {
-        display: none;
+        padding: 0 55px;
+     
     }
     .ADS-section {
         display: none;
@@ -362,15 +377,78 @@ body {
         padding: 0px;
         justify-content: center;
     }
-    .Article-section {
+    .logo-section {
         display: grid;
         grid-template-columns: auto;
-        height: 700px;
-        padding: 0px;
+        justify-content: center;
+    }
+    .Article-section {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        height: auto;
+    }
+    .Navbar {
+        display: none;
+    }
+    .Article-section {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        height: auto;
+        padding: 0px 30px;
+    }
+    .Contact-section {
+        display: grid;
+        grid-template-columns: auto;
     }
     .Header-Footor {
         display: grid;
+        grid-template-columns: auto auto;
+        height: 660px;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .First-line {
+        padding: 0 25px;
+    }
+    .Second-Box {
+        gap: 6px;
+    }
+    .Accounts {
+        font-size: xx-small;
+    }
+    .First-line {
+        font-size: xx-small;
+    }
+    .navbar {
+        gap: 250px;
+    }
+    .Article-section {
         grid-template-columns: auto;
-        height: 1100px;
+        padding: 0px;
+    }
+    .Contact-section {
+        padding: 0px;
+    }
+    .form-container {
+        padding: 0px 30px;
+        width: 325px;
+        margin: 13px;
+    }
+    .Header-Footor {
+        grid-template-columns: auto;
+        padding: 0 35px;
+        height: 1090px;
+    }
+    .Placeholder {
+        grid: none;
+    }
+    input {
+        padding: 0px;
+        width: 320px;
+        height: 40px;
+    }
+    .input-group2 input {
+        width: 320px;
+        height: 300px;
     }
 }
