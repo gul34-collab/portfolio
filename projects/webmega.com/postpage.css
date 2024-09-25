@@ -57,13 +57,6 @@ body {
     gap: 10px;
     align-items: baseline;
 }
-.logo-section {
-    display: grid;
-    grid-template-columns: auto auto;
-    justify-content: space-between;
-    padding: 0 30px;
-    margin: 10px;
-}
 .Hero-section {
     align-content: center;
 }
@@ -71,7 +64,7 @@ body {
     display: grid;
     grid-template-columns: auto auto;
     justify-content: space-between;
-    padding: 0 60px;
+    padding: 0 80px;
 }
 .ADS-section {
     margin: 10px;
@@ -80,7 +73,7 @@ body {
     display: grid;
     grid-template-columns: auto auto;
     justify-content: space-between;
-    padding: 0 60px;
+    padding: 0 80px;
 }
 .navbar {
     font-size: small;
@@ -190,6 +183,11 @@ font-weight: 100;
 .Article-Heading {
     font-size: x-large;
     font-weight: bolder;
+    width: 400px;
+}
+.img-Articles {
+    display: grid;
+    grid-template-columns: auto auto;
 }
 .description-Article {
     height: 90px;
@@ -261,13 +259,24 @@ font-weight: 100;
     gap: 10px;
 }
 .peo-img img {
-    height: 30px;
-    width: 32px;
+    height: 60px;
+    width: 62px;
     border-radius: 50%;
 }
 .Viewofpost {
     display: grid;
     grid-template-columns: auto auto;
+    justify-content: left;
+    gap: 30px;
+}
+.Media-1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+}
+.Recent-post {
+    font-size: xx-large;
+    font-weight: bolder;
 }
 .view {
     width: 120px;
@@ -275,12 +284,23 @@ font-weight: 100;
     border: 1px solid rgb(0,0,0,.4);
     border-radius: 10px;
     font-size: small;
+    align-content: center;
 }
 .Kent {
+    font-size: x-small;
+    font-weight: 500;
+}
+.description1 {
     font-size: small;
+    font-weight: lighter;
+
 }
 .Name {
     font-weight: bolder;
+    font-size: large;
+    display: grid;
+    grid-template-rows: auto;
+    gap: 10px;
 }
 .Recent {
     padding: 0 45px;
@@ -367,7 +387,6 @@ font-weight: 100;
 
 .comments-section {
     max-width: 800px;
-    margin: auto;
     background: #fff;
     padding: 20px;
     border-radius: 10px;
@@ -468,12 +487,18 @@ button:hover {
     background-color: #ff3b4a;
 }
 
+.Follow-part2 {
+    height: 175px;
+    align-content: center;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+}
 .profile-card {
     background-color: #eef7fb;
     border-radius: 10px;
     width: 300px;
     padding: 20px;
-    text-align: center;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 .profile-card img {
@@ -511,7 +536,7 @@ button:hover {
 .Hero-Articles {
     display: grid;
     grid-template-columns: auto auto;
-    padding: 0 56px;
+    padding: 0 80px;
 }
 .Follow-part {
     display: grid;
@@ -524,7 +549,7 @@ button:hover {
     display: grid;
     grid-template-columns: auto auto;
     gap: 10px;
-    justify-content: center;
+    justify-content: left;
 }
 .Facebook {
     width: 150px;
@@ -597,7 +622,6 @@ button:hover {
 }
 .categories {
     max-width: 300px;
-    margin: 20px auto;
 }
 h2 {
     font-size: 24px;
@@ -669,7 +693,7 @@ li:last-child {
     width: 800px;
 }
 .description {
-    width: 700px;
+    width: 500px;
 }
 .card1 {
     display: grid;
@@ -678,11 +702,11 @@ li:last-child {
 }
 .Header-Footor {
     display: grid;
-    grid-template-columns: 315px 315px 334px 200px;
+    grid-template-columns: auto auto auto auto;
     background-color: rgb(12, 18, 37);
     height: 300px;
     align-content: center;
-    padding: 0 45px;
+    padding: 0 80px;
 }
 .Hot-section {
     display: grid;
