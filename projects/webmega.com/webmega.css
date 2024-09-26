@@ -690,7 +690,7 @@ body {
     display: grid;
     grid-template-rows: auto;
     gap: 20px;
-}
+} 
 .Header-video {
     display: grid;
     grid-template-columns: auto auto;
