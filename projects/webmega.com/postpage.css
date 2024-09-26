@@ -951,10 +951,13 @@ li:last-child {
         padding: 0 30px;
     }
     .Article-section-1 {
-        padding: 0 30px;
+        padding: 0 5px;
     }
     .Article-section-2 {
         padding: 0 30px;
+    }
+    .Article-Heading {
+        width: 300px;
     }
 
 }

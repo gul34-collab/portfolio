@@ -237,6 +237,14 @@ body {
     justify-content: left;
     gap: 80px;
 }
+.small-footer3 {
+    color: black;
+    display: grid;
+    grid-template-columns: auto auto;
+    font-size: x-small;
+    justify-content: left;
+    gap: 30px;
+}
 .description-1 {
     width: 140px;
 }
@@ -466,12 +474,12 @@ body {
 .Cards-section {
     display: grid;
     grid-template-columns: auto auto;
-    top: -9px;
+    top: 22px;
     right: 40px;
     position: relative;
 }
 .img-card {
-    height: 140px;
+    height: 200px;
     width: 235px;
 }
 .img-card1 img {
@@ -486,7 +494,7 @@ body {
     display: grid;
     grid-template-rows: auto;
     position: relative;
-    top: -68px;
+    top: -156px;
     right: -2px;
     align-content: center;
 }
@@ -534,8 +542,8 @@ body {
     font-size: large;
     font-weight: 800;
     position: relative;
-    top: -28px;
-    right: -42px;
+    top: -24px;
+    right: 0px;
 }
 .Comments-section {
     padding: 0 100px;
