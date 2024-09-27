@@ -1412,6 +1412,12 @@ body {
     .Head-Week {
         width: 380px;
     }
+    .Social-Media1 {
+        display: grid;
+        grid-template-columns: auto ;
+        gap: 5px;
+        
+    } 
     .BUTTON {
         top: -490px;
         right: 21px;
