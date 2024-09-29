@@ -1397,6 +1397,12 @@ body {
     .section {
         display: none;
     }
+    .Hero {
+        height: 820px;
+    }
+    .small-head {
+        width: 275px;
+    }
     .Hero-Description {
         width: 390px;
         border-radius: 10px;
@@ -1452,6 +1458,8 @@ body {
         display: grid;
         grid-template-columns: auto ;
         gap: 5px;
+        position: relative;
+        top: 55px;
         
     } 
     .BUTTON {
