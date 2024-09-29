@@ -724,6 +724,7 @@ body {
    z-index: -1;
    top: -37px;
    width: 310px;
+   opacity: 0.3;
 }
 .World1 span {
     position: absolute;
@@ -1554,6 +1555,7 @@ body {
         display: grid;
         grid-template-rows: auto;
         gap: 20px;
+        justify-self: left;
     }
     .small-videos {
         grid-template-columns: auto;
@@ -1562,7 +1564,10 @@ body {
         width: 347px;
         height: 315px;
     } 
-    
+    .Header-video {
+        justify-content: left;
+        gap: 100px;
+    }
     .Recent {
         padding: 0px;
         align-content: center;
