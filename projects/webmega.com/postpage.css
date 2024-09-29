@@ -63,8 +63,9 @@ body {
 .logo-section {
     display: grid;
     grid-template-columns: auto auto;
-    justify-content: space-between;
+    justify-content: center;
     padding: 0 80px;
+    gap: 607px;
 }
 .ADS-section {
     margin: 10px;
@@ -72,8 +73,9 @@ body {
 .Navbar2 {
     display: grid;
     grid-template-columns: auto auto;
-    justify-content: space-between;
+    justify-content: center;
     padding: 0 80px;
+    gap: 472px;
 }
 .navbar {
     font-size: small;
@@ -497,7 +499,7 @@ button:hover {
 .profile-card {
     background-color: #eef7fb;
     border-radius: 10px;
-    width: 300px;
+    width: 268px;
     padding: 20px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -537,6 +539,7 @@ button:hover {
     display: grid;
     grid-template-columns: auto auto;
     padding: 0 80px;
+    justify-content: center;
 }
 .Follow-part {
     display: grid;
@@ -603,9 +606,11 @@ button:hover {
     display: grid;
     grid-template-columns: auto auto; 
     gap: 10px;
+    justify-content: left;
 }
 .small-head {
-    font-size: medium;
+    font-size: small;
+    width: 122px;
     font-weight: bolder;
 }
 .Likes {
@@ -707,6 +712,7 @@ li:last-child {
     height: 300px;
     align-content: center;
     padding: 0 80px;
+    justify-content: center;
 }
 .Hot-section {
     display: grid;
@@ -823,12 +829,19 @@ li:last-child {
         display: grid;
         grid-template-columns: auto;
     }
+    .ADS-section {
+        display: none;
+    }
+    .Navbar {
+        display: none;
+    }
     .Header-Footor {
         display: grid;
         grid-template-columns: auto;
     }
     .logo-section {
         padding: 0px 10px;
+        grid-template-columns: auto;
     }
     .Navbar2 {
         padding: 0 20px;

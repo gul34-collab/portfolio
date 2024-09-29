@@ -560,7 +560,8 @@ body {
     display: grid;
     align-items: center;
     grid-template-columns: auto auto;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 1022px;
 }
 .Most {
     margin-top: 43px;
@@ -568,11 +569,12 @@ body {
     font-size: x-large;
     top: -7px;
     font-weight: bold;
+    right: -42px;
     position: relative;
 }
 .Most span {
     position: absolute;
-    left: 50px;
+    left: 0px;
     color: thistle;
     font-size: 80px;
     z-index: -1;
@@ -701,9 +703,10 @@ body {
 .Header-video {
     display: grid;
     grid-template-columns: auto auto;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 0 35px;
+    gap: 750px;
 }
 .Motion {
     margin-top: 43px;
@@ -724,7 +727,7 @@ body {
 }
 .World1 span {
     position: absolute;
-    left: 67px;
+    text-align-last: left;
     color: darkblue;
     font-size: 62px;
     z-index: -1;
@@ -738,7 +741,6 @@ body {
  }
  .World2 span {
  position: absolute;
- left: 332px;
  color: darkblue;
  font-size: 62px;
  z-index: -1;
@@ -749,6 +751,7 @@ body {
     display: grid;
     grid-template-columns: 560px 525px;
     justify-items: center;
+    justify-self: center;
 }
 .img {
     width: 200px;
@@ -809,6 +812,7 @@ body {
 .Recent {
     padding: 0 125px;
     height: 730px;
+
 }
 .Head-Recent {
     margin-top: 43px;
@@ -817,10 +821,12 @@ body {
     top: -7px;
     font-weight: bold;
     position: relative;
+    text-align-last: center;
+    right: 483px;
 }
 .Head-Recent span {
     position: absolute;
-    left: -30px;
+
     color: thistle;
     font-size: 62px;
     z-index: -1;
@@ -830,6 +836,7 @@ body {
 .Recent-post {
     display: grid;
     grid-template-columns: 774px 325px;
+    justify-content: center;
 }
 .RECENT-POSTS {
     display: grid;
@@ -838,7 +845,7 @@ body {
 }
 .Content-Recent {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 317px auto;
 }
 .Fashion {
     width: 110px;
@@ -1009,6 +1016,8 @@ body {
     padding: 0 100px;
     position: relative;
     z-index: -1;
+    justify-content: center;
+    gap: 30px;
 }
 .Hot-section {
     display: grid;
