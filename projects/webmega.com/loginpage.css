@@ -172,7 +172,32 @@ h2 {
     margin-bottom: 50px;
     font-size: 24px;
 }
-
+.Or {
+    align-content: center;
+    text-align: center;
+}
+.button {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    font-size: 16px;
+}
+.forgot-password {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+.forgot-password:hover {
+    text-decoration: underline;
+}
+input[type="checkbox"] {
+    margin-right: 8px;
+}
 .input-container2 {
     position: relative;
     margin-bottom: 30px;

@@ -1400,6 +1400,7 @@ body {
     .Hero-Description {
         width: 390px;
         border-radius: 10px;
+        height: 403px;
     }
     .Img-hero {
         width: 390px;
@@ -1459,6 +1460,7 @@ body {
     }
     .Cards-section {
         grid-template-columns: auto;
+        gap: 25px;
     }
     .small-card {
         height: 800px;
