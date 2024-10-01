@@ -3,6 +3,7 @@ body {
     padding: 0;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+/* Hero-section start here */
 .Hero-section {
     margin: 30px;
 }
@@ -121,7 +122,7 @@ body {
     font-weight: bolder;
 }
 .price {
-    font-size: 230px;
+    font-size: 210px;
     line-height: 1;
 }
 .price .cents {
@@ -144,7 +145,138 @@ body {
 .mobile-menu-icon {
     display: none;
 }
+/* Hero-section end here */
+/* Plainig-section start here */
+.Plan-head {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 10px;
+}
+.Planing-section {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 40px;
+    height: 550px;
+    align-content: center;
+}
+.Description-Plan {
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+}
+.Description-plan {
+    font-size: small;
+    font-weight: 600;
+    color: rgb(0,0,0,.8);
+    padding: 0 380px;
+}
+.Purchase-card {
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    justify-content: center;
+    gap: 20px;
+}
+.window1 {
+    text-align: center;
+    background-color: rgb(249, 250, 252);
+    width: 250px;
+    height: 100px;
+    align-content: center;
+    border-radius: 10px;
+}
+.window2 {
+    text-align: center;
+    background-color: blue;
+    width: 250px;
+    height: 100px;
+    align-content: center;
+    border-radius: 10px;
+}
+.window2 .Head-wind  {
+    color: white;
+}
+.window2 .Num {
+    color: white;
+}
+.window2 .Month {
+    color: white;
+}
+
+.Purchase:hover { 
+    background-color: white;
+    transition: 0.4s;
+}
+.purchase:hover {
+    color: red;
+}
+.Purchase2:hover {
+    background: blue;
+}
+.Purchase2 {
+    width: 120px;
+    transition: 0.4s;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    align-content: center;
+    font-weight: bolder;
+    background: rgb(246, 122, 60);
+}
+.Head-wind {
+    font-weight: 600;
+    color: rgb(119, 120, 121);
+}
+.Num {
+    font-size: xx-large;
+    font-weight: bolder;
+    color: blue;
+}
+.Num span {
+    font-size: medium;
+    vertical-align: super;
+}
+.Month {
+    font-weight: 600;
+    color: rgb(119, 120, 121);
+} 
+.Windows-vps-1 {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+    width: 250px;
+    height: 350px;
+    justify-items: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.Properties {
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+    gap: 10px;
+}
+.Dp span{
+    font-weight: bolder;
+}
+.Purchase-card {
+    text-align: -webkit-center;
+    padding: 0 100px;
+}
+.Purchase {
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    align-content: center;
+    font-weight: bolder;
+    background: blue;
+}
+.purchase {
+    text-decoration: none;
+    color: white;
+}
+/* Plainig-section end here */
 @media only screen and (max-width:770px) {
+    /*Hero-section start here */
     .Navbar {
         gap: 160px;
     }
@@ -186,8 +318,21 @@ body {
         height: 300px;
         gap: 0;
     }
+    /*Hero-section end here */
+     /*Plaining-section start here */
+     .Planing-section {
+        height: 1000px;
+    }
+    .Description-plan {
+        padding: 0 100px;
+    }
+    .Purchase-card {
+        grid-template-columns: auto auto;
+    }
+     /*Plaining-section end here */
 }
 @media only screen and (max-width:420px) {
+    /*Hero-section start here */
     .Hero-section {
         margin: 17px;
     }
@@ -231,4 +376,17 @@ body {
         top: -2px;
         right: 21px;
     }
+    /*Hero-section end here */
+     /*Plaining-section start here */
+     .Planing-section {
+        height: 1800px;
+    }
+    .Description-plan {
+        padding: 0 100px;
+    }
+    .Purchase-card {
+        grid-template-columns: auto;
+        padding: 0px;
+    }
+     /*Plaining-section end here */
 }
