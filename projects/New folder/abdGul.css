@@ -1,0 +1,234 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Hero-section {
+    margin: 30px;
+}
+.Nav-section {
+    background: rgb(4, 67, 182);
+    height: 450px;
+    display: grid;
+    grid-template-rows: auto;
+    gap: 20px;
+}
+.Navbar {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: 560px;
+    height: 30px;
+}
+.Href {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    gap: 50px;
+}
+.Logo-Name {
+    color: white;
+    letter-spacing: 1px;
+    font-style: oblique;
+}
+.home {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 5px 0;
+    transition: color 0.3s ease;
+    font-size: small;
+    text-decoration: none;
+    color: white;
+}.home:hover {
+    color: #ff4757;
+} 
+  /* Underline Slide Animation */
+.home::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: white;
+    transition: width 0.4s ease;
+}
+.home:hover::after {
+    width: 100%;
+}
+.Href-nav {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 20px;
+}
+.Profile-nav {
+    width: 120px;
+    align-content: center;
+    text-align: center;
+    border-radius: 50px;
+    height: 40px;
+    background-color: rgb(246, 122, 60);
+    transition: 0.4s;  
+}
+.Home {
+    color: white;
+    font-size: small;
+    text-decoration: none;  
+}
+.Profile-nav:hover {
+    background: white;
+}
+.Home:hover {
+    color: blue;
+    cursor: pointer;
+}
+.Hero-Part {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 0 31px;
+    justify-content: center;
+    gap: 492px;
+}
+.Description-Part {
+    display: grid;
+    grid-template-rows: auto;
+    width: 390px;
+}
+.Big-Heading {
+    font-size: xx-large;
+    color: white;
+    font-weight: bolder;
+}
+.Small-Heading {
+    color: white;
+}
+.Get {
+    background: rgb(246, 122, 60);
+    border-radius: 5px;
+    width: 120px;
+    text-align: center;
+    align-content: center;
+    height: 45px;
+}
+.get {
+    color: white;
+    text-decoration: none;
+}
+.Numeric-Part {
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+.price {
+    font-size: 230px;
+    line-height: 1;
+}
+.price .cents {
+    font-size: 50px;
+}
+.price-info {
+    font-size: 12px;
+    font-weight: 100;
+}
+.currency {
+    font-size: 30px;
+    vertical-align: top;
+}
+.monthly {
+    font-size: 20px;
+    top: -5px;
+    position: relative;
+    right: 40px;
+}
+.mobile-menu-icon {
+    display: none;
+}
+@media only screen and (max-width:770px) {
+    .Navbar {
+        gap: 160px;
+    }
+    .Hero-Part {
+        gap: 0;
+        justify-content: space-between;
+    }
+    .Logo-Name {
+        font-size: small;
+    }
+    .home {
+        font-size: x-small;
+    }
+    .Home {
+        font-size: x-small;
+    }
+    .Profile-nav {
+        width: 100px;
+        height: 35px;
+    }
+    .Href {
+        gap: 16px;
+    }
+    .price {
+        font-size: 116px;
+    }
+    .Big-Heading {
+        font-size: x-large;
+    }
+    .Navbar {
+        height: 60px;
+    }
+    .Description-Part {
+        width: 340px;
+        margin-block-end: auto;
+        gap: 10px;
+    }
+    .Nav-section {
+        height: 300px;
+        gap: 0;
+    }
+}
+@media only screen and (max-width:420px) {
+    .Hero-section {
+        margin: 17px;
+    }
+    .Href-nav {
+        display: none;
+    }
+    .Profile-nav {
+        display: none;
+    }
+    .Hero-section {
+        padding-right: 30px;
+    }
+    .Navbar {
+        gap: 116px;
+    }
+    .Nav-section {
+        height: 500px;
+        width: 296px;
+    }
+    .Big-Heading {
+        font-size: medium;
+    }
+    .Small-Heading {
+        font-size: small;
+    }
+    .Hero-Part {
+        grid-template-columns: auto;
+        padding: 0 15px;
+    }
+    .mobile-menu-icon {
+        color: white;
+        display: block;
+    }
+    .price {
+        font-size: 90px;
+    }
+    .Description-Part {
+        width: 246px;
+    }
+    .monthly {
+        top: -2px;
+        right: 21px;
+    }
+}
