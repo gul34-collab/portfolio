@@ -298,6 +298,7 @@ body {
     grid-template-columns: auto auto;
     margin: 30px;
     justify-content: center;
+    background-color: rgb(249, 246, 241);
 }
 .Paragraph {
     background: rgb(249, 246, 241);
@@ -307,6 +308,7 @@ body {
     grid-template-rows: auto;
     gap: 18px;
     height: 400px;
+    margin: 30px;
 }
 .Head-Art {
     font-size: xx-large;
@@ -329,6 +331,9 @@ body {
 }
 .Intro-Head .Head {
     font-weight: bolder;
+}
+.Article-img {
+    margin: 30px;
 }
 .Article-img img {
     height: 400px;
@@ -396,7 +401,7 @@ body {
         flex-direction: column-reverse;
     }
     .Article-img img {
-        width: 708px;
+        width: 640px;
         height: 408px;
     }
      /*Article-section end here */
