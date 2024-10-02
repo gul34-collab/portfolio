@@ -340,6 +340,55 @@ body {
     width: 500px;
 }
 /*Article-section start here */
+/*Blue-part-container start here */
+.Blue-Part-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 30px;
+    align-items: center;
+    background: rgb(71, 46, 195);
+    justify-content: center;
+    gap: 190px;
+}
+.blue-1 {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 20px;
+}
+.blue-1 .Head  {
+    font-size: xx-large;
+    font-weight: bolder;
+    width: 510px;
+    color: white;
+}
+.blue-1 .description {
+    width: 561px;
+    color: white;
+    font-size: small;
+}
+.icons {
+    color: rgb(27, 149, 238);
+    text-decoration: none;
+}
+.icon {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    color: rgb(246, 122, 60);
+    align-items: end;
+    font-size: small;
+}
+.icon-section {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    gap: 20px;
+}
+.blue-img img {
+    height: 300px;
+
+}
+/*Blue-part-container end here */
 @media only screen and (max-width:770px) {
     /*Hero-section start here */
     .Navbar {
@@ -404,7 +453,26 @@ body {
         width: 640px;
         height: 408px;
     }
-     /*Article-section end here */
+    /*Article-section end here */
+    /*Blue-part-container start here */
+
+    .Blue-Part-container {
+        justify-content: left;
+        grid-template-columns: auto;
+        height: 155px;
+    }
+    .blue-img {
+        display: none;
+    }
+    .blue-1 .Head {
+        width: auto;
+        font-size: large;
+    }
+    .blue-1 {
+        padding: 0 30px;
+    }
+
+    /*Blue-part-container end here */
 }
 @media only screen and (max-width:420px) {
     /*Hero-section start here */
@@ -487,4 +555,18 @@ body {
         font-size: x-large;
     }
      /*Article-section end here */
+    /*Blue-part-container start here */
+    .Blue-Part-container {
+        height: 180px;
+    }
+    .blue-1 {
+        padding: 0 30px;
+    }
+    .blue-1 .Head {
+         width: 252px;
+    }
+    .blue-1 .description {
+         width: 318px;
+    }
+    /*Blue-part-container end here */
 }
