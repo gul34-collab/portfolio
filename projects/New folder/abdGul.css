@@ -274,7 +274,67 @@ body {
     text-decoration: none;
     color: white;
 }
-/* Plainig-section end here */
+/*Plaining-section end here */
+/* Link-Description start here */
+.Link-description {
+    align-content: center;
+    text-align: center;
+    height: 130px;
+}
+.call {
+    color: blue;
+    text-decoration: none;
+}
+.Head-Description {
+    font-weight: 600;
+}
+.E-mail {
+    font-size: small;
+}
+/*Link-Description end here */
+/*Article-section start here */
+.Article-section {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 30px;
+    justify-content: center;
+}
+.Paragraph {
+    background: rgb(249, 246, 241);
+    align-content: center;
+    padding: 0 65px;
+    display: grid;
+    grid-template-rows: auto;
+    gap: 18px;
+    height: 400px;
+}
+.Head-Art {
+    font-size: xx-large;
+    color: rgb(0,0,0,.8);
+    font-weight: bolder;
+}
+.description {
+    color: rgb(0,0,0,.8);
+}
+.Properties-Intro {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.Point-list {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+    color: rgb(0,0,0,.8);
+    font-size: small;
+}
+.Intro-Head .Head {
+    font-weight: bolder;
+}
+.Article-img img {
+    height: 400px;
+    width: 500px;
+}
+/*Article-section start here */
 @media only screen and (max-width:770px) {
     /*Hero-section start here */
     .Navbar {
@@ -330,6 +390,16 @@ body {
         grid-template-columns: auto auto;
     }
      /*Plaining-section end here */
+     /*Article-section start here */
+     .Article-section {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .Article-img img {
+        width: 708px;
+        height: 408px;
+    }
+     /*Article-section end here */
 }
 @media only screen and (max-width:420px) {
     /*Hero-section start here */
@@ -380,13 +450,36 @@ body {
      /*Plaining-section start here */
      .Planing-section {
         height: 1800px;
+        padding-right: 88px;
     }
     .Description-plan {
-        padding: 0 100px;
+        padding: 0 38x;
     }
     .Purchase-card {
         grid-template-columns: auto;
         padding: 0px;
     }
-     /*Plaining-section end here */
+    /*Plaining-section end here */
+    /*Link-Description is start here */     
+     .E-mail {
+        padding: 0 25px;
+    }
+     /*Link-Description is end here */  
+     /*Article-section start here */
+    .Article-section {
+        
+        padding-right: 88px;
+    }
+    .Article-img img {
+        height: 200px;
+        width: 262px;
+    } 
+    .Paragraph {
+        height: 550px;
+        padding: 0px;
+    }
+    .Head-Art {
+        font-size: x-large;
+    }
+     /*Article-section end here */
 }
