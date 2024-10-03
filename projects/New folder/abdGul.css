@@ -4,15 +4,11 @@ body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 /* Hero-section start here */
-.Hero-section {
-    margin: 30px;
-}
 .Nav-section {
     background: rgb(4, 67, 182);
-    height: 450px;
+    height: 350px;
     display: grid;
     grid-template-rows: auto;
-    gap: 20px;
 }
 .Navbar {
     display: grid;
@@ -88,7 +84,7 @@ body {
     grid-template-columns: auto auto;
     padding: 0 31px;
     justify-content: center;
-    gap: 492px;
+    gap: 510px;
 }
 .Description-Part {
     display: grid;
@@ -179,7 +175,7 @@ body {
 .window1 {
     text-align: center;
     background-color: rgb(249, 250, 252);
-    width: 250px;
+    width: 280px;
     height: 100px;
     align-content: center;
     border-radius: 10px;
@@ -187,7 +183,7 @@ body {
 .window2 {
     text-align: center;
     background-color: blue;
-    width: 250px;
+    width: 280px;
     height: 100px;
     align-content: center;
     border-radius: 10px;
@@ -243,7 +239,7 @@ body {
     display: grid;
     grid-template-columns: auto;
     gap: 10px;
-    width: 250px;
+    width: 280px;
     height: 350px;
     justify-items: center;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
@@ -259,7 +255,7 @@ body {
 }
 .Purchase-card {
     text-align: -webkit-center;
-    padding: 0 100px;
+    padding: 0 36px;
 }
 .Purchase {
     width: 120px;
@@ -296,7 +292,6 @@ body {
 .Article-section {
     display: grid;
     grid-template-columns: auto auto;
-    margin: 30px;
     justify-content: center;
     background-color: rgb(249, 246, 241);
 }
@@ -308,7 +303,6 @@ body {
     grid-template-rows: auto;
     gap: 18px;
     height: 400px;
-    margin: 30px;
 }
 .Head-Art {
     font-size: xx-large;
@@ -351,11 +345,10 @@ body {
 .Blue-Part-container {
     display: grid;
     grid-template-columns: auto auto;
-    margin: 30px;
     align-items: center;
     background: rgb(71, 46, 195);
     justify-content: center;
-    gap: 190px;
+    gap: 280px;
 }
 .blue-1 {
     display: grid;
@@ -525,22 +518,23 @@ body {
     display: grid;
     grid-template-rows: auto;
     gap: 10px;
-    padding: 0 45px;
+
 }
 .Href-footer {
     display: grid;
     grid-template-columns: auto auto auto auto;
 }
 .Logo-Part .Logo-Name {
-    color: rgb(202, 215, 237);
+    color: white;
 }
 .Resource {
-    color: rgb(202, 215, 237);
+    color: white;
     font-size: larger;
     font-weight: bold;
 }
 .Hel {
     text-decoration: none;
+    font-size: small;
     color: white;
     opacity: 0.8;
 }
@@ -684,6 +678,35 @@ body {
     }
     /*Footer-section end here */
 }
+@media only screen and (max-width:1030px) {
+    .Hero-Part {
+        justify-content: space-between;
+        gap: 0px;
+    }
+    .Navbar {
+        justify-content: space-between;
+        padding: 0 34px;
+        gap: 0px;
+    }
+    .Purchase-card {
+        grid-template-columns: auto auto;
+    }
+    .Planing-section {
+        height: auto;
+        height: 900px;
+    }
+    .Blue-Part-container {
+        grid-template-columns: auto;
+        gap: 0px;
+    }
+    .Card3 {
+        display: none;
+    }
+    .Footer-section {
+        grid-template-columns: auto;
+        justify-content: normal;
+    }
+}
 @media only screen and (max-width:420px) {
     /*Hero-section start here */
     .Hero-section {
@@ -817,4 +840,54 @@ body {
         margin: 10px;
     }
     /*Footer-section end here */
+}
+@media only screen and (max-width:340px) {
+    .Navbar {
+        gap: 0px;
+        padding: 0 16px;
+    }
+    .Numeric-Part {
+        justify-self: flex-end;
+    }
+    .price {
+        font-size: 68px;
+    }
+    .Big-Heading {
+        width: 280px;
+        font-size: large;
+    }
+    .window1 {
+        width: 280px;
+    }
+    .window2 {
+        width: 280px;
+    }
+    .Windows-vps-1 {
+        width: 280px;
+    }
+    .Article-img img {
+        width: 290px;
+    }
+    .Blue-Part-container {
+        height: 280px;
+    }
+    .blue-1 .description {
+        width: 280px;
+    }
+    .blue-1 .Head {
+        width: 280px;
+    }
+    .Card-section {
+        justify-content: normal;
+    }
+    .Card1 .Head {
+        width: 280px;
+    }
+    .Card1 .description {
+        width: 280px;
+    }
+    .Card2 {
+        margin: 0px;
+        width: 248px;
+    }
 }
