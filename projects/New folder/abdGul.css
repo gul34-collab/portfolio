@@ -685,7 +685,7 @@ body {
     }
     .Navbar {
         justify-content: space-between;
-        padding: 0 34px;
+        padding: 0 13px;
         gap: 0px;
     }
     .Purchase-card {
