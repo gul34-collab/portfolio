@@ -707,7 +707,7 @@ body {
         justify-content: normal;
     }
 }
-@media only screen and (max-width:420px) {
+@media only screen and (max-width:430px) {
     /*Hero-section start here */
     .Hero-section {
         margin: 0px
@@ -824,6 +824,9 @@ body {
         padding: 0 5px;
     }
     .Card-section {
+        grid-template-columns: auto;
+    }
+    .Purchase-card {
         grid-template-columns: auto;
     }
     /*Blue-part-container end here */
