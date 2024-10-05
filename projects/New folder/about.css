@@ -269,9 +269,23 @@ body {
     grid-template-rows: auto;
     gap: 20px;
     width: 300px;
-    background: white;
     border-radius: 10px;
     margin: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+.Card2:hover {
+    transform: scale(1.05);
+    background-color: blue;
+    color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.Card2:hover p {
+    color: #f4f4f9;
 }
 .Card3 {
     display: grid;
@@ -281,6 +295,21 @@ body {
     width: 300px;
     border-radius: 10px;
     margin: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+.Card3:hover {
+    transform: scale(1.05);
+    background-color: blue;
+    color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.Card3:hover p {
+    color: #f4f4f9;
 }
 .Card2 .Head {
     font-weight: bolder;
