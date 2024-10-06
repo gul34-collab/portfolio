@@ -889,6 +889,9 @@ body {
     /*Footer-section end here */
 }
 @media only screen and (max-width:340px) {
+    .Nav-section {
+        height: 350px;
+    }
     .Navbar {
         gap: 0px;
         padding: 0 16px;
@@ -898,6 +901,16 @@ body {
     }
     .price {
         font-size: 68px;
+    }
+    .Planing-section {
+        height: 1700px;
+        align-content: center;
+    }
+    .Plan-head {
+        font-size: medium;
+    }
+    .Purchase-card {
+        height: auto;
     }
     .Big-Heading {
         width: 280px;

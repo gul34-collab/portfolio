@@ -551,7 +551,7 @@ body {
     }
      /*Content-section2 start here*/
      .Content2 {
-        gap: 60px;
+        gap: 36px;
      }
     /*Content-section2 end here*/
     .Card2 {
@@ -591,6 +591,13 @@ body {
     }
     .img img {
         height: 200px;
+    }
+    .point p {
+        font-size: x-small;
+        width: 115px;
+    } 
+    .url {
+        gap: 88px;
     }
     /*Map-section start here*/
     .Map {
@@ -648,8 +655,14 @@ body {
     .Card3 {
         display: none;
     }
+    .Card2 {
+        display: grid;
+        grid-template-rows: auto;
+        gap: 20px;
+    }
     .Card-section {
         height: auto;
+        height: 458px;
     }
     .Commands {
         grid-template-columns: auto;
@@ -657,6 +670,7 @@ body {
     /*Footer-section start here */
     .Footer-section {
         margin: 0px;
+        padding: 0 16px;
     }
     .Logo-Part {
         width: auto;
@@ -672,7 +686,7 @@ body {
 }
 @media only screen and (max-width:380px) {
     .url {
-        gap: 100px;
+        gap: 50px;
     }
     /*Content-section start here*/
     .Content-Article {
@@ -692,7 +706,7 @@ body {
 }
 @media only screen and (max-width:330px) {
     .url {
-        gap: 50px;
+        gap: 25px;
     }
     .img-Map img {
         height: 150px;
