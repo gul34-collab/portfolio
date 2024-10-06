@@ -763,7 +763,7 @@ body {
         display: none;
     }
     .Navbar {
-        gap: 226px;
+        gap: 191px;
     }
     .Nav-section {
         height: 440px;
@@ -771,7 +771,7 @@ body {
     }
     .Big-Heading {
         font-size: x-large;
-        width: 378px;
+        width: 317px;
     }
     .Small-Heading {
         font-size: small;
@@ -828,7 +828,7 @@ body {
     }
     .Article-img img {
         height: 250px;
-        width: 400px;
+        width: 410px;
     } 
     .Article-img {
         padding: 0px;
@@ -857,7 +857,7 @@ body {
         padding: 0 5px
     }
     .blue-1 .Head {
-         width: 394px;
+         width: 330px;
          font-size: x-large;
     }
     .blue-1 .description {
@@ -887,6 +887,17 @@ body {
         margin: 10px;
     }
     /*Footer-section end here */
+}
+@media only screen and (max-width:380px) {
+    .Article-img img {
+        width: 350px;
+    }
+    .blue-1 {
+        padding: 0%;
+    }
+    .Card2 {
+        margin: 10px;
+    }
 }
 @media only screen and (max-width:340px) {
     .Nav-section {
