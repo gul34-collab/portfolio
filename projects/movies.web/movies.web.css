@@ -1,0 +1,536 @@
+body {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px;
+    margin: 0px;
+}
+/*.Hero-section start here*/
+.Hero-section {
+    background-image: url(./img/movie.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+}
+.logo {
+    font-size: large;
+    color: white;
+    font-size: x-large;
+    font-style:oblique;
+}
+.Navabr {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    padding: 0 60px;
+    height: 55px;
+    align-content: center;
+}
+.last-nav {
+    color: rgb(106, 106, 106);
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 20px;
+}
+.nav {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 80px;
+}
+.home {
+    text-decoration: none;
+    color: rgb(255,255,255,0.8);
+    font-size: larger;
+}
+.home:hover {
+    color: red;
+    transition: 0.4s;
+
+}
+.logo span {
+    position: relative;
+    top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    top: -1px;
+    right: 86px;
+    opacity: 0.9;
+}
+.Headiing-part {
+    width: 480px;
+    padding: 0 65px;
+
+}
+.history {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: left;
+    gap: 10px;
+}
+.G {
+    width: 25px;
+    align-content: center;
+    text-align: center;
+    background: white;
+}
+.Dot {
+    color: red;
+    font-weight: bolder;
+}
+.History {
+    color: white;
+}
+.Action {
+    color: white;
+}
+.Time-line {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    gap: 10px;
+    color: white;
+    height: 53px;
+    align-content: center;
+}
+.span {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+}
+.Time-line span {
+    color: red;
+}
+.icon {
+    color: rgb(235, 185, 18);
+}
+.Stream {
+    text-decoration: none;
+    border-radius: 3px;
+    color: white;
+}
+.Btn {
+    width: 120px;
+    height: 35px;
+    align-content: center;
+    text-align: center;
+    border-radius: 5px;
+    background: red;
+}
+.Btn:hover {
+    background: white;
+    color: red;
+    transition: 0.4s;
+}
+.Stream:hover {
+    color: red;
+}
+.description {
+    color: rgb(106, 106, 109);
+}
+.card1 {
+    margin: 30px;
+    height: 250x;
+    width: 250px;
+    background-image: url(./img/kali.jpg);
+    background-size: cover;
+    align-content: end;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+} 
+.card1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgb(69, 90, 95);
+}
+.op .Head {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+} 
+.card {
+    margin: 30px;
+}
+.card {
+    margin: 30px;
+    background-image: url(./img/movie.jpg);
+    height: 250px;
+    width: 250px;
+    background-size: cover;
+    align-content: end;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px black;
+}
+.small {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    color: rgb(255, 255, 255,0.8);
+    font-size: small;
+    gap: 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Head {
+    color: white;
+}
+.op {
+    margin: 15px;
+}
+.Big-Header {
+    color: white;
+    font-size: larger;
+}
+.Header-Card-section {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.Cards {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    background-color: rgb(255, 255, 255,0.1);
+    backdrop-filter: blur(5px);
+    height: 350px;
+}
+.Arror {
+    justify-content: left;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    position: relative;
+    left: 28px;
+    top: -21px;
+}
+.arror:hover {
+    color: white;
+    background-color: rgb(255, 255, 255,0.6);
+}
+.arror {
+    transition: 0.4s;
+    height: 30px;
+    width: 30px;
+    color: rgb(255, 255, 255,0.5);
+    align-content: center;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255,0.5);
+}
+.mobile {
+    display: none;
+}
+/*Movie-section start here */
+.CARD1 {
+    width: 180px;
+    height: 128px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+.CARD1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px #C2C3C1;
+}
+.CARD1 img {
+    width: 180px;
+    height: 130px;
+    border-radius: 5px;
+}
+.CARD4 {
+    width: 180px;
+    height: 128px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+.CARD4:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px #C2C3C1;
+}
+.CARD4 img {
+    width: 180px;
+    height: 130px;
+    border-radius: 5px;
+}
+.CARD5 {
+    width: 180px;
+    height: 128px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+.CARD5:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px #C2C3C1;
+}
+.CARD5 img {
+    width: 180px;
+    height: 130px;
+    border-radius: 5px;
+}
+.Pro- {
+    position: relative;
+    top: -30px;
+}
+.progress-bar {
+    height: 4px;
+    width: 178px;
+    background-color: #333;
+    border-radius: 2px;
+    margin: 5px 0;
+    position: relative;
+}
+.progress {
+    height: 100%;
+    background-color: #e50914;
+    border-radius: 2px;
+}
+.time {
+    font-size: 12px;
+    color: white;
+    padding: 0 10px;
+    font-family: sans-serif;
+}
+.Movies-card {
+    background: black;
+    color: white;
+    font-size: x-large;
+    padding: 75px 60px;
+    gap: 27px;
+    display: grid;
+    font-family: sans-serif;
+    grid-template-rows: auto;
+}
+.movies-card {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background: black;
+}
+.Pa-Movies {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+.Movie-card img {
+     height: 200px;
+     width: 150px;
+}
+.Movie-card3 img {
+    height: 200px;
+    width: 150px;
+}
+.Movie-card1 span {
+    position: relative;
+    right: -86px;
+    top: -79px;
+    font-size: 120px;
+    font-weight: bolder;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+    color: white;
+}
+.Movie-card1 img {
+    height: 200px;
+    width: 150px;
+}
+.Movie-card1 img {
+   height: 200px;
+   width: 150px;
+}
+.Movie-card1 span {
+   position: relative;
+   right: -86px;
+   top: -79px;
+   font-size: 120px;
+   font-weight: bolder;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+   color: white;
+}
+
+.Movie-card {
+    height: 200px;
+    width: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+} 
+.Movie-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px red;
+}
+.Movie-card img {
+    height: 200px;
+    width: 150px;
+}
+.Movie-card3 span {
+   position: relative;
+   right: -86px;
+   top: -79px;
+   font-size: 120px;
+   font-weight: bolder;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+   color: white;
+}
+.Movie-card3 {
+   height: 200px;
+   width: 150px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+} 
+.Movie-card3:hover {
+   transform: scale(1.05);
+   box-shadow: 0 8px 16px red;
+}
+.Movie {
+    color: white;
+    font-family: sans-serif;
+    font-size: x-large;
+}
+.Top-Ten {
+    padding: 75px 60px;
+    background-color: black;
+    display: grid;
+    grid-template-rows: auto;
+    gap: 27px;
+}
+.Movie-card span:hover {
+    color: red;
+    transition: 0.4s;
+    cursor: pointer;
+    transform: scale(1.09);
+}
+/*Movie-section end here */
+/*.Hero-section end here*/
+@media only screen and (max-width:1030px) {
+    /*.Hero-section start here*/
+    .card {
+        width: 130px;
+        background-image: url(./img/movie2.webp);
+        background-size: cover;
+    }
+    .card1 {
+        width: 130px;
+    }
+    /*.Hero-section end here*/
+    .Movies-card {
+        padding: 75px 60px;
+    }
+    .movies-card {
+        grid-template-columns: auto auto auto;
+    }
+    .Top-Ten {
+    padding: 75px 60px;
+    }
+    .Movie-card3 {
+        display: none;
+    }
+    .Pa-Movies {
+        grid-template-columns: auto auto auto;
+    }
+}
+@media only screen and (max-width:770px) {
+    /*.Hero-section start here*/
+    .Cards {
+        display: none;
+    }
+    .Navabr {
+        padding: 0 25px;
+        grid-template-columns: auto auto;
+    }
+    .nav {
+        display: none;
+    }
+    .mobile {
+        color: white;
+        display: block;
+    }
+    .last-nav {
+        display: none;
+    }
+    /*.Hero-section end here*/
+    .CARD5 {
+        display: none;
+    }
+
+}
+@media only screen and (max-width:430px) {
+    /*.Hero-section start here*/
+    .Hero-section {
+        background-image: url(./img/movie2.webp);
+    }
+    .Headiing-part {
+    width: 260px;
+    }
+    .Headiing-part {
+        padding: 0 25px;
+        width: 360px;
+    }
+    .span {
+        font-size: small;
+    }
+    /*.Hero-section end here*/
+    .CARD3 {
+        display: none;
+    }
+    .CARD4 {
+        display: none;
+    }
+    .Movie-card1 {
+        display: none;
+    }
+    .Movies-card {
+        padding: 70px 25px;
+    }
+    .Top-Ten {
+        padding: 70px 25px;
+    }
+    .Pa-Movies {
+        grid-template-columns: auto auto;
+        gap: 20px;
+    }
+}
+@media only screen and (max-width:380px) {
+    /*.Hero-section start here*/
+    .Hero-section {
+        background-image: url(./img/kali.jpg);
+        height: 400px;
+    }
+    .Headiing-part {
+        width: 300px;
+    }
+    /*.Hero-section end here*/
+    .CARD1 {
+        width: 150px;
+    }
+    .CARD1 img {
+        width: 150px;
+    }
+    .progress-bar {
+        width: 150px;
+    }
+}
+@media only screen and (max-width:330px) {
+    /*.Hero-section start here*/
+    .Headiing-part {
+        width: 254px;
+    }
+    /*.Hero-section end here*/
+    .CARD1 {
+        width: 125px;
+        height: 96px;
+    }
+    .CARD1 img {
+        width: 125px;
+        height: 96px;
+    }
+    .Movie-card img {
+        width: 120px;
+    }
+    .Movie-card {
+        width: 120px;
+    }
+}
