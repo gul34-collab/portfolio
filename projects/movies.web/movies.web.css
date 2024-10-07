@@ -318,6 +318,20 @@ body {
      height: 200px;
      width: 150px;
 }
+.Movie-card span {
+    position: relative;
+    right: -86px;
+    top: -79px;
+    font-size: 120px;
+    font-weight: bolder;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+    color: white;
+}
+.Movie-card1 {
+    height: 200px;
+    width: 150px;
+}
 .Movie-card3 img {
     height: 200px;
     width: 150px;
