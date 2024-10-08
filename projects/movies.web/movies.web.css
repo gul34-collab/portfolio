@@ -417,6 +417,170 @@ body {
     cursor: pointer;
     transform: scale(1.09);
 }
+.Length {
+    display: grid;
+    grid-template-columns: auto 105px;
+    justify-content: space-between;
+
+}
+.View {
+    color: red;
+}
+.back {
+    padding-left: 57px;
+    background-color: black;
+}
+.card-part {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+}
+.img-part {
+    background-image: url(./img/x-em.avif);
+    height: 160px;
+    background-size: cover;
+    width: 250px;
+    align-content: end;
+    display: grid;
+    grid-template-rows: 40px 20px;
+    color: white;
+    padding: 0 40px;
+}
+.img-part1 {
+    background-image: url(./img/lossti.webp);
+    height: 160px;
+    padding: 0 40px;
+    width: 250px;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: auto;
+    align-content: end;
+    display: grid;
+    grid-template-rows: 40px 20px;
+    color: white;
+}
+.img-part2 {
+    background-image: url(./img/ret.webp);
+    height: 160px;
+    align-content: end;
+    display: grid;
+    grid-template-rows: 40px 20px;
+    padding: 0 40px;
+    color: white;
+    width: 250px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+.img-part2:hover {
+    transform: scale(0.9);
+    box-shadow: 0 8px 16px #C2C3C1;
+}
+.div-background {
+    background-image: url(./img/lossti.webp);
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: cover;
+    align-content: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+}
+.div-background .Headiing-part {
+    align-content: center;
+    display: grid;
+    grid-template-rows: 0px 74px 60px;
+}
+.img-part {
+    width: 250px;
+    height: 160px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+.img-part:hover {
+    transform: scale(0.9);
+    box-shadow: 0 8px 16px #C2C3C1;
+}
+.img-part1 {
+    width: 250px;
+    height: 160px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+.img-part1:hover {
+    transform: scale(0.9);
+    box-shadow: 0 8px 16px #C2C3C1;
+}
+.history1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: left;
+    gap: 10px; 
+}
+.PERSONAL-CARD img {
+    width: 100px;
+    height: 75px;
+}
+.PERSONAL-CARD2 img {
+    width: 100px;
+    height: 75px;
+}
+.PERSONAL-CARD1 img {
+    width: 100px;
+    height: 75px;
+}
+.PERSONAL-CARD3 img {
+    width: 100px;
+    height: 75px;
+}
+.Personal-card {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
+}
+.Name {
+    color: white
+}
+.Actress {
+    color: rgb(255, 255, 255,0.3);
+    font-size: x-small;
+}
+.PERSONAL-CARD3 {
+    width: 100px;
+    text-align: center;
+}
+.PERSONAL-CARD2 {
+    width: 100px;
+    text-align: center;
+}
+.PERSONAL-CARD4 {
+    width: 100px;
+    text-align: center;
+}
+.PERSONAL-CARD4 img {
+    width: 100px;
+    height: 75px;
+}
+.PERSONAL-CARD1 {
+    width: 100px;
+    text-align: center;
+}
+.PERSONAL-CARD {
+    width: 100px;
+    text-align: center;
+}
+.Personality {
+    background-color: black;
+    padding: 60px 55px;
+    display: grid;
+    grid-template-rows: auto;
+    gap: 15px;
+}
+.Personality .Length {
+    grid-template-columns: auto 65px;
+}
 /*Movie-section end here */
 /*.Hero-section end here*/
 @media only screen and (max-width:1030px) {
@@ -434,16 +598,22 @@ body {
         padding: 75px 60px;
     }
     .movies-card {
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto auto auto auto;
     }
     .Top-Ten {
     padding: 75px 60px;
     }
-    .Movie-card3 {
+    .Pa-Movies {
+        grid-template-columns: auto auto auto auto auto auto;
+    }
+    .PERSONAL-CARD1 {
         display: none;
     }
-    .Pa-Movies {
-        grid-template-columns: auto auto auto;
+    .PERSONAL-CARD2 {
+        display: none;
+    }
+    .PERSONAL-CARD3 {
+        display: none;
     }
 }
 @media only screen and (max-width:770px) {
@@ -469,6 +639,64 @@ body {
     .CARD5 {
         display: none;
     }
+    .movies-card {
+        grid-template-columns: auto auto auto;
+    }
+    .Pa-Movies {
+        grid-template-columns: auto auto auto;
+    }
+    .Movie-card3 {
+        display: none;
+    }
+    .card-part {
+        display: none;
+    }
+    .back {
+        padding: 0px;
+    }
+    .Personal-card {
+        grid-template-columns: auto auto auto auto;
+    }
+    .PERSONAL-CARD {
+        display: none;
+    }
+    .PERSONAL-CARD4 {
+        display: block;
+        width: 130px;
+        height: 120px;
+    }
+    .PERSONAL-CARD4 img {
+        width: 130px;
+        height: 120px;
+    }
+    .PERSONAL-CARD1 {
+        display: block;
+        width: 130px;
+        height: 120px;
+    }
+    .PERSONAL-CARD1 img {
+        width: 130px;
+        height: 120px;
+    }
+    .PERSONAL-CARD2 {
+        display: block;
+        width: 130px;
+        height: 120px;
+    }
+    .PERSONAL-CARD2 img {
+        width: 130px;
+        height: 120px;
+    }
+    .PERSONAL-CARD3 {
+        display: block;
+        width: 130px;
+        height: 120px;
+    }
+    .PERSONAL-CARD3 img {
+        width: 130px;
+        height: 120px;
+    }
+
 
 }
 @media only screen and (max-width:430px) {
@@ -505,6 +733,22 @@ body {
     .Pa-Movies {
         grid-template-columns: auto auto;
         gap: 20px;
+    }
+    .PERSONAL-CARD1 {
+        display: none;
+        width: 130px;
+        height: 120px;
+    }
+    .PERSONAL-CARD4 {
+        display: none;
+        width: 130px;
+        height: 120px;
+    }
+    .Personal-card {
+        grid-template-columns: auto auto;
+    }
+    .Personality {
+        padding: 60px 25px;
     }
 }
 @media only screen and (max-width:380px) {
