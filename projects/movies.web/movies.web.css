@@ -794,7 +794,7 @@ body {
 .Footer {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
-    background-color: black;
+    background-color: rgb(20, 19, 20);
     padding: 27px 55px;
 }
 .Logo-section {

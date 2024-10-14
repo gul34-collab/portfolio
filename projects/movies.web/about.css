@@ -1,0 +1,410 @@
+body {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px;
+    margin: 0px;
+}
+.Background {
+    background-image: url(./img/collection.jpg);
+    height: 400px;
+    text-align: center;
+}
+.mobile {
+    display: none;
+}
+.Background .Head {
+    color: white;
+    height: 300px;
+    align-content: center;
+}
+.Head p{
+    color: red;
+    font-weight: bolder;
+}
+.Head span {
+    color: white;
+}
+.logo {
+    font-size: large;
+    color: white;
+    font-size: x-large;
+    font-style:oblique;
+}
+.Navabr {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    padding: 0 60px;
+    height: 55px;
+    align-content: center;
+    background: rgba(0,0,0, 0.5);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0,0,0, 0.6);
+    text-align: center;
+    color: #fff;
+}
+.last-nav {
+    color: rgb(106, 106, 106);
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 20px;
+}
+.nav {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 80px;
+}
+.home {
+    text-decoration: none;
+    color: rgb(255,255,255,0.8);
+    font-size: larger;
+}
+.home:hover {
+    color: red;
+    transition: 0.4s;
+
+}
+.logo span {
+    position: relative;
+    top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    top: -1px;
+    right: 86px;
+    opacity: 0.9;
+}
+/* Container for the team member cards */
+.team-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px 0;
+}
+/* Styling for each team card */
+.team-card {
+    width: 100%;
+    text-align: left;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.role {
+    background: rgb(255, 0, 0,0.6);
+    color: white;
+    height: 23px;
+    align-content: center;
+}
+    /* Image styling */
+    .team-card img {
+    width: 300px;
+    height: 340px;
+}
+
+    /* Card hover effect */
+    .team-card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 20px 40px rgba(255,255,255,0.7);
+    }
+
+
+/* Styling for role */
+    .team-card .role {
+        font-size: 14px;
+        margin: 5px 0;
+        width: 80px;
+        padding: 0 6px;
+}
+/* Styling for name */
+.team-card .name {
+    font-size: 25px;
+     margin: 5px 0 15px 0;
+     color: white;
+}
+.Personal-card {
+    text-align: center;
+    padding: 50px 350px;
+    background-color: black;
+    color: white;
+}
+.map-section {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgb(28, 28, 30);
+    justify-content: center;
+}
+.Tag-section {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.contactus {
+    align-content: center;
+    color: white;
+    padding: 0 50px;
+}
+.Contact p {
+    color: rgb(255, 255, 255,0.7);
+}
+.Contact p span {
+    color: red;
+    font-size: small;
+}
+.Tag {
+    text-align: center;
+}
+.Tag h1 {
+    color: red;
+}
+.Tag p {
+    color: rgb(255, 255, 255,0.7);
+    font-size: small;
+}
+.WorkWith {
+    background-color: black;
+    padding: 40px 60px;
+}
+.WorkWith .Head {
+    font-size: xx-large;
+    text-align: center;
+    color: white;
+} 
+.image-part {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 60px 0;
+    justify-content: center;
+    gap: 20px;
+}
+.image-part img {
+    height: 120px;
+    width: 180px;
+}
+/*Footer start here */
+.Footer {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: rgb(20, 19, 20);
+    padding: 27px 55px;
+}
+.Logo-section {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 20px;
+}
+.Em {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #333;
+}
+.Em span {
+     color: rgb(106, 106, 106);
+}
+.Customer {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.qick {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 20px;
+}
+.qick .head {
+    color: white;
+    font-size: x-large;
+}
+.qick span {
+    color: red;
+}
+.US {
+    text-decoration: none;
+    color: white;
+}
+.Sacee {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+}
+.text {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+}
+.Soical {
+    width: 30px;
+    background-color: #333;
+    height: 30px;
+    color: rgb(106, 106, 109);
+    border-radius: 50%;
+    align-content: center;
+    text-align: center;
+    font-size: small;
+}
+.ser {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    gap: 10px;
+}
+.Follow-Part {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    color: white;
+    align-items: center;
+    gap: 20px;
+}
+.custom-input {
+    width: 187px;
+    padding: 6px;
+    height: 23px;
+    font-size: 15px;
+    border: 0px solid #ccc;
+    border-radius: 5px;
+}
+.Btn {
+    width: 120px;
+    height: 35px;
+    align-content: center;
+    text-align: center;
+    border-radius: 5px;
+    background: red;
+}
+.Btn:hover {
+    background: white;
+    color: red;
+    transition: 0.4s;
+}
+.Stream {
+    text-decoration: none;
+    color: white;
+}
+.Stream:hover {
+    color: red;
+}
+.placeholder-section {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+}
+/*Footer start here */
+/* Style for the placeholder text */
+.custom-input::placeholder {
+    color: #888;
+    font-style: italic;
+}
+@media only screen and (max-width:1030px) {
+    .team-card img {
+        width: 225px;
+        height: 250px;
+    }
+    .Personal-card {
+        padding: 50px 200px;
+    }
+    .Personal-card  p{
+        color: rgb(106, 106, 106);
+        font-size: small;
+    }
+    .team-card .name {
+        font-size: large;
+    }
+}
+@media only screen and (max-width:770px) {
+    .Navabr {
+        grid-template-columns: auto auto;
+        padding: 0 10px;
+    }
+    .nav {
+        display: none;
+    }
+    .last-nav {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+    .Personal-card {
+        padding: 60px 10px;
+    }
+    .team-card img {
+        width: 170px;
+        height: 210px;
+    }
+    .map {
+        align-content: center;
+    }
+    .map img {
+        width: 400px;
+    }
+    .image-part {
+        grid-template-columns: auto auto auto auto;
+    }
+    .image-part img {
+        width: 160px;
+    }
+    .Footer {
+        grid-template-columns: auto;
+        gap: 20px;
+    }
+}
+@media only screen and (max-width:430px) {
+    .team-container {
+        grid-template-columns: auto;
+    }
+    .team-card img {
+        width: 350px;
+        height: 350px;
+    }
+    .map-section {
+        grid-template-columns: auto;
+    }
+    .image-part {
+        grid-template-columns: auto;
+    }
+    .Tag-section {
+        grid-template-columns: auto;
+    }
+    .Footer {
+        padding: 0 25px;
+    } 
+    .qick .head {
+        font-size: small;
+    }
+    .US {
+        font-size: small;
+    }
+}
+@media only screen and (max-width:380px) { 
+    .map img {
+        width: 370px;
+    }
+    .qick .head {
+        font-size: small;
+    }
+    .US {
+        font-size: small;
+    }
+}
+@media only screen and (max-width:330px) {
+    .team-card img {
+        width: 285px;
+        height: 295px;
+    }
+    .map img {
+        width: 320px;
+    }
+    .custom-input {
+        width: 145px;
+    }
+    .Btn {
+        width: 100px;
+    }
+    .qick .head {
+        font-size: small;
+    }
+    .US {
+        font-size: small;
+    }
+}
