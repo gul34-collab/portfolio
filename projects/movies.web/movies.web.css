@@ -519,6 +519,7 @@ body {
     grid-template-columns: auto auto auto auto auto;
     justify-content: left;
     gap: 10px; 
+    align-content: center;
 }
 .PERSONAL-CARD img {
     width: 100px;
@@ -581,8 +582,342 @@ body {
 .Personality .Length {
     grid-template-columns: auto 65px;
 }
-/*Movie-section end here */
-/*.Hero-section end here*/
+.Romm-card {
+    display: grid;
+    grid-template-rows: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Romm-card .description {
+    color: rgb(255,255,255,0.8);
+}
+.Back1 .Arror {
+    justify-content: left;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    position: relative;
+    left: 0px;
+    top: 38px;
+}
+.Back1 {
+    background-image: url(./img/dargan.avif);
+    height: 600px;
+    align-content: center;
+}
+.small-img span {
+    color: red;
+}
+.small-img {
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: left;
+    gap: 8px;
+}
+.span1 span {
+    color: red;
+}
+.minute {
+    font-size: smaller;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.img1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    gap: 10px;
+} 
+.img1 img {
+    height: 52px;
+    width: 85px;
+}
+.Epid {
+    padding: 0 20px;
+    color: white;
+    font-size: x-large;
+}
+.small-card {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 25px;
+    padding: 0 20px;
+}
+.Back1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+.Back1 .Headiing-part {
+    align-content: center;
+    display: grid;
+    grid-template-rows: 50px 77px 63px 40px 56px;
+    align-items: center;
+    padding: 0px;
+}
+.Room-card2 {
+    border-radius: 8px;
+    align-content: center;
+    display: grid;
+    grid-template-rows: auto;
+    gap: 25px;
+    align-content: center;
+    background-color: rgb(20, 19, 20);
+    width: 310px;
+    height: 450px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.ser {
+    color: white;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.ser:hover {
+    color: red;
+}
+.Season {
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+/*Movie-genur start here */
+.img-class {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+.Movie-genur {
+    background-color: black;
+    display: grid;
+    grid-template-rows: auto;
+    gap: 27px;
+    padding: 75px 60px;
+}
+.img-head {
+    background-image: url(./img/adventure.jpg);
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    align-content: center;
+    text-align: center;
+    font-size: x-large;
+    color: rgb(255, 255, 255,0.8);
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+.img-head:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgb(124, 102, 28);
+ }
+.img-head2 {
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+    background-image: url(./img/crime.jpg);
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    align-content: center;
+    text-align: center;
+    font-size: x-large;
+    color: rgb(255, 255, 255,0.8);
+}
+.img-head2:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px white;
+}
+.img-head3:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgb(39, 24, 11);
+}
+.img-head4:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgb(249, 208, 28);
+ }
+ .img-head5:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgb(9, 10, 12);
+ }
+ .img-head6:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgb(99, 87, 48);
+}
+.img-head3 {
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+    background-image: url(./img/street.jpg);
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    align-content: center;
+    text-align: center;
+    font-size: x-large;
+    color: rgb(255, 255, 255,0.8);
+}
+.img-head4 {
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+    background-image: url(./img//animation.avif);
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    align-content: center;
+    text-align: center;
+    font-size: x-large;
+    color: rgb(255, 255, 255,0.8);
+}
+.img-head5 {
+    background-image: url(./img/horror.jfif);
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    align-content: center;
+    text-align: center;
+    font-size: x-large;
+    color: rgb(255, 255, 255,0.8);
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+.img-head6 {
+    background-image: url(./img/dolittle.jpg);
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    align-content: center;
+    text-align: center;
+    font-size: x-large;
+    color: rgb(255, 255, 255,0.8);
+}
+/*Movie-genur end here */
+/*Footer start here */
+.Footer {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: black;
+    padding: 27px 55px;
+}
+.Logo-section {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 20px;
+}
+.Em {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #333;
+}
+.Em span {
+     color: rgb(106, 106, 106);
+}
+.Customer {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.qick {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 20px;
+}
+.qick .head {
+    color: white;
+    font-size: x-large;
+}
+.qick span {
+    color: red;
+}
+.US {
+    text-decoration: none;
+    color: white;
+}
+.Sacee {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+}
+.text {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+}
+.Soical {
+    width: 30px;
+    background-color: #333;
+    height: 30px;
+    color: rgb(106, 106, 109);
+    border-radius: 50%;
+    align-content: center;
+    text-align: center;
+    font-size: small;
+}
+.ser {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    gap: 10px;
+}
+.Follow-Part {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    color: white;
+    align-items: center;
+    gap: 20px;
+}
+.custom-input {
+    width: 187px;
+    padding: 6px;
+    height: 23px;
+    font-size: 15px;
+    border: 0px solid #ccc;
+    border-radius: 5px;
+}
+.placeholder-section {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+}
+/*Footer start here */
+/* Style for the placeholder text */
+.custom-input::placeholder {
+    color: #888;
+    font-style: italic;
+}
+@media only screen and (max-width:2560px) {
+    .movies-card {
+        justify-content: center;
+        gap: 120px;
+    }
+    .Pa-Movies {
+        justify-content: center;
+        gap: 100px;
+    }
+    .div-background {
+        height: 950px;
+        padding: 0 40px;
+    }
+    .Back1 {
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 770px;
+        justify-content: center;
+        column-gap: 615px;
+    }
+}
+@media only screen and (max-width:1440px) {
+    .movies-card {
+        gap: 0px;
+        justify-content: space-between;
+    }
+    .Pa-Movies {
+        gap: 0px;
+        justify-content: space-between;
+    }
+    .Back1 {
+        column-gap: 0px;
+        justify-content: space-between;
+    }
+}
 @media only screen and (max-width:1030px) {
     /*.Hero-section start here*/
     .card {
@@ -614,6 +949,50 @@ body {
     }
     .PERSONAL-CARD3 {
         display: none;
+    }
+    .img-head {
+        width: 125px;
+        height: 78px;
+    }
+    .img-head2 {
+        width: 125px;
+        height: 78px;
+    }
+    .img-head3 {
+        width: 125px;
+        height: 78px;
+    }
+    .img-head4 {
+        width: 125px;
+        height: 78px;
+    }
+    .img-head5 {
+        width: 125px;
+        height: 78px;
+    }
+    .img-head6 {
+        width: 125px;
+        height: 78px;
+    }
+    .Back1 {
+        justify-content: space-around;
+        gap: 0px;
+    }
+    .movies-card {
+        justify-content: space-between;
+        gap: 0px;
+    }
+    .Pa-Movies {
+        gap: 5px;
+    }
+    .div-background {
+        padding: 0px;
+    }
+    .US {
+        font-size: small;
+    }
+    .qick .head {
+        font-size: small;
     }
 }
 @media only screen and (max-width:770px) {
@@ -656,6 +1035,10 @@ body {
     }
     .Personal-card {
         grid-template-columns: auto auto auto auto;
+        gap: 45px;
+    }
+    .Length {
+        grid-template-columns: auto 60px;
     }
     .PERSONAL-CARD {
         display: none;
@@ -696,8 +1079,41 @@ body {
         width: 130px;
         height: 120px;
     }
-
-
+    .Back1 .Headiing-part {
+        width: 300px;
+        font-size: small;
+    }
+    .Room-card2 {
+        width: 300px;
+    }
+    .img-head {
+        display: none;
+    }
+    .img-head2 {
+        display: none;
+    }
+    .img-head3 {
+        display: none;
+    }
+    .img-head4 {
+        height: 100px;
+        width: 180px;
+    }
+    .img-head5 {
+        height: 100px;
+        width: 180px;
+    }
+    .img-head6 {
+        height: 100px;
+        width: 180px;
+    }
+    .img-class {
+        grid-template-columns: auto auto auto;
+    }
+    .Footer {
+        grid-template-columns: auto;
+        gap: 20px;
+    }
 }
 @media only screen and (max-width:430px) {
     /*.Hero-section start here*/
@@ -750,6 +1166,35 @@ body {
     .Personality {
         padding: 60px 25px;
     }
+    .Back1 {
+        grid-template-columns: auto;
+        height: 850px;
+        padding: 0 12px;
+    }
+    .Room-card2 {
+        width: 395px;
+    }
+    .img-head4 {
+        width: 120px;
+        height: 78px;
+    }
+    .img-head5 {
+        width: 120px;
+        height: 78px;
+    }
+    .img-head6 {
+        width: 120px;
+        height: 78px;
+    }
+    .Movie-genur {
+        padding: 60px 25px;
+    }
+    .Movie {
+        font-size: large;
+    }
+    .Footer {
+        padding: 0 25px;
+    } 
 }
 @media only screen and (max-width:380px) {
     /*.Hero-section start here*/
@@ -769,6 +1214,27 @@ body {
     }
     .progress-bar {
         width: 150px;
+    }
+    .Romm-card {
+        font-size: small;
+    }
+    .Room-card2 {
+        width: 345px;
+    }
+    .Back1 {
+        height: 900px;
+    }
+    .img-head4 {
+        width: 100px;
+        height: 75px;
+    }
+    .img-head5 {
+        width: 100px;
+        height: 75px;
+    }
+    .img-head6 {
+        width: 100px;
+        height: 75px;
     }
 }
 @media only screen and (max-width:330px) {
@@ -790,5 +1256,35 @@ body {
     }
     .Movie-card {
         width: 120px;
+    }
+    .Room-card2 {
+       width: 290px;
+    }
+    .Romm-card {
+       font-size: x-small;
+    }
+    .Personal-card {
+        gap: 0;
+    }
+    .Movie {
+        font-size: small;
+    }
+    .img-head4 {
+        width: 85px;
+        height: 65px;
+    }
+    .img-head5 {
+        width: 85px;
+        height: 65px;
+    }
+    .img-head6 {
+        width: 85px;
+        height: 65px;
+    }
+    .custom-input {
+        width: 145px;
+    }
+    .Btn {
+        width: 100px;
     }
 }
