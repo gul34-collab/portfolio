@@ -850,6 +850,9 @@ body {
     text-align: center;
     font-size: small;
 }
+.placeholder  {
+    color: white;
+}
 .ser {
     display: grid;
     grid-template-columns: auto auto;

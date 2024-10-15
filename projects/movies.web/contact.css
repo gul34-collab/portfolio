@@ -1,0 +1,458 @@
+body {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px;
+    margin: 0px;
+}
+.Background {
+    background-image: url(./img/collection.jpg);
+    height: 400px;
+    text-align: center;
+}
+.mobile {
+    display: none;
+}
+.Background .Head {
+    color: white;
+    height: 300px;
+    align-content: center;
+}
+.Head p{
+    color: red;
+    font-weight: bolder;
+}
+.Head span {
+    color: white;
+}
+.logo {
+    font-size: large;
+    color: white;
+    font-size: x-large;
+    font-style:oblique;
+}
+.Navabr {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    padding: 0 60px;
+    height: 55px;
+    align-content: center;
+    background: rgba(0,0,0, 0.5);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0,0,0, 0.6);
+    text-align: center;
+    color: #fff;
+}
+.last-nav {
+    color: rgb(106, 106, 106);
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 20px;
+}
+.nav {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 80px;
+}
+.home {
+    text-decoration: none;
+    color: rgb(255,255,255,0.8);
+    font-size: larger;
+}
+.home:hover {
+    color: red;
+    transition: 0.4s;
+
+}
+.logo span {
+    position: relative;
+    top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    top: -1px;
+    right: 86px;
+    opacity: 0.9;
+}
+.text {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+    padding: 30px 0;
+    justify-content: left;
+}
+.Contact-with-page {
+    background-color: black;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 30px 20px;
+    justify-content: center;
+    gap: 20px;
+}
+.custom-input {
+    width: 340px;
+    height: 30px;
+    border: black;
+    background: rgb(20, 19, 20);
+}
+.custom-input1 {
+    width: 712px;
+    height: 150px;
+    background: rgb(20, 19, 20);
+    border: black;
+}
+.Stream {
+    text-decoration: none;
+    border-radius: 3px;
+    color: white;
+}
+.Btn {
+    width: 120px;
+    height: 35px;
+    align-content: center;
+    text-align: center;
+    border-radius: 5px;
+    background: red;
+}
+.Btn:hover {
+    background: white;
+    color: red;
+    transition: 0.4s;
+}
+.Stream:hover {
+    color: red;
+}
+.Follow-Part {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    color: white;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+.placeholder h1 {
+    color: white;
+}
+.Soical {
+    width: 30px;
+    background-color: #333;
+    height: 30px;
+    color: rgb(106, 106, 109);
+    border-radius: 50%;
+    align-content: center;
+    text-align: center;
+    font-size: small;
+}
+.placeholder {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 10px;
+}
+.placeholder .h1 {
+    color: rgb(255, 255, 255,0.8);
+}
+.placeholder p {
+    font-size: small;
+    color: rgb(255, 255, 255,0.8);
+}
+.come p {
+    color: rgb(255, 255, 255,0.8);
+    font-size: x-large;
+}
+.come span {
+    font-size: small;
+    color: rgb(255, 255, 255,0.8);
+}
+.get {
+    color: white;
+    display: grid;
+    grid-template-rows: auto;
+    gap: 8px;
+}
+.get p {
+    color: rgb(255, 255, 255,0.8);;
+}
+.get span {
+    color: red;
+}
+.Sacee {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 20px;
+}
+.Tag {
+    height: 50px;
+    width: 50px;
+    background-color: violet;
+    border-radius: 50%;
+    align-content: center;
+    text-align: center;
+    position: relative;
+    top: 15px;
+}
+.head h1 {
+    font-size: medium;
+}
+.head p {
+    color: rgb(255,255,255,0.8);
+}
+.head .span1 {
+    color: white;
+    font-weight: bolder;
+}
+.Head {
+    color: white;
+    font-size: xx-large;
+}
+.card-part {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 40px;
+}
+.card {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    width: 320px;
+    gap: 20px;
+    background-color: rgb(20, 19, 20);
+    padding: 10px 20px;
+}
+.head {
+    display: grid;
+    grid-template-rows: 35px 35px 55px;
+    color: white;
+}
+.tag1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+.tag1 span {
+    color: red;
+}
+.Card-section {
+    background-color: black;
+    padding: 100px 100px;
+    display: grid;
+    grid-template-rows: auto;
+    gap: 35px;
+}
+/*Footer start here */
+.Footer {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: rgb(20, 19, 20);
+    padding: 27px 55px;
+}
+.Logo-section {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 20px;
+}
+.Em {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #333;
+}
+.Em span {
+     color: rgb(106, 106, 106);
+}
+.Customer {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.qick {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 20px;
+}
+.qick .head {
+    color: white;
+    font-size: x-large;
+}
+.qick span {
+    color: red;
+}
+.US {
+    text-decoration: none;
+    color: white;
+}
+.Sacee {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+}
+.text {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+}
+.Soical {
+    width: 30px;
+    background-color: #333;
+    height: 30px;
+    color: rgb(106, 106, 109);
+    border-radius: 50%;
+    align-content: center;
+    text-align: center;
+    font-size: small;
+}
+.placeholder  {
+    color: white;
+}
+.ser {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    gap: 10px;
+}
+.Follow-Part {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    color: white;
+    align-items: center;
+    gap: 20px;
+}
+.custom-input {
+    width: 187px;
+    padding: 6px;
+    height: 23px;
+    font-size: 15px;
+    border: 0px solid #ccc;
+    border-radius: 5px;
+}
+.placeholder-section {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+}
+/*Footer start here */
+/* Style for the placeholder text */
+.custom-input::placeholder {
+    color: #888;
+    font-style: italic;
+}
+@media only screen and (max-width:1030px) {
+    .card {
+        width: 250px;
+    }
+    .Card-section {
+        padding: 0 10px;
+    }
+    .Pa-Movies {
+        gap: 5px;
+    }
+    .div-background {
+        padding: 0px;
+    }
+    .US {
+        font-size: small;
+    }
+    .qick .head {
+        font-size: small;
+    }
+}
+@media only screen and (max-width:770px) {
+    .nav {
+        display: none;
+    }
+    .last-nav {
+        display: none;
+    }
+    .mobile {
+        display: none;
+    }
+    .Contact-with-page {
+        grid-template-columns: auto;
+    }
+    .text {
+        grid-template-columns: auto;
+    }
+    .custom-input1 {
+        width: 695px;
+    }
+    .card-part {
+        grid-template-columns: auto auto;
+    }
+    .Contact-with-page {
+        justify-content: left;
+    }
+    .text {
+        grid-template-columns: auto auto;
+        gap: 10px;
+    }
+    .card-part {
+        justify-content: left;
+    }
+    .card {
+        width: 310px;
+    }
+    .Footer {
+        grid-template-columns: auto;
+        gap: 20px;
+    }
+}
+@media only screen and (max-width:430px) {
+    .Navabr {
+        grid-template-columns: auto auto;
+        padding: 0 10px;
+    }
+    .mobile {
+        display: block;
+    }
+    .text {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .custom-input1 {
+        width: 340px;
+    }
+    .card-part {
+        grid-template-columns: auto;
+    }
+    .card {
+        width: 365px;
+    }
+    .Footer {
+        padding: 0 25px;
+    } 
+}
+@media only screen and (max-width:380px) { 
+    .card {
+        width: 312px;
+    }
+}
+@media only screen and (max-width:330px) {
+    .custom-input {
+        width: 300px;
+    }
+    .custom-input1 {
+        width: 300px;
+    }
+    .card {
+        width: 312px;
+    }
+}
+@media only screen and (max-width:320px) { 
+    .custom-input {
+        width: 276px;
+    }
+    .custom-input1 {
+        width: 276px;
+    }
+    .card {
+        width: 256px;
+    }
+    .Btn {
+        width: 100px;
+    }
+}
