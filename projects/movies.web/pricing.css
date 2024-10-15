@@ -1,0 +1,359 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.Background {
+    background-image: url(./img/flim.webp);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.mobile {
+    display: none;
+}
+.Background .Head {
+    color: white;
+    height: 300px;
+    align-content: center;
+}
+.Head p{
+    color: red;
+    font-weight: bolder;
+}
+.Head span {
+    color: white;
+}
+.logo {
+    font-size: large;
+    color: white;
+    font-size: x-large;
+    font-style:oblique;
+}
+.Navabr {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    padding: 0 60px;
+    height: 55px;
+    align-content: center;
+    background: rgba(0,0,0, 0.5);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0,0,0, 0.6);
+    text-align: center;
+    color: #fff;
+}
+.last-nav {
+    color: rgb(106, 106, 106);
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 20px;
+}
+.nav {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 80px;
+}
+.home {
+    text-decoration: none;
+    color: rgb(255,255,255,0.8);
+    font-size: larger;
+}
+.home:hover {
+    color: red;
+    transition: 0.4s;
+
+}
+.logo span {
+    position: relative;
+    top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    top: -1px;
+    right: 86px;
+    opacity: 0.9;
+}
+.Free {
+    height: 100px;
+    border: 2px solid black;
+    padding: 10px 36px;
+    align-content: center;
+    color: white;
+    background-color: black;
+} 
+.Free1 {
+    height: 100px;
+    background-color: black;
+    border: 2px solid black;
+    padding: 10px 36px;
+    color: white;
+}
+.num {
+    height: 25px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+.Option {
+    padding: 84px 36px;
+    background-color: rgb(20, 19, 20);
+    color: white;
+}
+.Basic-Box {
+    border: 1px solid rgb(255, 0, 0,0.8);
+    height: 510px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+    color: white;
+}
+.Basic-Box:hover {
+    transform: scale(1.04);
+    box-shadow: 0 8px 16px red;
+    border: 1px solid white;
+}
+.Premium-Box {
+    border: 1px solid rgb(255, 0, 0,0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+    color: white;
+}
+.Premium-Box:hover {
+    transform: scale(1.04);
+    box-shadow: 0 8px 16px red;
+    border: 1px solid white;
+}
+.Box-Ads {
+    border: 1px solid rgb(255, 0, 0,0.8);
+    height: 510px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+    color: white;
+}
+.Box-Ads:hover {
+    transform: scale(1.04);
+    box-shadow: 0 8px 16px red;
+    border: 1px solid white;
+}
+.Line-plan {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+}
+.select {
+    text-decoration: none;
+    background-color: red;
+    padding: 10px 120px;
+    color: white;
+}
+.Offer-Boxs {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    padding: 50px 10px;
+    background-color: black;
+}
+.Pin {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: left;
+    align-items: baseline;
+    gap: 3px;
+}
+.Pin p {
+    font-size: xx-large;
+    text-decoration: line-through;
+    font-weight: bolder;
+}
+.Pin span {
+    font-size: xx-large;
+    color: red;
+    font-weight: bolder;
+}
+.Pin1 {
+    position: relative;
+    top: 30px;
+}
+.Pin1 span {
+    font-size: xx-large;
+    color: red;
+    font-weight: bolder;
+}
+/*Footer start here */
+.Footer {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: rgb(20, 19, 20);
+    padding: 27px 55px;
+}
+.Logo-section {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 20px;
+}
+.Em {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #333;
+}
+.Em span {
+     color: rgb(106, 106, 106);
+}
+.Customer {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.qick {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 20px;
+}
+.qick .head {
+    color: white;
+    font-size: x-large;
+}
+.qick span {
+    color: red;
+}
+.US {
+    text-decoration: none;
+    color: white;
+}
+.Sacee {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+}
+.text {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+}
+.Soical {
+    width: 30px;
+    background-color: #333;
+    height: 30px;
+    color: rgb(106, 106, 109);
+    border-radius: 50%;
+    align-content: center;
+    text-align: center;
+    font-size: small;
+}
+.placeholder  {
+    color: white;
+}
+.ser {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    gap: 10px;
+}
+.Follow-Part {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    color: white;
+    align-items: center;
+    gap: 20px;
+}
+.custom-input {
+    width: 187px;
+    padding: 6px;
+    height: 23px;
+    font-size: 15px;
+    border: 0px solid #ccc;
+    border-radius: 5px;
+}
+.placeholder-section {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+}
+.Stream {
+    text-decoration: none;
+    border-radius: 3px;
+    color: white;
+}
+.Btn {
+    width: 120px;
+    height: 35px;
+    align-content: center;
+    text-align: center;
+    border-radius: 5px;
+    background: red;
+}
+.Btn:hover {
+    background: white;
+    color: red;
+    transition: 0.4s;
+}
+.Stream:hover {
+    color: red;
+}
+/*Footer start here */
+@media only screen and (max-width:1030px) {
+    .select {
+        padding: 10px 66px;
+    }
+}
+@media only screen and (max-width:770px) {
+    /*.Hero-section start here*/
+    .Cards {
+        display: none;
+    }
+    .Navabr {
+        padding: 0 25px;
+        grid-template-columns: auto auto;
+    }
+    .nav {
+        display: none;
+    }
+    .mobile {
+        color: white;
+        display: block;
+    }
+    .last-nav {
+        display: none;
+    }
+    /*.Hero-section end here*/
+}
+@media only screen and (max-width:770px) { 
+    .Offer-Boxs {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .select {
+        padding: 10px 70px;
+    }
+    .Footer {
+        grid-template-columns: auto;
+        gap: 20px;
+    }
+}
+@media only screen and (max-width:430px) { 
+    .Offer-Boxs {
+        display: grid;
+        grid-template-columns: auto ;
+    }
+    .select {
+        padding: 10px 70px;
+    }
+    .Footer {
+        padding: 0 25px;
+    } 
+}
+@media only screen and (max-width:330px) {
+.Btn {
+    width: 100px;
+}
+.custom-input {
+    width: 170px;
+}
+.select {
+    padding: 10px 55px;
+}
+}
