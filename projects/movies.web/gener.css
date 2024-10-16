@@ -1,0 +1,344 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.Background {
+    background-image: url(./img/flim.webp);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.mobile {
+    display: none;
+}
+.Background .Head {
+    color: white;
+    height: 300px;
+    align-content: center;
+}
+.Head p{
+    color: red;
+    font-weight: bolder;
+}
+.Head span {
+    color: white;
+}
+.logo {
+    font-size: large;
+    color: white;
+    font-size: x-large;
+    font-style:oblique;
+}
+.Navabr {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    padding: 0 60px;
+    height: 55px;
+    align-content: center;
+    background: rgba(0,0,0, 0.5);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0,0,0, 0.6);
+    text-align: center;
+    color: #fff;
+}
+.last-nav {
+    color: rgb(106, 106, 106);
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 20px;
+}
+.nav {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 80px;
+}
+.home {
+    text-decoration: none;
+    color: rgb(255,255,255,0.8);
+    font-size: larger;
+}
+.home:hover {
+    color: red;
+    transition: 0.4s;
+
+}
+.logo span {
+    position: relative;
+    top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    top: -1px;
+    right: 86px;
+    opacity: 0.9;
+}
+.Home1 h1 {
+    position: relative;
+    top: 96px;
+    right: -76px;
+    color: white;
+    width: 150px;
+    font-size: large;
+}
+.Home1 {
+    width: 200px;
+}
+.Home1 img {
+    width: 248px;
+    height: 140px;
+}
+.Cards {
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    column-gap: 81px;
+    justify-content: left;
+}
+.card-part {
+    padding: 60px 90px;
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-rows: 26px auto;
+}
+.Btn {
+    width: 120px;
+    height: 35px;
+    align-content: center;
+    text-align: center;
+    border-radius: 5px;
+    background: red;
+}
+.Btn:hover {
+    background: white;
+    color: red;
+    transition: 0.4s;
+}
+.Stream {
+    color: white;
+    text-decoration: none;
+}
+.Stream:hover {
+    color: red;
+}
+/*Footer start here */
+.Footer {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: rgb(20, 19, 20);
+    padding: 27px 55px;
+}
+.Logo-section {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 20px;
+}
+.Em {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #333;
+}
+.Em span {
+     color: rgb(106, 106, 106);
+}
+.Customer {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.qick {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 20px;
+}
+.qick .head {
+    color: white;
+    font-size: x-large;
+}
+.qick span {
+    color: red;
+}
+.US {
+    text-decoration: none;
+    color: white;
+}
+.Sacee {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+}
+.text {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+}
+.Soical {
+    width: 30px;
+    background-color: #333;
+    height: 30px;
+    color: rgb(106, 106, 109);
+    border-radius: 50%;
+    align-content: center;
+    text-align: center;
+    font-size: small;
+}
+.placeholder  {
+    color: white;
+}
+.ser {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    gap: 10px;
+}
+.Follow-Part {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    color: white;
+    align-items: center;
+    gap: 20px;
+}
+.custom-input {
+    width: 187px;
+    padding: 6px;
+    height: 23px;
+    font-size: 15px;
+    border: 0px solid #ccc;
+    border-radius: 5px;
+}
+.placeholder-section {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+}
+.Stream {
+    text-decoration: none;
+    border-radius: 3px;
+    color: white;
+}
+.Btn {
+    width: 120px;
+    height: 35px;
+    align-content: center;
+    text-align: center;
+    border-radius: 5px;
+    background: red;
+}
+.Btn:hover {
+    background: white;
+    color: red;
+    transition: 0.4s;
+}
+.Stream:hover {
+    color: red;
+}
+/*Footer start here */
+@media only screen and (max-width:2560px) {
+    .card-part {
+        padding: 26px 755px;
+    }
+    .Cards {
+        justify-content: center;
+    }
+
+}
+@media only screen and (max-width:1450px) {
+    .card-part {
+        padding: 26px 195px;
+    }
+}
+@media only screen and (max-width:1030px) {
+    .card-part {
+        padding: 26px 107px;
+    }
+    .Cards {
+        grid-template-columns: auto auto auto;
+        justify-content: left;
+    }
+    .US {
+        font-size: small;
+    }
+    .qick .head {
+        font-size: small;
+    }
+}
+@media only screen and (max-width:770px) {
+    .mobile {
+        display: block;
+    }
+    .nav {
+        display: none;
+    }
+    .last-nav {
+        display: none;
+    }
+    .Navbar {
+        grid-template-columns: auto auto;
+    }
+    .card-part {
+        padding: 26px 44px;
+    }
+    .Home1 img {
+        width: 200px;
+    }
+    .Cards {
+        column-gap: 38px;
+    } 
+    .Footer {
+        grid-template-columns: auto;
+        gap: 20px;
+    }
+}
+@media only screen and (max-width:430px) {
+    .Cards {
+        grid-template-columns: auto;
+    }
+    .Home1 img {
+        width: 412px;
+        height: 190px;
+    }
+    .card-part {
+        padding: 0px 6.5px;
+        font-size: smaller;
+    }
+    .Home1 h1 {
+        top: 113px;
+        right: -178px;
+    }
+    .Home1 {
+        width: 412px;
+    }
+    .Footer {
+        padding: 0 25px;
+    } 
+}
+@media only screen and (max-width:380px) {
+    .Home1 {
+        width: 356px;
+    }
+    .Home1 img {
+        width: 356px;
+    }
+    .Home1 h1 {
+        right: -129px
+    }
+}
+@media only screen and (max-width:330px) {
+    .Home1 {
+        width: 302px;
+    }
+    .Home1 img {
+        width: 302px;
+    }
+    .Home1 h1 {
+        right: -108px
+    }
+    .custom-input {
+        width: 145px;
+    }
+    .Btn {
+        width: 100px;
+    }
+}
