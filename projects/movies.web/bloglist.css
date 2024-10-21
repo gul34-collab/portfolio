@@ -1,7 +1,9 @@
 body {
-    margin: 0px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     padding: 0px;
-    background-color: black;
+    margin: 0px;
 }
 .Background {
     background-image: url(./img/collection.jpg);
@@ -10,6 +12,12 @@ body {
 }
 .mobile {
     display: none;
+}
+.divider {
+    border-bottom: 1px solid #333;
+    position: relative;
+    height: 30px;
+    background: rgb(20, 19, 20);
 }
 .Background .Head {
     color: white;
@@ -73,10 +81,11 @@ body {
     top: -1px;
     right: 86px;
     opacity: 0.9;
-}
-.description-section {
+}.description-section {
+    width: 760px;
+    padding: 0 30px;
     background-color: black;
-    width: 717px;
+    
 }
 .Card-img img {
     width: 770px;
@@ -128,87 +137,87 @@ body {
 }
 .Head {
     color: white;
-    font-size: xx-large;
+    font-size: medium;
     font-weight: bolder;
 }
 .description {
     color: rgb(255, 255, 255,0.8);
     font-size: small;
-
-}
-.Tag-1 {
-    color: white;
-}
-/* Divider for OR */
-.divider {
-    border-bottom: 1px solid #333;
-    position: relative;
-}
-.Designer {
-    display: grid;
-    grid-template-rows: auto;
-    gap: 30px;
-    background: black;
-}
-.divider span {
-    position: absolute;
-    top: -12px;
-    background: #111;
-    padding: 0 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 12px;
-    color: #777;
 }
 .text {
     display: grid;
     grid-template-columns: auto auto;
+    gap: 30px;
     display: grid;
     grid-template-columns: auto auto;
-    padding: 36px 44px;
+    gap: 30px;
+    padding: 30px 0;
     justify-content: left;
 }
-.Last {
+.custom-input1 {
+    width: 712px;
+    height: 150px;
+    background: rgb(20, 19, 20);
+    border: black;
+}
+.Stream {
+    text-decoration: none;
+    border-radius: 3px;
     color: white;
-    background: rgb(28, 28, 28);
-    text-align: center;
-    padding: 35px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
-}
-.Last:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 16px #C2C3C1;
-}
-.img1 img  { 
-    height: 260px;
 }
 .Btn {
-    width: 30px;
+    width: 120px;
+    height: 35px;
     align-content: center;
     text-align: center;
-    color: white;
-    font-size: small;
+    border-radius: 5px;
     background: red;
 }
-.custom-input {
-    background-color: black;
-    border: black;
-    padding: 10px 25px;
+.Btn:hover {
+    background: white;
+    color: red;
+    transition: 0.4s;
 }
-.Serch {
-    width: 350px;
-    background-color: #333;
+.Stream:hover {
+    color: red;
 }
-.img-mini  img {
-    height: 40px;
-}
-.img-mini {
+.navigation {
     display: grid;
     grid-template-columns: auto auto;
-    align-items: center;
-    justify-content: left;
-    gap: 20px;
+    color: white;
+}
+.navigation h1 {
+    font-size: small;
+}
+.Post {
+    color: red;
+    text-decoration: none;
+}
+.post1 {
+    text-align: right;
+}
+.Placeholder {
+    color: white;
+}
+.w {
+    background-color: red;
+    border-radius: 10px;
+}
+.description1 {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 50px;
+    border-radius: 10px;
+    padding: 30px 20px;
+    background: rgb(33, 32, 32);
+}
+.span2 {
+    color: red;
+}
+.Article {
+    display: grid;
+    grid-template-columns: 10px auto;
+    color: white;
 }
 .cal {
     color: red;
@@ -225,7 +234,16 @@ body {
 }
 .img-mini h1 {
     color: white;
-    font-size: medium;
+    font-size: small;
+}
+.Btn1 {
+    width: 100px;
+    align-content: center;
+    text-align: center;
+    color: white;
+    font-size: small;
+    background: red;
+    padding: 10px;
 }
 .cal {
     display: grid;
@@ -298,33 +316,69 @@ body {
     gap: 120px;
     padding: 50px 50px;
 }
+.text {
+    display: grid;
+    grid-template-columns: auto auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 36px 44px;
+    justify-content: left;
+}
+.Last {
+    color: white;
+    background: rgb(28, 28, 28);
+    text-align: center;
+    padding: 35px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 278px;
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+.Last:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px #C2C3C1;
+}
+.img1 img  { 
+    height: 260px;
+}
+.Btn {
+    width: 30px;
+    align-content: center;
+    text-align: center;
+    color: white;
+    font-size: small;
+    background: red;
+}
+.custom-input {
+    background-color: black;
+    border: black;
+    padding: 10px 25px;
+}
+.Serch {
+    width: 350px;
+    background-color: #333;
+}
+.img-mini  img {
+    height: 40px;
+}
+.img-mini {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: left;
+    gap: 20px;
+}
+.describes-Articles {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: black;
+    padding: 50px 0px;
+}
 /*Footer start here */
 .Footer {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     background-color: rgb(20, 19, 20);
     padding: 27px 55px;
-}
-.Stream {
-    text-decoration: none;
-    border-radius: 3px;
-    color: white;
-}
-.Btn {
-    width: 67px;
-    height: 35px;
-    align-content: center;
-    text-align: center;
-    border-radius: 5px;
-    background: red;
-}
-.Btn:hover {
-    background: white;
-    color: red;
-    transition: 0.4s;
-}
-.Stream:hover {
-    color: red;
 }
 .Logo-section {
     display: grid;
@@ -415,7 +469,6 @@ body {
     color: #888;
     font-style: italic;
 }
-
 .Last-footer {
     display: grid;
     justify-content: space-between;
@@ -430,7 +483,7 @@ body {
 .content {
     width: 555px;
 }
-.divider1 {
+.divider {
     border-bottom: 1px solid #333;
     position: relative;
     height: 30px;
@@ -453,82 +506,22 @@ body {
 .Container-Body {
     background-color: black;
 } 
-@media only screen and (max-width:1030px) {
-    .Card-img img {
-        width: 590px;
-        height: 350px;
-    }
-    .Container {
-        width: 480px;
-    }
-    .Serch {
-        width: 330px;
-    }
-    .Designer {
-        width: 486px;
-    }
-    .Btn {
-        width: 42px;
-    }
-    .Rexcnt {
-        width: 280px;;
-    }
-    .img-mini h1 {
-        font-size: small;
-    }
-    .cal {
-        font-size: x-small;
-    }
-    .categories {
-        width: 290px;
-    }
-    .tags-container {
-        width: 290px;
-    }
-    .tag {
-        font-size: 10px;
-    }
-}
-@media only screen and (max-width:770px) {
-    .Second {
+@media only screen and (max-width:770px){
+    .describes-Articles {
         grid-template-columns: auto;
-        gap: 45px;
-    }
-    .Footer {
-        
-    }
-    .nav {
-        display: none;
-    }
-    .last-nav {
-        display: none;
-    }
-    .mobile {
-        display: block;
-    }
-    .Navabr {
-        grid-template-columns: auto auto;
-        padding: 0 20px;
-    }
-    .Second {
-        padding: 50px 15px;
-        justify-content: left;
     }
     .Card-img img {
-        width: 735px;
-        height: 380px;
-    }
-    .Container {
-        width: 745px;
+        width: 700px;
+        height: 400px;
     }
     .Serch {
-        width: 101%;
+        width: 90%;
     }
     .custom-input {
         width: 620px;
     }
     .text {
-        padding: 36px 30px;
+        padding: 0px;
     }
     .Rexcnt {
         width: 683px;
@@ -548,76 +541,148 @@ body {
     .tag {
         font-size: 16px;
     }
-}
-@media only screen and (max-width:430px) {
-    .Card-img img {
-        width: 396px;
-        height: 250px;
+    .last-nav {
+        display: none;
     }
-    .box {
-        width: 90px;
-        font-size: xx-small;
+    .nav {
+        display: none;
     }
-    .Container {
-        width: 400px;
+    .mobile {
+        display: block;
     }
-    .Head {
-        font-size: x-large;
+    .Navabr {
+        grid-template-columns: auto auto;
     }
-    .Serch {
-        width: 54%;
-    }
-    .custom-input {
-        width: 292px;
-    }
-    .Rexcnt {
-        width: 347px;
-    }
-    .categories {
-        width: 357px;
-    }
-    .tags-container {
-        width: 357px;
-    }
-    .Last {
-        width: 325px;
-    }
-    .Designer {
-        width: auto;
-    }
-    .description-section {
-        width: auto;
-    }
-    .Second {
-        height: 6000px;
+    .Product-ship {
+        height: auto;
+        padding: 0 16px;
     }
     .Footer {
-        padding: 27px 15px;
         grid-template-columns: auto;
         gap: 20px;
-    } 
+    }
+    .description-section {
+        width: 700px;
+    }
+    .Last {
+        width: 662px;
+    }
     .Last-footer {
         grid-template-columns: auto;
-        padding: 60px 20px;
-        gap: 40px;
     }
-    .content {
-        width: 365px;
-    }
-}
-@media only screen and (max-width:380px) {
     .Card-img img {
-        height: 208px;
-        width: 345px;
+        width: 350px;
+        height: 270px;
     }
-    .Container {
-        width: 345px;
-    }
-    .Serch {
-        width: 99%;
+    .Rexcnt {
+        width: 683px;
     }
     .img-mini h1 {
-        font-size: medium;
+        font-size: large;
+    }
+    .small-head {
+        grid-template-rows: 30px auto;
+    }
+    .categories {
+        width: 694px;
+    }
+    .tags-container {
+        width: 694px;
+    }
+    .tag {
+        font-size: 16px;
+    }
+    .Navabr {
+        padding: 0 10px;
+    }
+}
+@media only screen and (max-width:430px) {
+.Footer {
+    grid-template-columns: auto;
+    gap: 20px;
+}
+.Navabr {
+    padding: 0 7px;
+}
+.content {
+
+    width: 380px;
+}
+.Serch {
+    width: 54%;
+}
+.custom-input {
+    width: 292px;
+}
+.Rexcnt {
+    width: 347px;
+}
+.categories {
+    width: 357px;
+}
+.tags-container {
+    width: 357px;
+}
+.Last {
+    width: 325px;
+}
+.Designer {
+    width: auto;
+}
+.description-section {
+    width: auto;
+}
+.Second {
+    height: 6000px;
+}
+.Footer {
+    padding: 27px 15px;
+    grid-template-columns: auto;
+    gap: 20px;
+} 
+.Last-footer {
+    grid-template-columns: auto;
+    padding: 60px 20px;
+    gap: 40px;
+}
+.custom-input1 {
+    width: 409px;
+}
+.Product-ship {
+    padding: 0px;
+}
+.description-section {
+    padding: 0px;
+}
+.Card-img img {
+    width: 410px;
+    height: 278px;
+}
+.box {
+    width: 135px;
+}
+.describes-Articles {
+    padding: 50px 7px;
+}
+.Rexcnt {
+    width: 358px;
+}
+.categories {
+    width: 368px;
+}
+.tags-container {
+    width: 366px;
+}
+.Last {
+    width: 336px;
+}
+}
+@media only screen and (max-width:380px) {
+    .content {
+        width: 330px;
+    }
+    .small-foter {
+        font-size: small;
     }
     .custom-input {
         width: 235px;
@@ -646,22 +711,23 @@ body {
     .small-foter {
         font-size: small;
     }
+    .Card-img img {
+        width: 358px;
+        height: 250px;
+    }
+    .custom-input1 {
+        width: 345px;
+    }
 }
 @media only screen and (max-width:330px) {
-    .Second {
-        padding: 50px 5px;
+    .custom-input {
+        width: 145px;
     }
-    .Card-img img {
-        width: 308px;
+    .Btn {
+        width: 100px;
     }
-    .Container {
-        width: 308px;
-    }
-    .Serch {
-        width: 100%;
-    }
-    .Navabr {
-        padding: 0 5px;
+    .content {
+        width: 280px;
     }
     .custom-input {
         width: 186px;
@@ -686,5 +752,18 @@ body {
     }
     .text {
         padding: 33px 0px;
+    }
+    .Card-img img {
+        width: 300px;
+        height: 195px;
+    }
+    .custom-input1 {
+        width: 300px;
+    }
+    .Serch {
+        width: 99%;
+    }
+    .text {
+        gap: 0;
     }
 }
