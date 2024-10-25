@@ -453,6 +453,16 @@ body {
 .Container-Body {
     background-color: black;
 } 
+.Follow-Part2{
+    display: grid;
+    grid-template-columns: auto;
+    background-color: rgb(28, 28, 28);
+    padding: 20px;
+    justify-content: left;
+    color: white;
+    align-items: center;
+    gap: 20px;
+}
 @media only screen and (max-width:1030px) {
     .Card-img img {
         width: 590px;
@@ -514,6 +524,9 @@ body {
         padding: 50px 15px;
         justify-content: left;
     }
+    .Product-ship {
+        height: auto;
+    }
     .Card-img img {
         width: 735px;
         height: 380px;
@@ -548,11 +561,22 @@ body {
     .tag {
         font-size: 16px;
     }
+    .Footer{
+        grid-template-columns: auto;
+        padding: 27px 20px;
+        gap: 30px;
+    }
+    .text {
+        padding: 0px;
+    }
 }
 @media only screen and (max-width:430px) {
     .Card-img img {
         width: 396px;
         height: 250px;
+    }
+    .Card-img {
+        height: 530px;
     }
     .box {
         width: 90px;
@@ -565,7 +589,8 @@ body {
         font-size: x-large;
     }
     .Serch {
-        width: 54%;
+        width: 89%;
+        padding: 20px;
     }
     .custom-input {
         width: 292px;
@@ -589,7 +614,7 @@ body {
         width: auto;
     }
     .Second {
-        height: 6000px;
+        height: auto;
     }
     .Footer {
         padding: 27px 15px;
@@ -614,7 +639,7 @@ body {
         width: 345px;
     }
     .Serch {
-        width: 99%;
+        width: 88%;
     }
     .img-mini h1 {
         font-size: medium;
@@ -658,7 +683,7 @@ body {
         width: 308px;
     }
     .Serch {
-        width: 100%;
+        width: 86%;
     }
     .Navabr {
         padding: 0 5px;
@@ -672,6 +697,9 @@ body {
     .categories {
         width: 267px;
     }
+    .img-mini h1 {
+        font-size: small;
+    }
     .tags-container {
         width: 267px;
     }
@@ -679,12 +707,12 @@ body {
         width: 237px;
     }
     .Btn {
-        width: 100px;
+        width: 40px;
     }
     .content {
         width: 280px;
     }
     .text {
-        padding: 33px 0px;
+        padding: 0px;
     }
 }

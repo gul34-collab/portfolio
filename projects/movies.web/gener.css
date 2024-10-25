@@ -288,7 +288,7 @@ body {
     .last-nav {
         display: none;
     }
-    .Navbar {
+    .Navabr {
         grid-template-columns: auto auto;
     }
     .card-part {
@@ -315,6 +315,10 @@ body {
     .Home1 img {
         width: 412px;
         height: 190px;
+    }
+    .Navabr {
+        grid-template-columns: auto auto;
+        padding: 0 6px;
     }
     .card-part {
         padding: 0px 6.5px;

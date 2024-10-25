@@ -157,14 +157,24 @@ form {
     }
     .login-container input[type="text"],
     .login-container input[type="password"] {
-        width: 205px;
+        width: 285px;
     }
     .login-btn {
-        width: 230px;
+        width: 285px;
     }
 }
 @media only screen and (max-width:330px) { 
     .login-container {
     padding: 27px 5px;
+    }
+    .login-container input[type="text"],
+    .login-container input[type="password"] {
+        width: 240px;
+    }
+    .login-btn {
+        width: 240px;
+    }
+    form {
+        padding: 0 20px;
     }
 }

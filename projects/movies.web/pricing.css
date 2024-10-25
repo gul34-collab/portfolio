@@ -371,7 +371,7 @@ body {
     }
     .Footer {
         grid-template-columns: auto;
-        gap: 30px;
+        gap: 20px;
     }
 }
 @media only screen and (max-width:430px) { 
@@ -390,8 +390,8 @@ body {
         padding: 60px 20px;
         gap: 40px;
     }
-    .Sacee {
-        width: 360px;
+    .content {
+        width: 350px;
     }
 }
 @media only screen and (max-width:380px) {
@@ -417,5 +417,8 @@ body {
 }
 .content {
     width: 280px;
+}
+.Sacee {
+    width: auto;
 }
 }
