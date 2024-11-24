@@ -542,9 +542,6 @@ body {
     .Last-footer {
         display: none;
     }
-    .content {
-        width: 370px;
-    }
 }
 @media only screen and (max-width:380px) {
     .img-product {

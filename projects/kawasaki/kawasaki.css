@@ -1,0 +1,361 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.Background-wallpaper {
+    background-image: url(./img/bikea.jpeg);
+    z-index: -1;
+    height: 607px;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.Navbar {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+.Logo-part {
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto;
+    font-size: larger;
+    font-family:Arial, Helvetica, sans-serif;
+    gap: 20px;
+    justify-content: left;
+    padding: 0 20px;
+}
+.head {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    gap: 10px;
+}
+.head span {
+    color: green;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 40px;
+}
+.home {
+    text-decoration: none;
+    color: white;
+}
+.icon-part {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    gap: 30px;
+}
+.menu {
+    text-align: right;
+    padding: 10px 20px;
+}
+.menu:hover {
+    color: yellow;
+    transform: scaleY(1.2);
+}
+.Discribtion {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    gap: 10px;
+    padding: 5px 20px;
+    transition: 0.5s;
+    border-radius: 25px;
+}
+.Discribtion:hover {
+    transform: rotateY(-2deg);
+    background: rgb(0, 128, 0,0.7);
+}
+.Name {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 5px;
+}
+.Model {
+    color: white;
+    font-size: xx-small;
+}
+.sport {
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    transition: 0.7s;
+}
+.sport:hover {
+    color: yellow;
+}
+.icon {
+    color: orange;
+    transition: 0.7s;
+}
+.icon:hover {
+    color: white;
+}
+.Part-2 {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 30px;
+}
+.Number-parts {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 30px;
+}
+.num {
+    color: white;
+    text-decoration: none;
+}
+.num:hover {
+    color: green;
+    transform:scaleY(1.2);
+}
+.Property-part {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: auto auto auto;
+    padding: 150px 20px;
+}
+.span1 {
+    font-size: large;
+    color: green;
+}
+.services-Head {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.k-2a-bike {
+    background-image: url(./img/h3r.jfif);
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    align-content: end;
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+} 
+.k-2a-bike:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgb(69, 90, 95,0.7);
+}
+.small {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    gap: 20px;
+    color: green;
+}
+.Company {
+    font-size: small;
+}
+.year {
+    color: black;
+}
+.services-option {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.k-2b-bike {
+    background-image: url(./img/hardloaf.jpg);
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+    align-content: end;
+}
+.k-2b-bike:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgb(69, 90, 95,0.7);
+}
+.k-2c-bike {
+    background-image: url(./img/ninja400.jpg);
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    align-content: end;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+.k-2c-bike:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgb(69, 90, 95,0.7);
+}
+.k-2d-bike {
+    background-image: url(./img/ninjah2r.jpg);
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    align-content: end;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+.k-2d-bike:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgb(69, 90, 95,0.7);
+}
+.section-part {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 20px;
+    background: white;
+    text-align: center;
+    padding: 70px 20px;
+    
+}
+.about-section {
+    text-align: center;
+    background-color: #ffffff;
+    font-size: xx-large;
+}
+.img-part {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgb(247, 189, 43)
+}
+.img-part2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 0 40px;
+    background-color: rgb(47, 50, 55);
+}
+.icons-parts {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    gap: 30px;
+}
+.points {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 20px;
+    padding: 15px 10px;
+    color: white;
+}
+.Point:hover {
+    transition: 0.5s;
+    color: black;
+    background: yellow;
+
+}
+.description-part {
+    align-content: center;
+    font-size: medium;
+}
+.icon {
+    color: green;
+}
+.img-part2 img {
+    transform: scaleY(1.0);
+}
+
+.video-bg{
+    width: 100%;
+    height: 230px;
+    object-fit: cover; /* Ensures the video covers the entire background */
+    z-index: -1; /* Places the video behind other content */
+}
+.content {
+    position: relative;
+    z-index: 1; /* Places the content above the video */
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    top: -465px;
+    padding-top: 20%;
+  }
+  .Logo-part2 {
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto;
+    font-size: larger;
+    font-family:Arial, Helvetica, sans-serif;
+    gap: 20px;
+    justify-content: center;
+    padding: 0 20px;
+  }
+  .video-part {
+    height: 230px;
+  }
+  .line1 {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+  }
+  .footer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 70px 36px;
+    gap: 55px;
+    background: gray;
+  } 
+  .placeholder-part {
+    align-self: center;
+  } 
+  .card {
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    justify-content: left;
+    gap: 20px;
+    align-content: space-evenly;
+  }
+  .Point {
+    color: white;
+    text-decoration: none;
+    padding: 15px 10px;
+    border-radius: 30%;
+  }
+  form {
+    position: relative;
+}
+
+input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    position: relative;
+}
+
+input::placeholder {
+    opacity: 0; /* Start invisible */
+}
+
+input::before {
+    content: attr(placeholder);
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    color: #aaa;
+    white-space: nowrap;
+    overflow: hidden;
+    font-style: italic;
+    font-size: 16px;
+    animation: typing 3s steps(30, end) infinite;
+}
+
+input:focus::before {
+    display: none;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
