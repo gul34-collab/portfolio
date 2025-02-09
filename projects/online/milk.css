@@ -1,0 +1,439 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  
+    background-color: #f4f4f4;
+
+  }
+.img-logo img {
+    height: 40px;
+}
+.Logo-section {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+    align-items: center;
+    gap: 275px;
+    z-index: 1;
+    padding: 1pc 50px;
+    position: fixed;
+
+}
+.menu {
+  display: none;
+}
+.Menu-part {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    gap: 50px;
+}
+.Profile-part {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.Home{
+    color: rgb(245, 139, 55);
+    text-decoration: none;
+    transition: 0.4s;
+}
+.Home:hover {
+    color: white;
+    padding: 20px 10px;
+    background: rgb(245, 139, 55);
+    border-radius: 45px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+  .search-wrapper {
+    position: relative;
+    width: 40px; /* Default collapsed size */
+    overflow: hidden;
+    transition: width 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    background: white;
+    padding: 5px;
+  }
+  
+  .search-wrapper input {
+    width: 0;
+    border: none;
+    outline: none;
+    padding: 8px;
+    font-size: 16px;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .search-wrapper i {
+    font-size: 18px;
+    color: #888;
+    padding: 5px;
+    cursor: pointer;
+  }
+  .search-wrapper:hover {
+    border-color: rgb(245, 139, 55);
+    box-shadow: 0 0 8px rgb(245, 139, 55);
+  }
+  
+  /* Expand when hovered or focused */
+  .search-wrapper:hover,
+  .search-wrapper:focus-within {
+    width: 250px;
+  }
+  
+  .search-wrapper:hover input,
+  .search-wrapper:focus-within input {
+    width: 100%;
+  }
+  .Profile {
+    transition: 0.4s;
+  }
+  .Profile:hover {
+    color: white;
+    padding: 20px ;
+    background: salmon;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+.menu-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .menu-btn {
+    color: rgb(245, 139, 55);
+    text-decoration: none;
+    transition: 0.4s;
+  }
+  .menu-btn:hover {
+    color: rgb(245, 139, 55);
+    padding: 20px 10px;
+    background: saHomelmon;
+    border-radius: 45px;
+    
+  }
+  
+  .menu-list {
+    display: none;
+    position: absolute;
+    background-color: white;
+    
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 150px;
+    border-radius: 0px;
+    overflow: hidden;
+  }
+  .menu-list li h1{
+    font-size: 15px;
+  }
+  
+  .menu-list li .p1 {
+    font-family: fantasy;
+  }
+  .description {
+    font-size: 4px;
+    font-weight: 100;
+    color: #555;
+  }
+  .menu-list li {
+    padding: 5px 20px;
+    border-radius: 0px;
+    cursor: pointer;
+  }
+  
+  .menu-list li:last-child {
+    border-bottom: none;
+  }
+  
+  .menu-list li:hover {
+    background-color: rgb(245, 139, 55);
+    color: white;
+  }
+  
+  /* Show the menu on hover */
+  .menu-container:hover .menu-list {
+    display: block;
+  }
+  
+  container {
+    max-width: 1272px;
+    margin: auto;
+  }
+  
+  h2 {
+    font-size: 24px;
+    padding: 0 10px;
+    margin-bottom: 15px;
+  }
+  
+  .slider {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .slider-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 6px;
+    padding: 10px;
+    scrollbar-width: none; /* Hide scrollbar in Firefox */
+  }
+  
+  .slider-container::-webkit-scrollbar {
+    display: none; /* Hide scrollbar in Chrome/Safari */
+  }
+  
+  .product {
+    flex: 0 0 auto;
+    height: 265px;
+      width: 155px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  .img img {
+    height: 40px;
+    padding: 5px 42px;
+  }
+  
+  .product img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .product img {
+  transition: transform 0.5s ease-in-out;
+  height: 130px;
+  }
+  
+  .product img:hover {
+  transform: scale(1.1) rotate(-1.7deg);
+  }
+  
+  
+  .price {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  .desc {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .add-btn {
+    display: inline-block;
+    margin-top: 8px;
+    width: 30px;
+    height: 30px;
+    background-color: #007bff;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+  }
+  
+  .nav-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .prev {
+    left: 50px;
+  }
+  
+  .next {
+    right: -20px;
+  }
+  .small23 {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: end;
+    justify-content: space-between;
+  }
+  .class1 img{
+    height: 380px;
+    transform-style: preserve-3d;
+    transition: transform 300ms;
+  }
+  .class1 img:hover{
+    height: 380px;
+    transform: translate3d(0% , -50px, 100px);
+    transition: 0.5s;
+  }
+  .Promotions{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 24px;
+  }
+  .container {
+    max-width: 1272px;
+    padding-top: 90px;
+
+  }
+  .Has {
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .discount-tag {
+    position: relative;
+    background-color: #ff4757;
+    color: white;
+    padding: 20px 40px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 50px;
+    animation: bounce 1.5s infinite;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.discount-tag::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #ff4757;
+}
+.image3 img {
+    height: 200px;
+}
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+.slider1 {
+    position: relative;
+    justify-self: center;
+    width: 80%;
+    max-width: 556px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.slider-position {
+    padding-top: 100px;
+}
+.slides1 {
+    display: flex;
+    width: 112%; /* 100% * number of slides */
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide1 {
+    width: 88%;
+    height: 100%;
+    flex-shrink: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.slide1:nth-child(1) {
+    background-image: url('./img/Untitled-1232.jpg');
+    height: 303px;
+    width: 560px;
+}
+
+.slide1:nth-child(2) {
+    background-image: url('./img/Olpers-Chocolate-180ml-405x330-1-405x330.jpg');
+    height: 325px;
+    width: 635px;
+
+}
+
+.slide1:nth-child(3) {
+    background-image: url('./img/olper2-removebg-preview.png');
+}
+  @media only screen and (max-width:2570px) {
+    .Logo-section {
+      justify-self: anchor-center;
+    }
+    .container {
+        justify-self: center;
+    }
+    .prev {
+        left: -13px;
+    }
+    .slider {
+        justify-self: center;
+    }
+}
+@media only screen and (max-width:1450px) {
+    .product {
+        width: 147px;
+    }
+   
+}
+@media only screen and (max-width:770px) {
+    .Logo-section {
+        grid-template-columns: auto auto;
+        gap: 405px;
+    }
+    .Menu-part {
+        display: none;
+    }
+    .slider-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+}
+@media only screen and (max-width:770px) {
+    .Logo-section {
+        gap: 130px;
+    }
+    .slider-container {
+        grid-template-columns: auto auto;
+    }
+    .menu {
+        display: block;
+    }
+    .Profile {
+        display: none;
+    }
+    .search-wrapper {
+        display: none;
+    }
+
+}

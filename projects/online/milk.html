@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="stylesheet" href="milk.css">
+</head>
+
+<body>
+    <div class="Logo-section">
+        <div class="Logo-part">
+            <div class="img-logo">
+                <img src="./img/Untitled-2-removebg-preview.png">
+            </div>
+        </div>
+        <div class="Menu-part">
+            <a href="#" class="Home">Home</a>
+            <div class="menu-container">
+                <div class="menu-btn">Product</div>
+                <ul class="menu-list">
+                    <li>
+                        <h1>Milk</h1>
+                        <a href="./milk.html">
+                            <div class="description">Olper , Pak Milk ,
+                                NoorPur</div>
+                        </a>
+                    </li>
+                    <li>
+                        <h1>Washing </h1>
+                        <div class="description">Arel, Expcel , Bouns, </div>
+                    </li>
+                    <li>
+                        <h1>Washing </h1>
+                        <div class="description">Arel, Expcel , Bouns, </div>
+                    </li>
+                    <li>
+                        <h1>Washing </h1>
+                        <div class="description">Arel, Expcel , Bouns, </div>
+                    </li>
+                    <li>
+                        <h1>Washing </h1>
+                        <div class="description">Arel, Expcel , Bouns, </div>
+                    </li>
+                    <li>
+                        <h1>SoftDrink </h1>
+                        <div class="description">Cola, Pepsi , ColaNext, </div>
+                    </li>
+                    <li>
+                        <h1>Product </h1>
+                        <div class="description">Cocomo, Oreo , LU, </div>
+                    </li>
+                </ul>
+            </div>
+            </a>
+            <a href="#" class="Home">Shop</a>
+            <a href="#" class="Home">Contact</a>
+        </div>
+
+        <div class="Profile-part">
+            <div class="Profile">
+                <i class="fa-regular fa-user"></i>
+            </div>
+            <div class="Flag">
+                <img src="./img/flag.png" height="20px">
+            </div>
+            <i class="fa-solid fa-location-dot"></i>
+            <div class="search-wrapper">
+                <input type="text" class="search-input" placeholder="Search...">
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="menu">
+                <i class="fa-solid fa-bars">
+
+                    </a>
+                </i>
+            </div>
+        </div>
+    </div>
+    <div class="slider-position">
+    <div class="slider1">
+        <div class="slides1">
+            <div class="slide1"></div>
+            <div class="slide1"></div>
+            <div class="slide1"></div>
+        </div>
+    </div>
+
+    <script>
+        const slides1 = document.querySelector('.slides1');
+        const totalSlides1 = document.querySelectorAll('.slide1').length;
+        let index = 0;
+
+        function showNextSlide() {
+            index = (index + 1) % totalSlides1;
+            slides1.style.transform = `translateX(-${index * 100}%)`;
+        }
+
+        setInterval(showNextSlide, 5000); // Change slide every 5 seconds
+    </script>
+    </div>
+    <div class="Bakry-section">
+        <div class="container">
+            <div class="img">
+                <img src="./img/milj-removebg-preview.png">
+            </div>
+
+            <div class="slider">
+                <button class="nav-btn prev" onclick="scrollLeft()">&#10094;</button>
+
+                <div class="slider-container" id="slider">
+                    <div class="product">
+                        <img src="./img/olper-removebg-preview.png" alt="Green Chilli">
+                        <div class="Has">Olper</div>
+                        <div class="small23">
+                            <div class="add-btn">+</div>
+                        </div>
+                        <div class="price">99 PKR</div>
+                        <div class="desc">Green Chilli Desi 500g</div>
+                    </div>
+
+                    <div class="product">
+
+                        <img src="./img/prema-removebg-preview.png" alt="Haleeb">
+                        <div class="Has">Prema</div>
+                        <div class="small23">
+                            <div class="new">new <i class="fa-solid fa-truck"></i></div>
+                            <div class="add-btn">+</div>
+                        </div>
+
+                        <div class="price">120 PKR</div>
+                        <div class="desc">Tomato Premium 1kg</div>
+
+                    </div>
+
+                    <div class="product">
+                        <img src="./img/nurpur-removebg-preview.png" alt="Cucumber">
+                        <div class="Has">NurPur</div>
+                        <div class="small23">
+                            <div class="new">new <i class="fa-solid fa-truck"></i></div>
+                            <div class="add-btn">+</div>
+                        </div>
+                        <div class="price">130 PKR</div>
+                        <div class="desc">Cucumber 1kg</div>
+
+                    </div>
+
+                    <div class="product">
+                        <img src="./img/olper-removebg-preview.png" alt="Carrot">
+                        <div class="Has">Olper</div>
+                        <div class="small23">
+                            <div class="new">new <i class="fa-solid fa-truck"></i></div>
+                            <div class="add-btn">+</div>
+                        </div>
+                        <div class="price">75 PKR</div>
+                        <div class="desc">Carrot Premium 1kg</div>
+
+                    </div>
+
+                    <div class="product">
+                        <img src="./img/nurpur-removebg-preview.png" alt="Chilli Green">
+                        <div class="Has">NurPur</div>
+                        <div class="small23">
+                            <div class="new">new <i class="fa-solid fa-truck"></i></div>
+                            <div class="add-btn">+</div>
+                        </div>
+                        <div class="price">30 PKR</div>
+                        <div class="desc">Chilli Green Farmi 250g</div>
+
+                    </div>
+
+                    <div class="product">
+                        <img src="./img/haaleb-removebg-preview.png" alt="Eggplant">
+                        <div class="Has">Haleeb</div>
+                        <div class="small23">
+
+                            <div class="new">new <i class="fa-solid fa-truck"></i></div>
+                            <div class="add-btn">+</div>
+                        </div>
+                        <div class="price">75 PKR</div>
+                        <div class="desc">Eggplant Round 500g</div>
+
+                    </div>
+
+                    <div class="product">
+                        <img src="./img/olper-removebg-preview.png" alt="Zucchini">
+                        <div class="Has">Olper</div>
+                        <div class="small23">
+                            <div class="new">new <i class="fa-solid fa-truck"></i></div>
+                            <div class="add-btn">+</div>
+                        </div>
+                        <div class="price">35 PKR</div>
+                        <div class="desc">Zucchini Local 500g</div>
+                    </div>
+                </div>
+
+                <button class="nav-btn next" onclick="scrollRight()">&#10095;</button>
+            </div>
+
+        </div>
+        <script>
+            let slider = document.getElementById("slider");
+
+            function scrollLeft() {
+                slider.scrollBy({ left: -200, behavior: "smooth" });
+            }
+
+            function scrollRight() {
+                slider.scrollBy({ left: 200, behavior: "smooth" });
+            }
+        </script>
+    </div>
+    <div class="Bakry-section">
+        <div class="container">
+            <div class="img">
+                <img src="./img/milj-removebg-preview.png">
+            </div>
+
+            <div class="slider">
+                <button class="nav-btn prev" onclick="scrollLeft()">&#10094;</button>
+
+                <div class="slider-container" id="slider">
+                    <div class="product">
+                        <img src="./img/olper2-removebg-preview.png" alt="Green Chilli">
+                        <div class="Has">Olper Cream</div>
+                        <div class="small23">
+                            <div class="add-btn">+</div>
+                        </div>
+                        <div class="price">99 PKR</div>
+                        <div class="desc">Green Chilli Desi 500g</div>
+                    </div>
+
+                    <div class="product">
+
+                        <img src="./img/1066406-1-removebg-preview (1).png" alt="Haleeb">
+                        <div class="Has">Pler CHOC Milk</div>
+                        <div class="small23">
+                            <div class="new">new <i class="fa-solid fa-truck"></i></div>
+                            <div class="add-btn">+</div>
+                        </div>
+
+                        <div class="price">120 PKR</div>
+                        <div class="desc">Tomato Premium 1kg</div>
+
+                    </div>
+
+                    <div class="product">
+                        <img src="./img/milo-removebg-preview.png" alt="Cucumber">
+                        <div class="Has">NurPur</div>
+                        <div class="small23">
+                            <div class="new">new <i class="fa-solid fa-truck"></i></div>
+                            <div class="add-btn">+</div>
+                        </div>
+                        <div class="price">130 PKR</div>
+                        <div class="desc">Cucumber 1kg</div>
+
+                    </div>
+
+                    <div class="product">
+                        <img src="./img/c1f0c03d-5d55-40b9-9d0a-0109019ef07c-removebg-preview (1).png" alt="Carrot">
+                        <div class="Has">Olper</div>
+                        <div class="small23">
+                            <div class="new">new <i class="fa-solid fa-truck"></i></div>
+                            <div class="add-btn">+</div>
+                        </div>
+                        <div class="price">75 PKR</div>
+                        <div class="desc">Carrot Premium 1kg</div>
+
+                    </div>
+
+                    <div class="product">
+                        <img src="./img/milo-removebg-preview.png" alt="Chilli Green">
+                        <div class="Has">NurPur</div>
+                        <div class="small23">
+                            <div class="new">new <i class="fa-solid fa-truck"></i></div>
+                            <div class="add-btn">+</div>
+                        </div>
+                        <div class="price">30 PKR</div>
+                        <div class="desc">Chilli Green Farmi 250g</div>
+
+                    </div>
+
+                    <div class="product">
+                        <img src="./img/1066406-1-removebg-preview (1).png" alt="Eggplant">
+                        <div class="Has">Haleeb</div>
+                        <div class="small23">
+
+                            <div class="new">new <i class="fa-solid fa-truck"></i></div>
+                            <div class="add-btn">+</div>
+                        </div>
+                        <div class="price">75 PKR</div>
+                        <div class="desc">Eggplant Round 500g</div>
+
+                    </div>
+
+                    <div class="product">
+                        <img src="./img/c1f0c03d-5d55-40b9-9d0a-0109019ef07c-removebg-preview (1).png" alt="Zucchini">
+                        <div class="Has">Olper</div>
+                        <div class="small23">
+                            <div class="new">new <i class="fa-solid fa-truck"></i></div>
+                            <div class="add-btn">+</div>
+                        </div>
+                        <div class="price">35 PKR</div>
+                        <div class="desc">Zucchini Local 500g</div>
+                    </div>
+                </div>
+
+                <button class="nav-btn next" onclick="scrollRight()">&#10095;</button>
+            </div>
+
+        </div>
+        <script>
+            let slider = document.getElementById("slider");
+
+            function scrollLeft() {
+                slider.scrollBy({ left: -200, behavior: "smooth" });
+            }
+
+            function scrollRight() {
+                slider.scrollBy({ left: 200, behavior: "smooth" });
+            }
+        </script>
+    </div>
+
+
+</body>
