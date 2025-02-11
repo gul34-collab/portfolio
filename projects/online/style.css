@@ -779,6 +779,7 @@ transform: scale(1.1) rotate(-1.7deg);
 .back-to-top a:hover {
   text-decoration: underline;
 }
+
 @media only screen and (max-width:2570px) {
   .Logo-section {
     justify-self: anchor-center;
@@ -812,6 +813,7 @@ transform: scale(1.1) rotate(-1.7deg);
   }
 }
 @media only screen and (max-width:1030px) {
+ 
   .Logo-section {
     gap: 0px;
   }
@@ -908,6 +910,7 @@ transform: scale(1.1) rotate(-1.7deg);
   body {
     padding: 12px 20px;
   }
+  
   .Logo-section {
     padding: 0px;
     gap: 0px;
@@ -993,6 +996,10 @@ transform: scale(1.1) rotate(-1.7deg);
   }
   .Logo-section {
     gap: 120px;
+    z-index: 1;
+  }
+  .Lgo {
+    padding: 35px 0px;
   }
   .Ads img {
     width: 295px;

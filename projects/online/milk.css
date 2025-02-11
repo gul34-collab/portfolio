@@ -332,6 +332,7 @@ body {
 }
 .image3 img {
     height: 200px;
+    align-self: center;
 }
 @keyframes bounce {
     0%, 100% {
@@ -386,6 +387,190 @@ body {
 .slide1:nth-child(3) {
     background-image: url('./img/olper2-removebg-preview.png');
 }
+.Ads-butter img {
+    height: 600px;
+    border-radius: 20px;
+}
+.slider-container783 {
+    width: 80%; /* Adjust as needed */
+    margin: 20px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider783 {
+    display: flex;
+    transition: transform 0.5s ease-in-out; /* Smooth transition */
+}
+
+.slide783 {
+    min-width: 25%; /* Adjust for number of slides visible */
+    justify-items: center;
+    padding: 10px;
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.slide783 img {
+    max-width: 100%;
+    height: 120px;
+}
+
+.nav-buttons {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav-buttons button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.slide-content783 {
+    text-align: center; /* Center the content within the slide */
+}
+
+.slide-title783 {
+    font-weight: bold;
+}
+.heart {
+    justify-self: flex-end;
+}
+.heart:hover {
+    color: red;
+
+}
+.Butter-section {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 15px 30px
+}
+.image-123 {
+    align-self: center;
+}
+.full-item img{
+    padding: 10px 70px;
+}
+.button {
+    --width: 100px;
+    --height: 35px;
+    --tooltip-height: 35px;
+    --tooltip-width: 90px;
+    --gap-between-tooltip-to-button: 18px;
+    --button-color: rgb(245, 138, 55);
+    --tooltip-color: #fff;
+    width: var(--width);
+    height: var(--height);
+    background: var(--button-color);
+    position: relative;
+    text-align: center;
+    border-radius: 0.45em;
+    font-family: "Arial";
+    transition: background 0.3s;
+  }
+  
+  .button::before {
+    position: absolute;
+    content: attr(data-tooltip);
+    width: var(--tooltip-width);
+    height: var(--tooltip-height);
+    background-color: #555;
+    font-size: 0.9rem;
+    color: #fff;
+    border-radius: .25em;
+    line-height: var(--tooltip-height);
+    bottom: calc(var(--height) + var(--gap-between-tooltip-to-button) + 10px);
+    left: calc(50% - var(--tooltip-width) / 2);
+  }
+  
+  .button::after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top-color: #555;
+    left: calc(50% - 10px);
+    bottom: calc(100% + var(--gap-between-tooltip-to-button) - 10px);
+  }
+  
+  .button::after,.button::before {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+  }
+  
+  .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button-wrapper,.text,.icon {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    color: #fff;
+  }
+  
+  .text {
+    top: 0
+  }
+  
+  .text,.icon {
+    transition: top 0.5s;
+  }
+  
+  .icon {
+    color: #fff;
+    top: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icon svg {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .button:hover {
+    background: #222;
+  }
+  
+  .button:hover .text {
+    top: -100%;
+  }
+  
+  .button:hover .icon {
+    top: 0;
+  }
+  
+  .button:hover:before,.button:hover:after {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .button:hover:after {
+    bottom: calc(var(--height) + var(--gap-between-tooltip-to-button) - 20px);
+  }
+  
+  .button:hover:before {
+    bottom: calc(var(--height) + var(--gap-between-tooltip-to-button));
+  }
+  .Price {
+    text-align: -webkit-right;
+    padding: 20px 47px;
+  } 
+  
   @media only screen and (max-width:2570px) {
     .Logo-section {
       justify-self: anchor-center;
@@ -399,12 +584,31 @@ body {
     .slider {
         justify-self: center;
     }
+    .full-item {
+        text-align: center;
+    }
+    .Butter-section {
+        justify-content: center;
+    }
 }
 @media only screen and (max-width:1450px) {
     .product {
         width: 147px;
     }
    
+}
+@media only screen and (max-width:1030px) {
+    .slider-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+    .Ads-butter img {
+        height: 785px;
+    }
+    .slider783 {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
 }
 @media only screen and (max-width:770px) {
     .Logo-section {
@@ -418,6 +622,10 @@ body {
         display: grid;
         grid-template-columns: auto auto auto;
     }
+    .Butter-section {
+        display: grid;
+        grid-template-columns: auto;
+    }
 }
 @media only screen and (max-width:770px) {
     .Logo-section {
@@ -425,6 +633,19 @@ body {
     }
     .slider-container {
         grid-template-columns: auto auto;
+    }
+
+    .slide1:nth-child(1) {
+        height: 300px;
+    width: 112%;
+    }
+    .slide1:nth-child(2) {
+        height: 300px;
+    width: 112%;
+    }
+    .slide1:nth-child(3) {
+        height: 300px;
+    width: 112%;
     }
     .menu {
         display: block;
@@ -436,4 +657,18 @@ body {
         display: none;
     }
 
+}
+@media only screen and (max-width:430px) {
+    .Ads-butter img {
+        height: 450px;
+    }
+}
+@media only screen and (max-width:380px) {
+    .Logo-section {
+        gap: 80px;
+    }
+    .product {
+        width: 120px;
+        height: 250px;
+    }
 }

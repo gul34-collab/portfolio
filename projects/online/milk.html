@@ -80,27 +80,28 @@
         </div>
     </div>
     <div class="slider-position">
-    <div class="slider1">
-        <div class="slides1">
-            <div class="slide1"></div>
-            <div class="slide1"></div>
-            <div class="slide1"></div>
+        <div class="slider1">
+            <div class="slides1">
+                <div class="slide1"></div>
+                <div class="slide1"></div>
+                <div class="slide1"></div>
+            </div>
         </div>
+
+        <script>
+            const slides1 = document.querySelector('.slides1');
+            const totalSlides1 = document.querySelectorAll('.slide1').length;
+            let index = 0;
+
+            function showNextSlide() {
+                index = (index + 1) % totalSlides1;
+                slides1.style.transform = `translateX(-${index * 100}%)`;
+            }
+
+            setInterval(showNextSlide, 5000); 
+        </script>
     </div>
-
-    <script>
-        const slides1 = document.querySelector('.slides1');
-        const totalSlides1 = document.querySelectorAll('.slide1').length;
-        let index = 0;
-
-        function showNextSlide() {
-            index = (index + 1) % totalSlides1;
-            slides1.style.transform = `translateX(-${index * 100}%)`;
-        }
-
-        setInterval(showNextSlide, 5000); // Change slide every 5 seconds
-    </script>
-    </div>
+    
     <div class="Bakry-section">
         <div class="container">
             <div class="img">
@@ -212,6 +213,7 @@
             }
         </script>
     </div>
+
     <div class="Bakry-section">
         <div class="container">
             <div class="img">
@@ -323,6 +325,247 @@
             }
         </script>
     </div>
+    
+    <div class="full-item"><img src="./img/butter-removebg-preview.png" height="40px"></div>
+    <div class="Butter-section">
+        <div class="Ads-butter"><img src="./img/Untitled-1342.jpg"></div>
+        <div class="image-123">
+            <div class="slider-container783">
+                <div class="slider783" id="productSlider">
+                    <div class="slide783">
+                        <div class="heart"><i class="fa-regular fa-heart"></i></div>
+                        <img src="./img/images__2_-removebg-preview.png" alt="Metro Chef Daal Masoor">
+                        <div class="slide-content783">
+                            <div class="slide-title783">SLAT_Butter</div>
+                            <div>Rs. 275-545</div>
+                            <div class="Price">
+                                <div data-tooltip="Credit Now" class="button">
+                                    <div class="button-wrapper">
+                                        <div class="text">Buy Now</div>
+                                        <span class="icon">
+                                            <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16"
+                                                width="16" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
 
+                        </div>
+                    </div>
+                    <div class="slide783">
+                        <div class="heart"><i class="fa-regular fa-heart"></i></div>
+                        <img src="./img/NurpurButterunsalted_1000x1000-removebg-preview.png"
+                            alt="OK Awami Rice PK-386 5 KG">
+                        <div class="slide-content783">
+                            <div class="slide-title783">NURPUR-Butter 400GM</div>
+                            <div>Rs. 999</div>
+                            <div class="Price">
+                                <div data-tooltip="Credit Now" class="button">
+                                    <div class="button-wrapper">
+                                        <div class="text">Buy Now</div>
+                                        <span class="icon">
+                                            <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16"
+                                                width="16" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="slide783">
+                        <div class="heart"><i class="fa-regular fa-heart"></i></div>
+                        <img src="./img/images__2_-removebg-preview (1).png" alt="Rose Petal Kitchen Towel Zoop">
+                        <div class="slide-content783">
+                            <div class="slide-title783">SALT-Butter</div>
+                            <div>Rs. 227-506</div>
+                            <div class="Price">
+                                <div data-tooltip="Credit Now" class="button">
+                                    <div class="button-wrapper">
+                                        <div class="text">Buy Now</div>
+                                        <span class="icon">
+                                            <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16"
+                                                width="16" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="slide783">
+                        <div class="heart"><i class="fa-regular fa-heart"></i></div>
+                        <img src="./img/images__1_-removebg-preview.png" alt="Big Bird Budget Pack Nuggets 1000 Gm">
+                        <div class="slide-content783">
+                            <div class="slide-title783">Impor-Butter</div>
+                            <div>Rs. 755-05</div>
+                            <div class="Price">
+                                <div data-tooltip="Credit Now" class="button">
+                                    <div class="button-wrapper">
+                                        <div class="text">Buy Now</div>
+                                        <span class="icon">
+                                            <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16"
+                                                width="16" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-buttons">
+                    <button onclick="prevSlide()">Previous</button>
+                    <button onclick="nextSlide()">Next</button>
+                </div>
+            </div>
+            <div class="image-123">
+                <div class="slider-container783">
+                    <div class="slider783" id="productSlider">
+                        <div class="slide783">
+                            <div class="heart"><i class="fa-regular fa-heart"></i></div>
+                            <img src="./img/images__2_-removebg-preview.png" alt="Metro Chef Daal Masoor">
+                            <div class="slide-content783">
+                                <div class="slide-title783">SALT-Butter</div>
+                                <div>Rs. 275-545</div>
+                                <div class="Price">
+                                    <div data-tooltip="Credit Now" class="button">
+                                        <div class="button-wrapper">
+                                            <div class="text">Buy Now</div>
+                                            <span class="icon">
+                                                <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor"
+                                                    height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="slide783">
+                            <div class="heart"><i class="fa-regular fa-heart"></i></div>
+                            <img src="./img/NurpurButterunsalted_1000x1000-removebg-preview.png"
+                                alt="OK Awami Rice PK-386 5 KG">
+                            <div class="slide-content783">
+                                <div class="slide-title783">NURPUR-Butter 400GM</div>
+                                <div>Rs. 999</div>
+                                <div class="Price">
+                                    <div data-tooltip="Credit Now" class="button">
+                                        <div class="button-wrapper">
+                                            <div class="text">Buy Now</div>
+                                            <span class="icon">
+                                                <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor"
+                                                    height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="slide783">
+                            <div class="heart"><i class="fa-regular fa-heart"></i></div>
+                            <img src="./img/images__2_-removebg-preview (1).png" alt="Rose Petal Kitchen Towel Zoop">
+                            <div class="slide-content783">
+                                <div class="slide-title783">SALT-Butter </div>
+                                <div>Rs. 227-506</div>
+                                <div class="Price">
+                                    <div data-tooltip="Credit Now" class="button">
+                                        <div class="button-wrapper">
+                                            <div class="text">Buy Now</div>
+                                            <span class="icon">
+                                                <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor"
+                                                    height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="slide783">
+                            <div class="heart"><i class="fa-regular fa-heart"></i></div>
+                            <img src="./img/images__1_-removebg-preview.png" alt="Big Bird Budget Pack Nuggets 1000 Gm">
+                            <div class="slide-content783">
+                                <div class="slide-title783">Impor-Butter </div>
+                                <div>Rs. 755-05</div>
+                                <div class="Price">
+                                    <div data-tooltip="Credit Now" class="button">
+                                        <div class="button-wrapper">
+                                            <div class="text">Buy Now</div>
+                                            <span class="icon">
+                                                <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor"
+                                                    height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav-buttons">
+                        <button onclick="prevSlide()">Previous</button>
+                        <button onclick="nextSlide()">Next</button>
+                    </div>
+                </div>
+            </div>
+
+            <script>
+                const slider783 = document.getElementById('productSlider783');
+                const slides783 = document.querySelectorAll('.slide783');
+                let currentPosition = 0;
+
+                function updateSlider() {
+                    slider783.style.transform = `translateX(${-currentPosition * 25}%)`; // 25% for 4 slides
+                }
+
+                function nextSlide() {
+                    currentPosition = (currentPosition + 1 + slides783.length) % slides783.length;
+                    updateSlider();
+                }
+
+                function prevSlide() {
+                    currentPosition = (currentPosition - 1 + slides783.length) % slides783.length;
+                    updateSlider();
+                }
+
+                // Optional: Auto slide
+                // setInterval(nextSlide, 3000); // Change slide every 3 seconds
+            </script>
+        </div>
 
 </body>
