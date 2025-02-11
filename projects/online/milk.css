@@ -570,7 +570,88 @@ body {
     text-align: -webkit-right;
     padding: 20px 47px;
   } 
+  .footer {
+    background-color: rgb(212, 134, 56);
+    color: white;
+    padding: 40px 20px;
+  }
   
+  .footer a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-column {
+    flex: 1;
+    min-width: 200px;
+    margin: 20px 0;
+  }
+  
+  .footer-column h4 {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 10px;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+  }
+  
+  .social-icons a img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .back-to-top {
+    text-align: center;
+    background-color: rgb(245, 138, 55);
+    padding: 10px 0;
+  }
+  
+  .back-to-top a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .back-to-top a:hover {
+    text-decoration: underline;
+  }
+  .BAnk {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+  .image-bank img {
+    height: 50px;
+  }
+  .Bank-s {
+    padding: 25px 30px;
+    color: white;
+    font-size: larger;
+    text-align: left;
+  }
   @media only screen and (max-width:2570px) {
     .Logo-section {
       justify-self: anchor-center;
@@ -670,5 +751,23 @@ body {
     .product {
         width: 120px;
         height: 250px;
+    }
+}
+@media only screen and (max-width:380px) {
+    .Logo-section{
+        gap: 45px;
+    }
+    .product {
+        width: 100px;
+        height: 226px
+    }
+    .img img {
+        padding: 4px 0p;
+    }
+    .product img {
+        height: 100px;
+    }
+    .Ads-butter img {
+        height: 380px;
     }
 }
