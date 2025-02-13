@@ -1,0 +1,201 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto;
+    background-color: #f4f4f4;
+
+  }
+.img-logo img {
+    height: 40px;
+}
+.Logo-section {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+    align-items: center;
+    gap: 275px;
+    z-index: 1;
+    padding: 1pc 50px;
+}
+.menu {
+  display: none;
+}
+
+.Menu-part {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    gap: 50px;
+}
+.Profile-part {
+    display: none;
+}
+.Home{
+    color: rgb(245, 139, 55);
+    text-decoration: none;
+    transition: 0.4s;
+}
+.Home:hover {
+    color: white;
+    padding: 20px 10px;
+    background: rgb(245, 139, 55);
+    border-radius: 45px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+  .search-wrapper {
+    position: relative;
+    width: 40px; /* Default collapsed size */
+    overflow: hidden;
+    transition: width 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    background: white;
+    padding: 5px;
+  }
+  
+  .search-wrapper input {
+    width: 0;
+    border: none;
+    outline: none;
+    padding: 8px;
+    font-size: 16px;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .search-wrapper i {
+    font-size: 18px;
+    color: #888;
+    padding: 5px;
+    cursor: pointer;
+  }
+  .search-wrapper:hover {
+    border-color: rgb(245, 139, 55);
+    box-shadow: 0 0 8px rgb(245, 139, 55);
+  }
+  
+  /* Expand when hovered or focused */
+  .search-wrapper:hover,
+  .search-wrapper:focus-within {
+    width: 250px;
+  }
+  
+  .search-wrapper:hover input,
+  .search-wrapper:focus-within input {
+    width: 100%;
+  }
+  .Profile {
+    transition: 0.4s;
+  }
+  .Profile:hover {
+    color: white;
+    padding: 20px ;
+    background: salmon;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+.menu-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .menu-btn {
+    color: rgb(245, 139, 55);
+    text-decoration: none;
+    transition: 0.4s;
+  }
+  .menu-btn:hover {
+    color: rgb(245, 139, 55);
+    padding: 20px 10px;
+    background: saHomelmon;
+    border-radius: 45px;
+    
+  }
+  
+  .menu-list {
+    display: none;
+    position: absolute;
+    background-color: white;
+    
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 150px;
+    border-radius: 0px;
+    overflow: hidden;
+  }
+  .menu-list li h1{
+    font-size: 15px;
+  }
+  
+  .menu-list li .p1 {
+    font-family: fantasy;
+  }
+  .description {
+    font-size: 4px;
+    font-weight: 100;
+    color: #555;
+  }
+  .menu-list li {
+    padding: 5px 20px;
+    border-radius: 0px;
+    cursor: pointer;
+  }
+  
+  .menu-list li:last-child {
+    border-bottom: none;
+  }
+  
+  .menu-list li:hover {
+    background-color: rgb(245, 139, 55);
+    color: white;
+  }
+  
+  /* Show the menu on hover */
+  .menu-container:hover .menu-list {
+    display: block;
+  }
+  .container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+    justify-self: center;
+  }
+
+  input[type="text"], input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  button {
+    width: 95%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .error {
+    color: red;
+    font-size: 14px;
+  }

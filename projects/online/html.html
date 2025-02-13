@@ -62,7 +62,9 @@
 
         <div class="Profile-part">
             <div class="Profile">
+                <a href="./login-system.html">
                 <i class="fa-regular fa-user"></i>
+                </a>
             </div>
             <div class="Flag">
                 <img src="./img/flag.png" height="20px">
@@ -73,11 +75,36 @@
                 <i class="fas fa-search"></i>
             </div>
             <div class="menu">
-                <i class="fa-solid fa-bars">
+                <i class="fa-solid fa-bars" id="menu-icon"></i>
+                <ul class="menu-list" id="menu-list">
+                  <li><a href="html.html">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="milk.html">M</li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
+            
+            <script>
+            const menuIcon = document.getElementById('menu-icon');
+const menuList = document.getElementById('menu-list');
 
-                    </a>
-                </i>
-            </div>
+menuIcon.addEventListener('mouseover', () => {
+  menuList.style.display = 'block';
+});
+
+menuIcon.addEventListener('mouseout', () => {
+  setTimeout(() => {
+    if (!menuList.matches(':hover')) {
+      menuList.style.display = 'none';
+    }
+  }, 200);
+});
+
+menuList.addEventListener('mouseleave', () => {
+  menuList.style.display = 'none';
+});
+</script>
         </div>
     </div>
 

@@ -164,7 +164,7 @@ body {
     display: block;
   }
   
-  container {
+  .container {
     max-width: 1272px;
     margin: auto;
   }
@@ -652,6 +652,7 @@ body {
     font-size: larger;
     text-align: left;
   }
+
   @media only screen and (max-width:2570px) {
     .Logo-section {
       justify-self: anchor-center;

@@ -11,6 +11,7 @@ body {
 }
 .Logo-section {
     display: grid;
+    z-index: 1;
     grid-template-columns: auto auto auto auto;
     justify-content: space-between;
     align-items: center;
@@ -100,6 +101,46 @@ body {
     background: salmon;
     border-radius: 50px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.menu {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+#menu-icon {
+  font-size: 24px;
+  padding: 10px;
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  display: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-list li {
+  padding: 10px 20px;
+}
+
+.menu-list li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.menu-list li:hover {
+  background-color: #f0f0f0;
+}
+.menu {
+  display: none;
 }
 .Hero-section {
     padding: 0px 34px;
@@ -709,7 +750,9 @@ transform: scale(1.1) rotate(-1.7deg);
 .menu-container:hover .menu-list {
   display: block;
 }
-
+ .description {
+  text-decoration: none;
+}
 .footer {
   background-color: rgb(212, 134, 56);
   color: white;
@@ -1004,6 +1047,10 @@ transform: scale(1.1) rotate(-1.7deg);
   .Ads img {
     width: 295px;
     height: 210px;
+  }
+  #menu-icon {
+    padding: 0px;
+    font-size: 20px;
   }
   .image-container {
     width: 295px;
