@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="stylesheet" href="washing.css">
+</head>
+
+<html>
+
+<body>
+    <!--Logo section-->
+    <div class="Logo-section">
+        <div class="Logo-part">
+            <div class="img-logo">
+                <img src="./img/Untitled-2-removebg-preview.png">
+            </div>
+        </div>
+        <div class="Menu-part">
+            <a href="#" class="Home">Home</a>
+            <div class="menu-container">
+                <div class="menu-btn">Product</div>
+                <ul class="menu-list">
+                    <li>
+                        <h1>Milk</h1>
+                        <a href="./milk.html">
+                            <div class="description">Olper , Pak Milk ,
+                                NoorPur</div>
+                        </a>
+                    </li>
+                    <li>
+                        <h1>Washing </h1>
+                        <div class="description">Arel, Expcel , Bouns, </div>
+                    </li>
+                    <li>
+                        <h1>Washing </h1>
+                        <div class="description">Arel, Expcel , Bouns, </div>
+                    </li>
+                    <li>
+                        <h1>Washing </h1>
+                        <div class="description">Arel, Expcel , Bouns, </div>
+                    </li>
+                    <li>
+                        <h1>Washing </h1>
+                        <div class="description">Arel, Expcel , Bouns, </div>
+                    </li>
+                    <li>
+                        <h1>SoftDrink </h1>
+                        <div class="description">Cola, Pepsi , ColaNext, </div>
+                    </li>
+                    <li>
+                        <h1>Product </h1>
+                        <div class="description">Cocomo, Oreo , LU, </div>
+                    </li>
+                </ul>
+            </div>
+            </a>
+            <a href="#" class="Home">Shop</a>
+            <a href="#" class="Home">Contact</a>
+        </div>
+        <div class="Profile-part">
+            <div class="Profile">
+                <a href="./login-system.html">
+                    <i class="fa-regular fa-user"></i>
+                </a>
+            </div>
+            <div class="Flag">
+                <img src="./img/flag.png" height="20px">
+            </div>
+            <i class="fa-solid fa-location-dot"></i>
+            <div class="search-wrapper">
+                <input type="text" class="search-input" placeholder="Search...">
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="menu">
+                <i class="fa-solid fa-bars" id="menu-icon"></i>
+                <ul class="menu-list" id="menu-list">
+                    <li><a href="html.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="milk.html">M</li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <script>
+                const menuIcon = document.getElementById('menu-icon');
+                const menuList = document.getElementById('menu-list');
+
+                menuIcon.addEventListener('mouseover', () => {
+                    menuList.style.display = 'block';
+                });
+
+                menuIcon.addEventListener('mouseout', () => {
+                    setTimeout(() => {
+                        if (!menuList.matches(':hover')) {
+                            menuList.style.display = 'none';
+                        }
+                    }, 200);
+                });
+
+                menuList.addEventListener('mouseleave', () => {
+                    menuList.style.display = 'none';
+                });
+            </script>
+        </div>
+    </div>
+    <!--Main screen slider-->
+    <div class="main-screen">
+        <div class="w3-content-w3-section" style="max-width:500px">
+            <img class="mySlides" src="./img/banner2.jpg" style="width:271%" height="400px">
+            <img class="mySlides" src="./img/poster.jpg" style="width:271%" height="400px">
+            <img class="mySlides" src="./img/banner2.jpg" style="width:271%" height="400px">
+        </div>
+    </div>
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setInterval(carousel, 6000);
+        }
+    </script>
+
+    <!--Washing product-->
+    <div class="container-1">
+        <div class="container-img"><img src="./img/paksiaaa.jpg" height="100px"></div>
+        <div class="slider-container">
+            <div class="slider">
+                <img src="image1.jpg" alt="Image 1" class="slide">
+                <img src="image2.jpg" alt="Image 2" class="slide">
+                <img src="image3.jpg" alt="Image 3" class="slide">
+                </div>
+            <div class="nav-buttons">
+                <button id="prev-btn">Prev</button>
+                <button id="next-btn">Next</button>
+            </div>
+        </div>
+    
+        <script>
+            const slider = document.querySelector('.slider');
+            const slides = document.querySelectorAll('.slide');
+            const prevBtn = document.getElementById('prev-btn');
+            const nextBtn = document.getElementById('next-btn');
+            let currentSlide = 0;
+    
+            function showSlide(n) {
+                slider.style.transform = `translateX(-${n * 100}%)`;
+            }
+    
+            function nextSlide() {
+                currentSlide = (currentSlide + 1) % slides.length; // Loop back to the beginning
+                showSlide(currentSlide);
+            }
+    
+            function prevSlide() {
+                currentSlide = (currentSlide - 1 + slides.length) % slides.length; // Loop to the end
+                showSlide(currentSlide);
+            }
+    
+            nextBtn.addEventListener('click', nextSlide);
+            prevBtn.addEventListener('click', prevSlide);
+    
+    
+            // Optional: Auto slide
+            let autoSlideInterval;
+            function startAutoSlide() {
+                autoSlideInterval = setInterval(nextSlide, 3000); // Change interval as needed
+            }
+    
+            function stopAutoSlide() {
+                clearInterval(autoSlideInterval);
+            }
+    
+           // startAutoSlide(); // Uncomment to enable auto slide
+    
+           // slider.addEventListener('mouseenter', stopAutoSlide); // Stop on hover (optional)
+           // slider.addEventListener('mouseleave', startAutoSlide); // Restart on mouse leave (optional)
+    
+    
+        </script>
+    
+        </div>
+
+  
+</body>
+
+</html>

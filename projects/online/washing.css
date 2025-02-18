@@ -2,10 +2,8 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    display: grid;
-    grid-template-columns: auto;
+  
     background-color: #f4f4f4;
-    gap: 70px;
 
   }
 .img-logo img {
@@ -13,17 +11,20 @@ body {
 }
 .Logo-section {
     display: grid;
-    grid-template-columns: auto auto ;
+    z-index: 1;
+    grid-template-columns: auto auto auto auto;
     justify-content: space-between;
     align-items: center;
     gap: 275px;
-    z-index: 1;
+    justify-self: anchor-center;
     padding: 1pc 50px;
+    position: fixed;
+
 }
+
 .menu {
   display: none;
 }
-
 .Menu-part {
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -31,47 +32,12 @@ body {
     gap: 50px;
 }
 .Profile-part {
-    display: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
 }
-.menu {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-  }
-  
-  #menu-icon {
-    font-size: 24px;
-    padding: 10px;
-  }
-  
-  .menu-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    position: absolute;
-    top: 40px;
-    left: 0;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    display: none;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .menu-list li {
-    padding: 10px 20px;
-  }
-  
-  .menu-list li a {
-    text-decoration: none;
-    color: #333;
-  }
-  
-  .menu-list li:hover {
-    background-color: #f0f0f0;
-  }
-  .menu {
-    display: none;
-  }
 .Home{
     color: rgb(245, 139, 55);
     text-decoration: none;
@@ -138,6 +104,46 @@ body {
     border-radius: 50px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
+
+.menu {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+#menu-icon {
+  font-size: 24px;
+  padding: 10px;
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  display: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-list li {
+  padding: 10px 20px;
+}
+
+.menu-list li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.menu-list li:hover {
+  background-color: #f0f0f0;
+}
+.menu {
+  display: none;
+}
 .menu-container {
     position: relative;
     display: inline-block;
@@ -199,43 +205,67 @@ body {
   .menu-container:hover .menu-list {
     display: block;
   }
-  .container {
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    width: 300px;
-    text-align: center;
-    justify-self: center;
+   .description {
+    text-decoration: none;
   }
+ 
+  .slider-container {
+    width: 500px; /* Adjust as needed */
+    margin: 20px auto;
+    position: relative; /* For positioning buttons */
+    overflow: hidden; /* Hide overflowing images */
+}
 
-  input[type="text"], input[type="password"] {
-    width: 90%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out; /* Smooth transitions */
+}
 
-  button {
-    width: 95%;
-    padding: 10px;
-    background-color: #4CAF50;
+.slide {
+    min-width: 100%; /* Each slide takes full width */
+    height: 300px; /* Adjust as needed */
+    object-fit: cover; /* or contain, depending on your needs */
+}
+
+.nav-buttons {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between; /* Space buttons evenly */
+    width: 100%;
+    padding: 0 10px; /* Add some padding */
+}
+
+.nav-buttons button {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
     color: white;
     border: none;
-    border-radius: 5px;
+    padding: 10px 15px;
     cursor: pointer;
-  }
+    border-radius: 5px; /* Add rounded corners */
+}
 
-  button:hover {
-    background-color: #45a049;
-  }
-
-  .hidden {
+/* Hide scrollbar */
+.slider-container::-webkit-scrollbar {
     display: none;
-  }
+}
+.slider-container {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
 
-  .error {
-    color: red;
-    font-size: 14px;
-  }
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
