@@ -1366,12 +1366,16 @@ body {
  }
  @media only screen and (max-width: 430px) {
    .background-monitor {
-     background-size: contain;
-     height: 238px;
+     background-size: cover;
+     height: 200px;
+   }
+   .Head {
+    padding: 18px 30px;
    }
    .card-grid {
      grid-template-columns: auto;
      gap: 10px;
+     padding: 0px;
    }
    .Logo-Image img {
      height: 30px;
@@ -1386,7 +1390,7 @@ body {
      display: block;
    }
    .Flag img {
-     height: 15px;
+     height: 14px;
    }
    .Flag {
      gap: 10px;
@@ -1422,45 +1426,62 @@ body {
      font-size: 15px;
    }
    .Hero {
-     grid-template-columns:  auto ;
+     grid-template-columns:  auto auto;
    }
    .Button1{
        top: -253px;
        left: 34px;
    }
-   .image-hero {
-     height: 200px;
+   .image-hero{
+     height: auto;
+     background-size: cover;
+     width: 210px;
+     background-size: cover;
    }
    .Button1 {
-     top: -24px;
-     left: 226px;
-     font-size: 1px;
+    top: -8px;
+    left: 38px;
+     font-size: 6px;
+ }
+ nav {
+  border-radius: 0px;
  }
  .slider-container {
-   height: 210px;
+   height: 180px;
+ }
+ .nav-buttons {
+  top: 50%;
+  justify-content: space-between;
  }
  .slide:nth-child(1) {
    padding: 0px;
-   height: 210px;
+   height: 180px;
+   width: 380px;
  }
  .pay-btn {
-   font-size: 1px;
-   padding: 1px 6px;
+  font-size: 10px;
+  padding: 5px 10px;
  }
  .slide:nth-child(2) {
-   padding: 0px;
-   height: 210px;
+  padding: 0px;
+  height: 180px;
+  width: 380px;
  }
  .slide:nth-child(3) {
-   padding: 0px;
-   height: 210px;
+  padding: 0px;
+  height: 180px;
+  width: 380px;
  }
  .slide:nth-child(4){
-   padding: 0px;
-   height: 210px;
+  padding: 0px;
+  height: 180px;
+  width: 380px;
  }
  .slider-container {
    width: 98%;
+ }
+ .card23 {
+  height: 280px;
  }
  .nav-buttons button {
    padding: 4px 9px;
@@ -1482,11 +1503,14 @@ body {
   width: 135px;
  }
  .box-circle {
-  top: -150px;
+  top: -140px;
  }
  .box-circle1 {
-  top: -412px;
-  left: 252px;
+  top: -325px;
+  left: 190px;
+ }
+ .card24{
+  height: 255px;
  }
  }
  @media only screen and (max-width: 380px) {
