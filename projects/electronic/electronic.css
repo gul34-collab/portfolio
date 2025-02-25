@@ -1010,23 +1010,7 @@ body {
  
  
  /* Button Styles */
- .btn {
-   padding: 15px 25px;
-   background-color: #007bff;
-   color: white;
-   border: none;
-   border-radius: 8px;
-   font-size: 18px;
-   cursor: pointer;
-   position: relative;
-   overflow: hidden;
-   transition: background-color 0.3s;
- }
- 
- .btn:hover {
-   background-color: #0056b3;
- }
- 
+
  /* Loader Container */
  .loader-container {
    display: none;
@@ -1368,10 +1352,13 @@ body {
      display: none;
    }
    .Key-Bor {
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto ;
+   }
+   .key-Mouse-items {
+    grid-template-columns: auto;
    }
    .mouse {
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto ;
    }
    .Key-Bor1 {
     grid-template-columns: auto auto;
