@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pratice.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <label>Username</label>
+    <input type="text" id="username">
+    <br>
+    <label>Password</label>
+    <input type="password" id="password">
+
+    <button onclick="validdate()">Login</button>
+
+</body>
+
+</html>
+<script>
+    function validdate() {
+        const correctUsername = "abdullah232";
+        const correctPassword = "920382292";
+        const Eusername = document.getElementById('username').value;
+        const Epassword = document.getElementById('password').value;
+        if(Eusername == correctUsername && Epassword == correctPassword) {
+            alert("Successfully");
+        }else {
+            alert("Not successfully");
+        }
+    }
+</script>
