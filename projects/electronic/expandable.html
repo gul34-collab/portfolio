@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expandable Sidebar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="stylesheet" href="expandable.css">
+</head>
+<body class="sb-expanded">
+    <aside>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#" class="active">
+                        <i class="fa-solid fa-house"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-house"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-house"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-house"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-circle-user"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" data-resize-btn>
+                        <i class="fa-solid fa-circle-user"></i>
+                        <span>Collaspe</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+    <main>
+        <h1>Expandable Sidebar</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut pariatur explicabo dolores, eum modi voluptatum, cum molestiae ex veniam deleniti inventore. Natus laborum iste veniam minima corrupti, excepturi architecto eligendi a possimus explicabo assumenda voluptatem!</p>
+        <div class="placeholder">
+            <div class="ph-1"></div>
+            <div class="ph-2"></div>
+            <div class="ph-3"></div>
+            <div class="ph-4"></div>
+            <div class="ph-5"></div>
+            <div class="ph-6"></div>
+            <div class="ph-7"></div>
+            <div class="ph-8"></div>
+          </div>
+    </main>
+    <script>
+        const resizeBtn = document.querySelector('[data-resize-btn]');
+        resizeBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            document.body.classList.toggle('sb-expanded');
+        })
+    </script>
+    
+</body>
+</html>
